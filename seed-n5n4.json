@@ -1,0 +1,2723 @@
+{
+  "ok": true,
+  "materi": [
+    {
+      "date": "2026-11-07",
+      "theme": "Keluarga & Kehidupan Sehari-hari - Rutinitas Rumah & Anak",
+      "context": "Keluarga & Sehari-hari",
+      "target": "Hafalkan 6 grammar dan 15 vocab rutinitas dalam 10–15 menit. Fokus: kamu bisa menceritakan harimu dari bangun sampai tidur — jam berapa bangun, urutan kegiatan pagi, dan kegiatan sambil menjaga anak. Quiz-nya ada di aplikasi, kerjakan malam ini ya.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Ceritakan pagimu sendiri dengan pola hari ini: 六時に起きます → 顔を洗ってから、朝ごはんを食べます → 公園へ行きたいです. Satu rangkaian cerita = tiga grammar sekaligus. • 3. Hafalkan pasangan kata kerja berlawanan: 起きる (bangun) ↔ 寝る (tidur), 食べる (makan) ↔ 飲む (minum). • 4. ～たり～たり adalah pola cerita hari libur: sebutkan 3 kegiatanmu kemarin dengan pola ini, tidak perlu urut. • 5. Latih dialog hari ini dengan suara keras — dialog pamit berangkat kerja (いってきます / いってらっしゃい) dipakai di rumah setiap hari. • 6. Kerjakan quiz aplikasi malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1YiOnPhmOamMuuwk26el73mq4DIZePlG1/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N5",
+          "pattern": "Kata kerja ～ます",
+          "romaji": "~ masu (bentuk sopan sekarang)",
+          "meaning": "Fondasi semua kalimat kegiatan: kata kerja sopan berakhiran ます untuk kejadian sekarang/kebiasaan. Negatifnya ません, lampaunya ました, negatif lampau ませんでした.",
+          "formation": "[Akar kata kerja] + ます. Contoh: 起きます (bangun), 食べます (makan), 寝ます (tidur), 行きます (pergi), します (melakukan).",
+          "nuance": "Satu pola ます melayani empat waktu dasar: sekarang (ます), tidak (ません), dulu (ました), dulu tidak (ませんでした). Kuasai tabel kecil ini dan kamu bisa membicarakan kegiatan apa pun secara sopan.",
+          "examples": [
+            {
+              "jp": "毎朝 六時に 起きます。",
+              "id": "Setiap pagi saya bangun jam enam."
+            },
+            {
+              "jp": "朝ごはんを 食べます。",
+              "id": "Saya makan sarapan."
+            },
+            {
+              "jp": "夜 十時に 寝ます。",
+              "id": "Malam jam sepuluh saya tidur."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N5",
+          "pattern": "～てから",
+          "romaji": "te kara",
+          "meaning": "Menyatakan urutan: kegiatan pertama dilakukan sampai selesai, BARU kegiatan kedua. Pola hidupnya rutinitas pagi: cuci muka dulu, baru sarapan.",
+          "formation": "Kata kerja bentuk て + から、[kegiatan berikutnya]. Contoh: 洗ってから (setelah mencuci), 食べてから (setelah makan).",
+          "nuance": "Mirip ～後で (setelah, dari materi shiyakusho) tetapi ～てから lebih alami untuk percakapan rutinitas sehari-hari, sedangkan ～後で terasa lebih formal/tertulis. Keduanya benar — hari ini fokus ke ～てから.",
+          "examples": [
+            {
+              "jp": "顔を 洗ってから、朝ごはんを 食べます。",
+              "id": "Setelah mencuci muka, saya sarapan."
+            },
+            {
+              "jp": "手を 洗ってから、食べます。",
+              "id": "Setelah mencuci tangan, (kami) makan."
+            },
+            {
+              "jp": "掃除を してから、買い物に 行きます。",
+              "id": "Setelah membersihkan rumah, saya pergi belanja."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N5",
+          "pattern": "～時に",
+          "romaji": "ji ni (waktu + ni)",
+          "meaning": "Partikel に menandai TITIK WAKTU yang pasti suatu kegiatan terjadi: jam, hari dalam seminggu, tanggal, bulan. Kalimat jam bangun dan jam tidur selalu memakai pola ini.",
+          "formation": "[Waktu pasti] に [kegiatan]. Contoh: 六時に (jam 6), 月曜日に (hari Senin), 三月に (bulan Maret).",
+          "nuance": "Hati-hati: kata waktu relatif seperti 今日 (hari ini), 明日 (besok), 毎日 (setiap hari) TIDAK memakai に. Yang memakai に hanya waktu yang “bisa ditunjuk di kalender/jam”.",
+          "examples": [
+            {
+              "jp": "七時に 朝ごはんを 食べます。",
+              "id": "Jam tujuh saya sarapan."
+            },
+            {
+              "jp": "子どもは 八時に 寝ます。",
+              "id": "Anak tidur jam delapan."
+            },
+            {
+              "jp": "三時に 公園へ 行きます。",
+              "id": "Jam tiga (kami) pergi ke taman."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N4",
+          "pattern": "～たり～たりします",
+          "romaji": "tari ~ tari shimasu",
+          "meaning": "Menyebut beberapa contoh kegiatan tanpa harus lengkap dan tanpa urutan tertentu — pola sempurna untuk menceritakan hari libur atau kegiatan bersama anak.",
+          "formation": "Kata kerja bentuk lampau た + り、… + り します. Contoh: 遊んだり (bermain), 読んだり (membaca), 寝たり (tidur) + します.",
+          "nuance": "Karena hanya menyebut CONTOH, pendengar paham kamu melakukan hal-hal “seperti itu”. Jangan akhiri dengan ます biasa — penutupnya selalu します. Bisa satu ～たり saja, tapi dua atau tiga terdengar lebih alami.",
+          "examples": [
+            {
+              "jp": "休みの日は 散歩したり、昼寝したり します。",
+              "id": "Di hari libur, saya jalan-jalan, tidur siang, dan sebagainya."
+            },
+            {
+              "jp": "子どもと 遊んだり、本を 読んだり します。",
+              "id": "Saya bermain dengan anak, membaca buku, dan lain-lain."
+            },
+            {
+              "jp": "朝は 洗濯したり、掃除したり します。",
+              "id": "Pagi hari saya mencuci pakaian, membersihkan rumah, dan sebagainya."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N4",
+          "pattern": "～ながら",
+          "romaji": "nagara",
+          "meaning": "Dua kegiatan dilakukan bersamaan oleh orang yang sama: mendengarkan musik sambil memasak, menjaga anak sambil mencuci. Kegiatan kedua adalah kegiatan utamanya.",
+          "formation": "Kata kerja bentuk ます (buang ます) + ながら. Contoh: 聞きます→聞きながら, 見ます→見ながら, 歌います→歌いながら.",
+          "nuance": "Pelakunya harus orang yang sama dan waktunya benar-benar bersamaan. Ini pola andalan ibu rumah tangga: 子どもを見ながら洗濯をします — satu kalimat merangkum dua pekerjaan sekaligus.",
+          "examples": [
+            {
+              "jp": "音楽を 聞きながら、料理を します。",
+              "id": "Sambil mendengarkan musik, saya memasak."
+            },
+            {
+              "jp": "子どもを 見ながら、洗濯を します。",
+              "id": "Sambil menjaga anak, saya mencuci pakaian."
+            },
+            {
+              "jp": "歌を 歌いながら、お風呂に 入ります。",
+              "id": "Sambil bernyanyi, (anak) masuk mandi."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N4",
+          "pattern": "～たいです",
+          "romaji": "tai desu",
+          "meaning": "Menyatakan keinginan PENUTUR untuk melakukan sesuatu: ingin pergi, ingin makan, ingin istirahat. Juga dipakai untuk bertanya keinginan lawan bicara.",
+          "formation": "Kata kerja bentuk ます (buang ます) + たいです. Negatif: たくないです. Contoh: 行きます→行きたいです, 休みます→休みたいです.",
+          "nuance": "～たいです hanya untuk keinginan diri sendiri (dan pertanyaan ke lawan bicara). Untuk menebak keinginan orang ketiga dalam cerita formal ada bentuk lain (～たがっています) — dalam percakapan keluarga, cukup sampaikan dengan konteks.",
+          "examples": [
+            {
+              "jp": "公園へ 行きたいです。",
+              "id": "Saya ingin pergi ke taman."
+            },
+            {
+              "jp": "冷たい 水を 飲みたいです。",
+              "id": "Saya ingin minum air dingin."
+            },
+            {
+              "jp": "今日は 家で ゆっくり 休みたいです。",
+              "id": "Hari ini saya ingin beristirahat santai di rumah."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "朝",
+          "reading": "asa（あさ）",
+          "meaning": "pagi",
+          "example_jp": "朝は 忙しいです。",
+          "example_id": "Pagi hari itu sibuk."
+        },
+        {
+          "no": 2,
+          "word": "朝ごはん",
+          "reading": "asagohan（あさごはん）",
+          "meaning": "sarapan",
+          "example_jp": "朝ごはんは パンです。",
+          "example_id": "Sarapannya roti."
+        },
+        {
+          "no": 3,
+          "word": "顔",
+          "reading": "kao（かお）",
+          "meaning": "wajah / muka",
+          "example_jp": "顔を 洗います。",
+          "example_id": "Saya mencuci muka."
+        },
+        {
+          "no": 4,
+          "word": "歯",
+          "reading": "ha（は）",
+          "meaning": "gigi",
+          "example_jp": "歯を 磨きます。",
+          "example_id": "Saya menggosok gigi."
+        },
+        {
+          "no": 5,
+          "word": "シャワー",
+          "reading": "shawaa（シャワー）",
+          "meaning": "shower",
+          "example_jp": "シャワーを 浴びます。",
+          "example_id": "Saya mandi shower."
+        },
+        {
+          "no": 6,
+          "word": "散歩",
+          "reading": "sanpo（さんぽ）",
+          "meaning": "jalan-jalan santai",
+          "example_jp": "散歩に 行きます。",
+          "example_id": "Saya pergi jalan-jalan."
+        },
+        {
+          "no": 7,
+          "word": "公園",
+          "reading": "kouen（こうえん）",
+          "meaning": "taman",
+          "example_jp": "公園で 遊びます。",
+          "example_id": "Saya bermain di taman."
+        },
+        {
+          "no": 8,
+          "word": "遊ぶ",
+          "reading": "asobu（あそぶ）",
+          "meaning": "bermain",
+          "example_jp": "子どもと 遊びます。",
+          "example_id": "Saya bermain dengan anak."
+        },
+        {
+          "no": 9,
+          "word": "寝る",
+          "reading": "neru（ねる）",
+          "meaning": "tidur",
+          "example_jp": "早く 寝ます。",
+          "example_id": "Saya tidur lebih awal."
+        },
+        {
+          "no": 10,
+          "word": "起きる",
+          "reading": "okiru（おきる）",
+          "meaning": "bangun (dari tidur)",
+          "example_jp": "六時に 起きます。",
+          "example_id": "Saya bangun jam enam."
+        },
+        {
+          "no": 11,
+          "word": "食べる",
+          "reading": "taberu（たべる）",
+          "meaning": "makan",
+          "example_jp": "一緒に 食べます。",
+          "example_id": "Kami makan bersama."
+        },
+        {
+          "no": 12,
+          "word": "飲む",
+          "reading": "nomu（のむ）",
+          "meaning": "minum",
+          "example_jp": "水を 飲みます。",
+          "example_id": "Saya minum air."
+        },
+        {
+          "no": 13,
+          "word": "洗う",
+          "reading": "arau（あらう）",
+          "meaning": "mencuci (tangan, muka, piring)",
+          "example_jp": "手を 洗います。",
+          "example_id": "Saya mencuci tangan."
+        },
+        {
+          "no": 14,
+          "word": "洗濯",
+          "reading": "sentaku（せんたく）",
+          "meaning": "mencuci pakaian / cucian",
+          "example_jp": "洗濯は 朝 します。",
+          "example_id": "Mencuci pakaian dilakukan pagi hari."
+        },
+        {
+          "no": 15,
+          "word": "夜",
+          "reading": "yoru（よる）",
+          "meaning": "malam",
+          "example_jp": "夜は 静かです。",
+          "example_id": "Malam hari itu tenang."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Ibu",
+          "jp": "おはよう。もう 七時だよ。",
+          "id": "Selamat pagi. Sudah jam tujuh lho."
+        },
+        {
+          "no": 2,
+          "speaker": "Anak sulung",
+          "jp": "おはよう、ママ。お腹 すいた。",
+          "id": "Pagi, Ma. Lapar."
+        },
+        {
+          "no": 3,
+          "speaker": "Ibu",
+          "jp": "顔を 洗ってから、朝ごはんを 食べよう。",
+          "id": "Setelah cuci muka, ayo kita sarapan."
+        },
+        {
+          "no": 4,
+          "speaker": "Anak sulung",
+          "jp": "今日、公園へ 行きたい。",
+          "id": "Hari ini aku mau pergi ke taman."
+        },
+        {
+          "no": 5,
+          "speaker": "Ibu",
+          "jp": "いいよ。ご飯を 食べてから、行こう。",
+          "id": "Boleh. Setelah makan, kita pergi ya."
+        },
+        {
+          "no": 6,
+          "speaker": "Suami",
+          "jp": "いってきます。",
+          "id": "Saya berangkat dulu ya."
+        },
+        {
+          "no": 7,
+          "speaker": "Ibu",
+          "jp": "いってらっしゃい。気をつけてね。",
+          "id": "Hati-hati di jalan ya."
+        },
+        {
+          "no": 8,
+          "speaker": "Anak sulung",
+          "jp": "パパ、ばいばい。",
+          "id": "Pa, dadah!"
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「顔を 洗って＿＿、朝ごはんを 食べます。」 (Setelah cuci muka, sarapan.)",
+          "options": [
+            "たい",
+            "より",
+            "から",
+            "ながら"
+          ],
+          "answer": 2,
+          "explanation": "Urutan kegiatan memakai ～てから: 洗ってから、食べます."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「六時＿＿ 起きます。」 (Bangun jam enam.)",
+          "options": [
+            "に",
+            "へ",
+            "も",
+            "を"
+          ],
+          "answer": 0,
+          "explanation": "Titik waktu yang pasti memakai に: 六時に起きます."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "「休みの日は 散歩し＿＿、昼寝し＿＿ します。」",
+          "options": [
+            "たい / たい",
+            "て / て",
+            "たり / たり",
+            "ながら / ながら"
+          ],
+          "answer": 2,
+          "explanation": "Menyebut contoh kegiatan memakai ～たり～たりします."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "「公園へ 行き＿＿です。」 (Saya ingin pergi ke taman.)",
+          "options": [
+            "たい",
+            "ながら",
+            "たり",
+            "から"
+          ],
+          "answer": 0,
+          "explanation": "Keinginan memakai ～たいです: 行きたいです."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "「朝ごはん」 artinya ...",
+          "options": [
+            "makan siang",
+            "camilan",
+            "makan malam",
+            "sarapan"
+          ],
+          "answer": 3,
+          "explanation": "朝ごはん (asagohan) = sarapan / makan pagi."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "“Taman” dalam bahasa Jepang ...",
+          "options": [
+            "公園",
+            "部屋",
+            "玄関",
+            "窓口"
+          ],
+          "answer": 0,
+          "explanation": "公園 (kouen) = taman."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "「寝る」 dibaca ...",
+          "options": [
+            "nomu",
+            "okiru",
+            "taberu",
+            "neru"
+          ],
+          "answer": 3,
+          "explanation": "寝る dibaca neru = tidur. Bangun = 起きる (okiru)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "「洗濯」 artinya ...",
+          "options": [
+            "memasak",
+            "mencuci tangan",
+            "mencuci pakaian",
+            "mandi"
+          ],
+          "answer": 2,
+          "explanation": "洗濯 (sentaku) = mencuci pakaian / cucian."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Berangkat kerja dari rumah, suami mengucapkan ...",
+          "options": [
+            "いってきます",
+            "おかえり",
+            "いただきます",
+            "ただいま"
+          ],
+          "answer": 0,
+          "explanation": "いってきます diucapkan orang yang berangkat dari rumah."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Balasan untuk orang yang berangkat dari rumah adalah ...",
+          "options": [
+            "いってらっしゃい",
+            "おやすみなさい",
+            "ごめんなさい",
+            "お大事に"
+          ],
+          "answer": 0,
+          "explanation": "Pasangan wajibnya: いってきます ↔ いってらっしゃい (hati-hati di jalan)."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "Sapaan Sopan & Bertamu - Dasar Kesopanan Sehari-hari",
+      "context": "Bisnis",
+      "target": "Hafalkan 6 grammar dan 15 vocab kesopanan dalam 10–15 menit. Fokus: kamu bisa bertamu dengan sopan — mengucapkan salam masuk rumah, menyerahkan oleh-oleh, mengajak dengan halus, dan meminta tolong dengan sangat sopan. Quiz-nya ada di aplikasi, kerjakan malam ini ya.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Hafalkan tangga kesopanan permintaan: ～てください (biasa sopan) → ～てもらえますか (sangat sopan) → ～ていただけませんか (paling sopan). Pilih sesuai siapa lawan bicaramu. • 3. Hafalkan pasangan ucapan bertamu: masuk rumah = お邪魔します, dipersilakan = どうぞ, menerima jamuan = いただきます. • 4. ～ませんか adalah ajakan: bentuknya negatif tapi maksudnya mengajak — latih dengan 3 ajakan untuk tetanggamu. • 5. Latih dialog hari ini dengan suara keras, bergantian jadi tamu dan jadi tuan rumah, sambil membungkuk kecil saat お邪魔します. • 6. Kerjakan quiz aplikasi malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/136d-k4KLcis8NedZBuMScmSsDhqWWnA8/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N5",
+          "pattern": "～でした・～じゃありませんでした",
+          "romaji": "deshita / ja arimasen deshita",
+          "meaning": "Pasangan lampau dari ～です: でした = “adalah (dulu)”, じゃありませんでした = “bukan (dulu)”. Dipakai untuk bercerita sopan tentang kemarin atau masa lalu.",
+          "formation": "[Kata benda / kata sifat-na] + でした / じゃありませんでした. Contoh: 休みです (hari ini libur) → 休みでした (kemarin libur).",
+          "nuance": "Untuk kata benda dan sifat-na, lampau cukup mengganti です menjadi でした. (Kata sifat-i punya cara sendiri: 楽しかったです — akan dipelajari terpisah.) Hafalkan dulu pasangan benda ini.",
+          "examples": [
+            {
+              "jp": "昨日は いい 天気でした。",
+              "id": "Kemarin cuaca bagus."
+            },
+            {
+              "jp": "昨日は 休みでした。",
+              "id": "Kemarin hari libur."
+            },
+            {
+              "jp": "お客さんは 優しい人でした。",
+              "id": "Tamunya orang yang baik."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N5",
+          "pattern": "お～・ご～",
+          "romaji": "o ~ / go ~",
+          "meaning": "Awalan penghormatan yang membuat ucapan terdengar halus dan sopan: お茶 (teh), お名前 (nama Anda), お金 (uang); untuk kata serapan Tiongkok memakai ご: ご家族 (keluarga Anda), ご主人 (suami Anda).",
+          "formation": "お + kata asli Jepang; ご + kata asal Tiongkok (biasanya dua kanji). Tidak semua kata bisa diberi awalan — hafalkan yang sering saja.",
+          "nuance": "Pasangan hafalan wajib: お茶、お菓子、お名前、お水、お金、ご家族、ご主人、ご連絡. Kata milik sendiri umumnya tidak diberi awalan; awalan ini untuk menghormati milik/perihal lawan bicara dan benda jamuan.",
+          "examples": [
+            {
+              "jp": "お茶を どうぞ。",
+              "id": "Silakan tehnya."
+            },
+            {
+              "jp": "お名前を 教えて ください。",
+              "id": "Tolong beritahu nama Anda."
+            },
+            {
+              "jp": "ご家族は 元気ですか。",
+              "id": "Keluarga Anda sehat-sehat?"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N5",
+          "pattern": "～ませんか",
+          "romaji": "masen ka",
+          "meaning": "Bentuk negatif sopan ～ません yang dipakai sebagai AJAKAN halus: secara harfiah “tidak ...-kah?”, maksudnya “maukah ... bersama?”. Cara mengajak paling khas dan sopan di Jepang.",
+          "formation": "Kata kerja bentuk ます → ganti ます menjadi ませんか. Contoh: 飲みます→飲みませんか, 行きます→行きませんか.",
+          "nuance": "Karena bentuknya pertanyaan negatif, lawan bicara mudah menolak dengan halus — itulah sopannya. Beda dengan ～ますか yang hanya bertanya fakta (“apakah kamu minum?”), ～ませんか selalu berupa undangan.",
+          "examples": [
+            {
+              "jp": "一緒に お茶を 飲みませんか。",
+              "id": "Maukah minum teh bersama?"
+            },
+            {
+              "jp": "今度、家に 来ませんか。",
+              "id": "Lain kali, maukah datang ke rumah?"
+            },
+            {
+              "jp": "子どもと 公園で 遊びませんか。",
+              "id": "Maukah bermain bersama anak di taman?"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N4",
+          "pattern": "～ていただけませんか",
+          "romaji": "te itadakemasen ka",
+          "meaning": "Tingkat paling sopan dalam tangga permintaan: ～てください (sopan biasa) → ～てもらえますか (sangat sopan, kemarin) → pola ini: “bersediakah Anda berkenan ... untuk saya?”",
+          "formation": "Kata kerja bentuk て + いただけませんか. Contoh: 言っていただけませんか (bersediakah mengatakannya lagi?), 見ていただけませんか (bersediakah menjaga/melihat?).",
+          "nuance": "Pakai untuk permintaan yang agak merepotkan atau kepada orang yang sangat dihormati. Untuk hal kecil sehari-hari pola ini berlebihan — cukup ～てください. Memilih tingkat yang pas adalah kesopanan itu sendiri.",
+          "examples": [
+            {
+              "jp": "写真を 撮って いただけませんか。",
+              "id": "Bersediakah Anda memotretkan kami?"
+            },
+            {
+              "jp": "もう一度 言って いただけませんか。",
+              "id": "Bersediakah Anda mengatakannya sekali lagi?"
+            },
+            {
+              "jp": "子どもを 見て いただけませんか。",
+              "id": "Bersediakah Anda menjaga anak saya sebentar?"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N4",
+          "pattern": "～んです",
+          "romaji": "n desu",
+          "meaning": "Akhiran yang membuat kalimat terasa menjelaskan: dipakai saat memberi alasan, menjelaskan keadaan, atau bertanya lebih dalam. Tanpa pola ini kalimat terdengar datar; dengan pola ini terasa ramah dan bercerita.",
+          "formation": "Kalimat bentuk biasa + んです. Untuk kata benda & sifat-na: ～なんです. Contoh: 遅れたんです (saya terlambat — ceritanya begitu).",
+          "nuance": "Sering muncul berpasangan dengan permintaan maaf dan penjelasan: すみません、バスが遅れたんです. Dalam pertanyaan (～んですか) nadanya ingin tahu alasan — hati-hati, ke orang asing bisa terdengar menyelidik; pakai ke orang yang sudah akrab.",
+          "examples": [
+            {
+              "jp": "遅れて すみません。バスが 遅れたんです。",
+              "id": "Maaf saya terlambat. Bisnya terlambat (ceritanya)."
+            },
+            {
+              "jp": "子どもが 熱が あるんです。",
+              "id": "Anak saya sedang demam (begini ceritanya)."
+            },
+            {
+              "jp": "日本に 来たばかりなんです。",
+              "id": "Saya baru saja tiba di Jepang."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N4",
+          "pattern": "～と思います",
+          "romaji": "to omoimasu",
+          "meaning": "Menyampaikan pendapat atau perkiraan dengan sopan dan tidak memaksa: “saya rasa besok cerah”, “saya pikir anak akan senang”.",
+          "formation": "[Kalimat bentuk biasa] + と 思います. Contoh: 晴れると思います, おいしいと思います.",
+          "nuance": "Orang Jepang menghindari kepastian mutlak saat berpendapat; ～と思います melembutkannya. Untuk pendapat orang lain pakai ～と思っています, tapi untuk dirimu sendiri pola ini sudah cukup dan selalu aman.",
+          "examples": [
+            {
+              "jp": "明日は 晴れると 思います。",
+              "id": "Saya rasa besok akan cerah."
+            },
+            {
+              "jp": "この お菓子は おいしいと 思います。",
+              "id": "Saya rasa kue ini enak."
+            },
+            {
+              "jp": "子どもも 喜ぶと 思います。",
+              "id": "Saya rasa anak juga akan senang."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "お茶",
+          "reading": "ocha（おちゃ）",
+          "meaning": "teh (hijau Jepang)",
+          "example_jp": "お茶は 熱いです。",
+          "example_id": "Tehnya panas."
+        },
+        {
+          "no": 2,
+          "word": "お菓子",
+          "reading": "okashi（おかし）",
+          "meaning": "kue / camilan manis",
+          "example_jp": "お菓子は 甘いです。",
+          "example_id": "Kuenya manis."
+        },
+        {
+          "no": 3,
+          "word": "玄関",
+          "reading": "genkan（げんかん）",
+          "meaning": "pintu masuk rumah (area lepas sepatu)",
+          "example_jp": "玄関に 靴が あります。",
+          "example_id": "Di genkan ada sepatu."
+        },
+        {
+          "no": 4,
+          "word": "プレゼント",
+          "reading": "purezento（プレゼント）",
+          "meaning": "hadiah",
+          "example_jp": "プレゼントを もらいました。",
+          "example_id": "Saya menerima hadiah."
+        },
+        {
+          "no": 5,
+          "word": "花",
+          "reading": "hana（はな）",
+          "meaning": "bunga",
+          "example_jp": "花が きれいです。",
+          "example_id": "Bunganya indah."
+        },
+        {
+          "no": 6,
+          "word": "部屋",
+          "reading": "heya（へや）",
+          "meaning": "kamar / ruangan",
+          "example_jp": "部屋は 広いです。",
+          "example_id": "Kamarnya luas."
+        },
+        {
+          "no": 7,
+          "word": "椅子",
+          "reading": "isu（いす）",
+          "meaning": "kursi",
+          "example_jp": "椅子は 三つ あります。",
+          "example_id": "Kursinya ada tiga."
+        },
+        {
+          "no": 8,
+          "word": "ドア",
+          "reading": "doa（ドア）",
+          "meaning": "pintu (gaya Barat)",
+          "example_jp": "ドアを 開けて ください。",
+          "example_id": "Tolong buka pintunya."
+        },
+        {
+          "no": 9,
+          "word": "窓",
+          "reading": "mado（まど）",
+          "meaning": "jendela",
+          "example_jp": "窓を 閉めます。",
+          "example_id": "Saya menutup jendela."
+        },
+        {
+          "no": 10,
+          "word": "鍵",
+          "reading": "kagi（かぎ）",
+          "meaning": "kunci",
+          "example_jp": "鍵を 忘れました。",
+          "example_id": "Saya lupa membawa kunci."
+        },
+        {
+          "no": 11,
+          "word": "靴",
+          "reading": "kutsu（くつ）",
+          "meaning": "sepatu",
+          "example_jp": "靴を 脱ぎます。",
+          "example_id": "Saya melepas sepatu."
+        },
+        {
+          "no": 12,
+          "word": "手土産",
+          "reading": "temiyage（てみやげ）",
+          "meaning": "oleh-oleh untuk tuan rumah",
+          "example_jp": "手土産は お菓子です。",
+          "example_id": "Oleh-olehnya adalah kue."
+        },
+        {
+          "no": 13,
+          "word": "傘",
+          "reading": "kasa（かさ）",
+          "meaning": "payung",
+          "example_jp": "傘が 要ります。",
+          "example_id": "Perlu payung."
+        },
+        {
+          "no": 14,
+          "word": "時計",
+          "reading": "tokei（とけい）",
+          "meaning": "jam (dinding / tangan)",
+          "example_jp": "時計を 見ます。",
+          "example_id": "Saya melihat jam."
+        },
+        {
+          "no": 15,
+          "word": "眼鏡",
+          "reading": "megane（めがね）",
+          "meaning": "kacamata",
+          "example_jp": "眼鏡を かけます。",
+          "example_id": "Saya memakai kacamata."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Ibu (tamu)",
+          "jp": "こんにちは。お邪魔します。",
+          "id": "Selamat siang. Permisi (saya mengganggu)."
+        },
+        {
+          "no": 2,
+          "speaker": "Tuan rumah",
+          "jp": "いらっしゃい。どうぞ、入って ください。",
+          "id": "Selamat datang. Silakan masuk."
+        },
+        {
+          "no": 3,
+          "speaker": "Ibu (tamu)",
+          "jp": "これ、手土産です。インドネシアの お菓子です。",
+          "id": "Ini oleh-oleh. Kue dari Indonesia."
+        },
+        {
+          "no": 4,
+          "speaker": "Tuan rumah",
+          "jp": "ありがとうございます。お茶を どうぞ。",
+          "id": "Terima kasih. Silakan tehnya."
+        },
+        {
+          "no": 5,
+          "speaker": "Ibu (tamu)",
+          "jp": "いただきます。おいしいです。",
+          "id": "Saya terima dengan senang hati. Enak."
+        },
+        {
+          "no": 6,
+          "speaker": "Tuan rumah",
+          "jp": "子どもたちは 元気ですか。",
+          "id": "Anak-anak sehat?"
+        },
+        {
+          "no": 7,
+          "speaker": "Ibu (tamu)",
+          "jp": "はい、元気です。上の子は 公園が 大好きなんです。",
+          "id": "Ya, sehat. Si sulung sangat suka taman (ceritanya)."
+        },
+        {
+          "no": 8,
+          "speaker": "Tuan rumah",
+          "jp": "今度、一緒に 遊びませんか。",
+          "id": "Lain kali, maukah bermain bersama?"
+        },
+        {
+          "no": 9,
+          "speaker": "Ibu (tamu)",
+          "jp": "ぜひ。よろしく お願いします。",
+          "id": "Tentu, dengan senang hati. Mohon bantuannya."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「昨日は いい 天気＿＿。」 (Kemarin cuaca bagus.)",
+          "options": [
+            "です",
+            "でした",
+            "ます",
+            "ください"
+          ],
+          "answer": 1,
+          "explanation": "Lampau sopan dari です adalah でした — karena kejadiannya kemarin (昨日)."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "“Teh” yang sopan adalah ...",
+          "options": [
+            "ちゃ",
+            "おちゃ",
+            "ごちゃ",
+            "茶ください"
+          ],
+          "answer": 1,
+          "explanation": "Awalan sopan お + 茶 = お茶 (ocha). ご dipakai untuk kata asal Tiongkok seperti ご家族."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "Ajakan sopan “Maukah minum teh bersama?” adalah ...",
+          "options": [
+            "飲みませんか",
+            "飲んでください",
+            "飲みたいです",
+            "飲みますか"
+          ],
+          "answer": 0,
+          "explanation": "～ませんか adalah ajakan halus: 一緒にお茶を飲みませんか."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "Permintaan PALING sopan di antara ini adalah ...",
+          "options": [
+            "見ますか",
+            "見てください",
+            "見てもらえますか",
+            "見ていただけませんか"
+          ],
+          "answer": 3,
+          "explanation": "Tangga kesopanan: ～てください < ～てもらえますか < ～ていただけませんか (paling sopan)."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "「玄関」 artinya ...",
+          "options": [
+            "kamar",
+            "pintu masuk rumah (genkan)",
+            "jendela",
+            "kursi"
+          ],
+          "answer": 1,
+          "explanation": "玄関 (genkan) = area pintu masuk rumah tempat melepas sepatu."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "“Oleh-oleh untuk tuan rumah” dalam bahasa Jepang ...",
+          "options": [
+            "花",
+            "プレゼント",
+            "手土産",
+            "お菓子"
+          ],
+          "answer": 2,
+          "explanation": "手土産 (temiyage) khusus oleh-oleh yang dibawa saat bertamu; プレゼント adalah hadiah umum."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "「鍵」 dibaca ...",
+          "options": [
+            "kagi",
+            "kutsu",
+            "mado",
+            "kasa"
+          ],
+          "answer": 0,
+          "explanation": "鍵 dibaca kagi = kunci. Payung = 傘 (kasa), sepatu = 靴 (kutsu)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "「眼鏡」 artinya ...",
+          "options": [
+            "jam",
+            "kacamata",
+            "sepatu",
+            "payung"
+          ],
+          "answer": 1,
+          "explanation": "眼鏡 (megane) = kacamata."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Saat masuk ke rumah orang Jepang, tamu mengucapkan ...",
+          "options": [
+            "いただきます",
+            "お邪魔します",
+            "お大事に",
+            "ただいま"
+          ],
+          "answer": 1,
+          "explanation": "お邪魔します = “permisi, saya mengganggu” — wajib diucapkan tamu saat masuk rumah orang."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "「お茶を どうぞ」 artinya ...",
+          "options": [
+            "Tehnya enak",
+            "Saya tidak minum teh",
+            "Tolong buatkan teh",
+            "Silakan tehnya"
+          ],
+          "answer": 3,
+          "explanation": "～をどうぞ = silakan (ambil/minum) ... — ucapan tuan rumah saat menyuguhkan."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Shiyakusho & Administrasi - Dokumen Dasar untuk Pemula",
+      "context": "Shiyakusho",
+      "target": "Hafalkan 6 grammar dan 15 vocab administrasi dalam 10–15 menit. Fokus: kamu bisa datang ke shiyakusho, menemukan loket, bertanya cara mengisi dokumen, dan memahami urutan prosedur (sebelum/sesudah). Quiz-nya ada di aplikasi, kerjakan malam ini ya.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Hafalkan pasangan arah & tempat: へ (arah pergi) vs で (tempat melakukan) vs に (tempat keberadaan) lewat tiga kalimat tentang shiyakusho. • 3. Hafalkan pasangan urutan: ～前に (sebelum) ↔ ～後で (setelah) — dua kata ini muncul di hampir semua penjelasan prosedur petugas. • 4. Siapkan kalimat andalan loket di catatan HP: 「書き方を教えてもらえますか」 dan 「印鑑が要りますか」. • 5. Latih dialog hari ini dengan suara keras, bergantian jadi ibu dan jadi petugas loket. • 6. Kerjakan quiz aplikasi malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1OQ82nZvXJ5uxBisUG_wJKXEV8y6Wlduq/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N5",
+          "pattern": "～へ行きます",
+          "romaji": "e ikimasu",
+          "meaning": "Menyatakan arah pergi menuju suatu tempat. Partikel へ dibaca “e” dan khusus menandai ARAH tujuan, selalu berpasangan dengan kata kerja gerak seperti 行きます (pergi), 来ます (datang), 帰ります (pulang).",
+          "formation": "[Tempat] へ 行きます / 来ます / 帰ります.",
+          "nuance": "へ menekankan arah perjalanan; に juga bisa menandai tujuan dan sering dipertukarkan untuk 行きます. Untuk pemula: pakai へ dengan kata kerja gerak selalu aman.",
+          "examples": [
+            {
+              "jp": "市役所へ 行きます。",
+              "id": "Saya pergi ke shiyakusho (kantor kota)."
+            },
+            {
+              "jp": "郵便局へ 行きます。",
+              "id": "Saya pergi ke kantor pos."
+            },
+            {
+              "jp": "手続きで 市役所へ 行きます。",
+              "id": "Saya pergi ke shiyakusho untuk urusan administrasi."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N5",
+          "pattern": "～で (tempat melakukan)",
+          "romaji": "de",
+          "meaning": "Partikel で menandai tempat di mana sebuah KEGIATAN dilakukan: mengurus, bertanya, menulis, menunggu. Di loket shiyakusho, partikel ini muncul terus.",
+          "formation": "[Tempat] で [kegiatan]. Contoh: 市役所で 手続きをします (mengurus administrasi di shiyakusho).",
+          "nuance": "Beda dengan に yang menandai keberadaan diam (あります/います): 市役所にあります = (bendanya) ada di shiyakusho; 市役所でします = melakukan (kegiatan) di shiyakusho. Ada kata kerjanya? Pakai で.",
+          "examples": [
+            {
+              "jp": "市役所で 手続きを します。",
+              "id": "Saya mengurus administrasi di shiyakusho."
+            },
+            {
+              "jp": "窓口で 聞きます。",
+              "id": "Saya bertanya di loket."
+            },
+            {
+              "jp": "ここで 書いても いいですか。",
+              "id": "Bolehkah saya menulis di sini?"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N5",
+          "pattern": "ここ・そこ・あそこ",
+          "romaji": "koko / soko / asoko",
+          "meaning": "Kata tunjuk TEMPAT, pasangan dari これ・それ・あれ (benda) di hari pertama: ここ = di sini (dekat saya), そこ = di situ (dekat lawan bicara), あそこ = di sana (jauh dari berdua).",
+          "formation": "ここ / そこ / あそこ + は ～です, atau [benda] は ここです. Bertanya tempat: ～は どこですか.",
+          "nuance": "Satu keluarga dengan これ・それ・あれ: ko- = dekat saya, so- = dekat lawan bicara, a- = jauh. Hafalkan sebagai tabel 3 kolom, sekalian dengan こちら・そちら・あちら (arah, lebih sopan) yang sering diucapkan petugas: 窓口はあちらです.",
+          "examples": [
+            {
+              "jp": "窓口は あそこです。",
+              "id": "Loketnya di sana."
+            },
+            {
+              "jp": "ここに 名前を 書きます。",
+              "id": "Saya menulis nama di sini."
+            },
+            {
+              "jp": "市役所は どこですか。— そこです。",
+              "id": "Shiyakusho di mana? — Di situ."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N4",
+          "pattern": "～てもらえますか",
+          "romaji": "te moraemasu ka",
+          "meaning": "Cara meminta bantuan dengan sangat sopan di loket: secara harfiah “bisakah saya menerima (bantuan Anda melakukan ...)?”. Tingkat sopannya di atas ～てください.",
+          "formation": "Kata kerja bentuk て + もらえますか. Contoh: 教えてもらえますか (bisakah mengajari saya?), 見てもらえますか (bisakah memeriksa untuk saya?).",
+          "nuance": "Di kantor pemerintah pola ini membuat petugas merasa dihargai dan senang membantu. Untuk permintaan kecil ke keluarga/teman cukup ～てください; untuk petugas dan orang yang baru dikenal, pakai pola ini.",
+          "examples": [
+            {
+              "jp": "書き方を 教えて もらえますか。",
+              "id": "Bisakah Anda mengajari saya cara mengisinya?"
+            },
+            {
+              "jp": "コピーして もらえますか。",
+              "id": "Bisakah Anda mengopikannya untuk saya?"
+            },
+            {
+              "jp": "この 書類を 見て もらえますか。",
+              "id": "Bisakah Anda memeriksa dokumen ini?"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N4",
+          "pattern": "～前に",
+          "romaji": "mae ni",
+          "meaning": "Menyatakan “sebelum”: lakukan pemeriksaan SEBELUM menyerahkan, telepon SEBELUM pergi. Kata kunci yang selalu muncul dalam penjelasan prosedur.",
+          "formation": "[Kata kerja bentuk kamus] 前に、[kalimat utama]. Kata kerja sebelum 前に selalu bentuk kamus (belum terjadi). Untuk kata benda: [benda] の 前に.",
+          "nuance": "Pasangan wajibnya adalah ～後で (grammar 6, setelah). Triknya: yang disebut sebelum 前に adalah kejadian yang terjadi BELAKANGAN — 出す前に確認する: yang terjadi duluan adalah “memeriksa”, yang belakangan “menyerahkan”.",
+          "examples": [
+            {
+              "jp": "書類を 出す前に、確認します。",
+              "id": "Sebelum menyerahkan dokumen, saya memeriksanya dulu."
+            },
+            {
+              "jp": "行く前に、電話します。",
+              "id": "Sebelum pergi, saya menelepon dulu."
+            },
+            {
+              "jp": "手続きの 前に、番号を 取ります。",
+              "id": "Sebelum urusan dimulai, saya mengambil nomor antrean."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N4",
+          "pattern": "～後で",
+          "romaji": "ato de",
+          "meaning": "Kebalikan ～前に: menyatakan “setelah” — kegiatan kedua dilakukan SETELAH kegiatan pertama selesai. Sama-sama kata kunci prosedur di shiyakusho.",
+          "formation": "[Kata kerja bentuk lampau た] 後で、[kalimat utama]. Untuk kata benda: [benda] の 後で. Contoh: 書いた後で (setelah menulis).",
+          "nuance": "Perhatikan beda bentuk kata kerjanya: sebelum 前に kata kerja bentuk KAMUS (dasu mae ni), sebelum 後で kata kerja bentuk LAMPAU (kaita ato de) — karena kegiatannya sudah selesai dilakukan. Ini jebakan klasik soal JLPT, hafalkan baik-baik.",
+          "examples": [
+            {
+              "jp": "書いた後で、出します。",
+              "id": "Setelah menulis, saya serahkan."
+            },
+            {
+              "jp": "手続きの 後で、コピーを もらいます。",
+              "id": "Setelah urusan selesai, saya menerima salinannya."
+            },
+            {
+              "jp": "昼ごはんの 後で、市役所へ 行きます。",
+              "id": "Setelah makan siang, saya pergi ke shiyakusho."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "市役所",
+          "reading": "shiyakusho（しやくしょ）",
+          "meaning": "kantor kota / balai kota",
+          "example_jp": "市役所は 駅の 近くです。",
+          "example_id": "Shiyakusho dekat stasiun."
+        },
+        {
+          "no": 2,
+          "word": "窓口",
+          "reading": "madoguchi（まどぐち）",
+          "meaning": "loket pelayanan",
+          "example_jp": "窓口は 三番です。",
+          "example_id": "Loketnya nomor tiga."
+        },
+        {
+          "no": 3,
+          "word": "書類",
+          "reading": "shorui（しょるい）",
+          "meaning": "dokumen / berkas",
+          "example_jp": "書類を 出します。",
+          "example_id": "Saya menyerahkan dokumen."
+        },
+        {
+          "no": 4,
+          "word": "申請",
+          "reading": "shinsei（しんせい）",
+          "meaning": "pengajuan / permohonan",
+          "example_jp": "申請を します。",
+          "example_id": "Saya mengajukan permohonan."
+        },
+        {
+          "no": 5,
+          "word": "住所",
+          "reading": "juusho（じゅうしょ）",
+          "meaning": "alamat",
+          "example_jp": "住所を 書いて ください。",
+          "example_id": "Tolong tulis alamatnya."
+        },
+        {
+          "no": 6,
+          "word": "電話番号",
+          "reading": "denwa bangou（でんわばんごう）",
+          "meaning": "nomor telepon",
+          "example_jp": "電話番号は 何番ですか。",
+          "example_id": "Nomor teleponnya berapa?"
+        },
+        {
+          "no": 7,
+          "word": "印鑑",
+          "reading": "inkan（いんかん）",
+          "meaning": "stempel nama (hanko)",
+          "example_jp": "印鑑が 要ります。",
+          "example_id": "Perlu stempel."
+        },
+        {
+          "no": 8,
+          "word": "パスポート",
+          "reading": "pasupooto（パスポート）",
+          "meaning": "paspor",
+          "example_jp": "パスポートを 見せます。",
+          "example_id": "Saya menunjukkan paspor."
+        },
+        {
+          "no": 9,
+          "word": "在留カード",
+          "reading": "zairyuu kaado（ざいりゅうカード）",
+          "meaning": "kartu izin tinggal (zairyu card)",
+          "example_jp": "在留カードを コピーします。",
+          "example_id": "Saya mengopi kartu zairyu."
+        },
+        {
+          "no": 10,
+          "word": "紙",
+          "reading": "kami（かみ）",
+          "meaning": "kertas",
+          "example_jp": "紙を 一枚 ください。",
+          "example_id": "Tolong kertas satu lembar."
+        },
+        {
+          "no": 11,
+          "word": "ペン",
+          "reading": "pen（ペン）",
+          "meaning": "pulpen",
+          "example_jp": "ペンを 貸して ください。",
+          "example_id": "Tolong pinjamkan pulpen."
+        },
+        {
+          "no": 12,
+          "word": "番号",
+          "reading": "bangou（ばんごう）",
+          "meaning": "nomor",
+          "example_jp": "番号は 五番です。",
+          "example_id": "Nomornya nomor lima."
+        },
+        {
+          "no": 13,
+          "word": "コピー",
+          "reading": "kopii（コピー）",
+          "meaning": "fotokopi / salinan",
+          "example_jp": "コピーを もらえますか。",
+          "example_id": "Bisakah saya mendapat salinannya?"
+        },
+        {
+          "no": 14,
+          "word": "写真",
+          "reading": "shashin（しゃしん）",
+          "meaning": "foto",
+          "example_jp": "写真が 要ります。",
+          "example_id": "Perlu foto."
+        },
+        {
+          "no": 15,
+          "word": "手続き",
+          "reading": "tetsuzuki（てつづき）",
+          "meaning": "prosedur / pengurusan administrasi",
+          "example_jp": "手続きは 簡単です。",
+          "example_id": "Prosedurnya mudah."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Ibu",
+          "jp": "すみません、子どもの 手続きに 来ました。",
+          "id": "Permisi, saya datang untuk mengurus dokumen anak."
+        },
+        {
+          "no": 2,
+          "speaker": "Petugas",
+          "jp": "はい、窓口は あちらです。番号を 取って ください。",
+          "id": "Ya, loketnya di sebelah sana. Tolong ambil nomor antreannya."
+        },
+        {
+          "no": 3,
+          "speaker": "Ibu",
+          "jp": "この 書類の 書き方を 教えて もらえますか。",
+          "id": "Bisakah Anda mengajari saya cara mengisi dokumen ini?"
+        },
+        {
+          "no": 4,
+          "speaker": "Petugas",
+          "jp": "はい。ここに 名前と 住所を 書いて ください。",
+          "id": "Ya. Tolong tulis nama dan alamat di sini."
+        },
+        {
+          "no": 5,
+          "speaker": "Ibu",
+          "jp": "印鑑が 要りますか。",
+          "id": "Apakah perlu stempel?"
+        },
+        {
+          "no": 6,
+          "speaker": "Petugas",
+          "jp": "いいえ、今日は 要りません。",
+          "id": "Tidak, hari ini tidak perlu."
+        },
+        {
+          "no": 7,
+          "speaker": "Ibu",
+          "jp": "分かりました。ありがとうございます。",
+          "id": "Baik, saya mengerti. Terima kasih."
+        },
+        {
+          "no": 8,
+          "speaker": "Petugas",
+          "jp": "出す前に、もう一度 見て くださいね。",
+          "id": "Sebelum diserahkan, tolong periksa sekali lagi ya."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「市役所＿＿ 行きます。」 (Pergi ke shiyakusho.)",
+          "options": [
+            "へ",
+            "の",
+            "も",
+            "で"
+          ],
+          "answer": 0,
+          "explanation": "Arah pergi memakai へ (dibaca “e”): 市役所へ行きます."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「市役所＿＿ 手続きを します。」 (Mengurus administrasi di shiyakusho.)",
+          "options": [
+            "の",
+            "へ",
+            "で",
+            "から"
+          ],
+          "answer": 2,
+          "explanation": "Tempat melakukan KEGIATAN memakai で: 市役所で手続きをします."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "Permintaan paling sopan untuk petugas loket: 「書き方を 教えて ＿＿。」",
+          "options": [
+            "もらえますか",
+            "ありますか",
+            "ですか",
+            "ください"
+          ],
+          "answer": 0,
+          "explanation": "～てもらえますか adalah permintaan sangat sopan — cocok untuk petugas yang baru dikenal."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "「書類を 出す＿＿、確認します。」 (Sebelum menyerahkan dokumen, saya periksa.)",
+          "options": [
+            "後で",
+            "前に",
+            "から",
+            "まで"
+          ],
+          "answer": 1,
+          "explanation": "“Sebelum” = ～前に, dan kata kerja sebelumnya bentuk kamus: 出す前に."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "「窓口」 artinya ...",
+          "options": [
+            "loket",
+            "alamat",
+            "stempel",
+            "dokumen"
+          ],
+          "answer": 0,
+          "explanation": "窓口 (madoguchi) = loket pelayanan."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "“Nomor telepon” dalam bahasa Jepang ...",
+          "options": [
+            "印鑑",
+            "写真",
+            "電話番号",
+            "住所"
+          ],
+          "answer": 2,
+          "explanation": "電話番号 (denwa bangou) = nomor telepon."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "「印鑑」 dibaca ...",
+          "options": [
+            "madoguchi",
+            "bangou",
+            "shorui",
+            "inkan"
+          ],
+          "answer": 3,
+          "explanation": "印鑑 dibaca inkan = stempel nama (hanko)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "「手続き」 artinya ...",
+          "options": [
+            "kertas",
+            "fotokopi",
+            "foto",
+            "prosedur / pengurusan"
+          ],
+          "answer": 3,
+          "explanation": "手続き (tetsuzuki) = prosedur / pengurusan administrasi."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Petugas berkata 「番号を 取って ください」。 Artinya ...",
+          "options": [
+            "Tolong ambil nomornya",
+            "Nomornya berapa?",
+            "Tolong tunjukkan nomornya",
+            "Tolong tulis nomornya"
+          ],
+          "answer": 0,
+          "explanation": "取ってください di loket berarti “tolong ambil (nomor antrean)”."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Mau bertanya apakah perlu stempel, ucapkan ...",
+          "options": [
+            "印鑑は いくらですか",
+            "印鑑を ください",
+            "印鑑が ありますか",
+            "印鑑が 要りますか"
+          ],
+          "answer": 3,
+          "explanation": "“Perlu/tidak” ditanyakan dengan ～が要りますか: 印鑑が要りますか."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Belanja di Supermarket - Angka & Harga",
+      "context": "Keluarga & Sehari-hari",
+      "target": "Hafalkan 6 grammar dan 15 vocab belanja dalam 10–15 menit. Fokus: kamu bisa bertanya harga, menghitung belanjaan, membandingkan murah–mahal, dan bicara di kasir. Angka penting hari ini: 百 (hyaku, 100), 千 (sen, 1.000), 万 (man, 10.000). Quiz-nya ada di aplikasi, kerjakan malam ini ya.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Latih membaca harga dengan suara keras: ambil 5 label harga bayangan (198円、450円、1.280円、3.000円、10.000円) dan ucapkan dalam bahasa Jepang. • 3. Hafalkan hitungan benda 1–5 sebagai lagu: ひとつ、ふたつ、みっつ、よっつ、いつつ — setelah itu pola berlanjut lebih teratur. • 4. Hafalkan pasangan sifat belanja: 安い (murah) ↔ 高い (mahal), dan frasa kasir: 全部でいくらですか & 袋をください. • 5. Latih dialog hari ini dengan suara keras, bergantian jadi ibu dan jadi petugas/kasir. • 6. Kerjakan quiz aplikasi malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1-35zJPBVNGvQMzsBekGGuhkCYi2cpB0C/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N5",
+          "pattern": "いくらですか・～円です",
+          "romaji": "ikura desu ka / ~ en desu",
+          "meaning": "Bertanya dan menjawab harga — kalimat wajib saat belanja. いくら berarti “berapa” khusus untuk harga, dan jawaban selalu diakhiri 円 (en, yen).",
+          "formation": "これは いくらですか (ini berapa harganya?) → [angka]円 です. Angka besar dibaca per blok: 百 (100), 千 (1.000), 万 (10.000).",
+          "nuance": "いくら hanya untuk harga/uang. Untuk bertanya jumlah benda pakai いくつ, untuk umur pakai 何歳 — jangan tertukar. Di kasir, total belanja ditanya dengan 全部で いくらですか (semuanya berapa?).",
+          "examples": [
+            {
+              "jp": "これは いくらですか。",
+              "id": "Ini berapa harganya?"
+            },
+            {
+              "jp": "牛乳は 二百円です。",
+              "id": "Susu harganya 200 yen."
+            },
+            {
+              "jp": "全部で いくらですか。",
+              "id": "Semuanya berapa harganya?"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N5",
+          "pattern": "～を～ます",
+          "romaji": "wo ~ masu",
+          "meaning": "Pola kalimat kerja paling dasar bahasa Jepang: benda yang dikenai pekerjaan ditandai を (dibaca “wo/o”), dan kata kerjanya selalu di AKHIR kalimat dalam bentuk sopan ます.",
+          "formation": "[Objek] を [kata kerja]ます. Contoh kata kerja belanja: 買います (membeli), 見ます (melihat), 払います (membayar).",
+          "nuance": "Urutannya terbalik dari bahasa Indonesia: “saya membeli telur” menjadi 卵を買います — objek dulu, kata kerja terakhir. Semua kalimat sopan hari ini memakai pola ini.",
+          "examples": [
+            {
+              "jp": "卵を 買います。",
+              "id": "Saya membeli telur."
+            },
+            {
+              "jp": "野菜を 見ます。",
+              "id": "Saya melihat-lihat sayur."
+            },
+            {
+              "jp": "パンと 牛乳を 買います。",
+              "id": "Saya membeli roti dan susu."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N5",
+          "pattern": "～つ・～個",
+          "romaji": "tsu / ko",
+          "meaning": "Cara menghitung benda dalam bahasa Jepang. Hitungan umum: 一つ (hitotsu, 1), 二つ (futatsu, 2), 三つ (mittsu, 3), 四つ (yottsu, 4), 五つ (itsutsu, 5). Untuk benda kecil/bulat seperti telur dan buah, satuan 個 (ko) juga sering dipakai.",
+          "formation": "[Benda] を [jumlah]つ / [jumlah]個 + ください / 買います. Contoh: 十個 dibaca jukko.",
+          "nuance": "Bacaan ひとつ sampai いつつ tidak beraturan — hafalkan 1–5 sebagai satu lagu dulu. Setelah 6 pola bacaan mulai teratur (むっつ、ななつ、やっつ、ここのつ、とお).",
+          "examples": [
+            {
+              "jp": "卵を 十個 ください。",
+              "id": "Tolong telur sepuluh butir."
+            },
+            {
+              "jp": "パンを 二つ 買います。",
+              "id": "Saya membeli roti dua buah."
+            },
+            {
+              "jp": "果物を 五つ 買いました。",
+              "id": "Saya membeli buah lima buah."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N4",
+          "pattern": "～より～のほうが",
+          "romaji": "yori ~ no hou ga",
+          "meaning": "Membandingkan dua benda: B のほうが [sifat] daripada A. Pola belanja yang sangat berguna: mana yang lebih murah, mana yang lebih segar.",
+          "formation": "[A] より [B] の ほうが [kata sifat] です. A = pembanding (yang kalah), B = yang “menang”.",
+          "nuance": "Urutan jangan terbalik: benda setelah より adalah pembandingnya, benda setelah ほうが adalah yang diunggulkan. Contoh: 魚より肉のほうが = daging-lah yang lebih (daripada ikan).",
+          "examples": [
+            {
+              "jp": "魚より 肉のほうが 高いです。",
+              "id": "Daging lebih mahal daripada ikan."
+            },
+            {
+              "jp": "この店より あの店のほうが 安いです。",
+              "id": "Toko itu lebih murah daripada toko ini."
+            },
+            {
+              "jp": "米より パンのほうが 好きです。",
+              "id": "Saya lebih suka roti daripada nasi/beras."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N4",
+          "pattern": "いちばん～です",
+          "romaji": "ichiban ~ desu",
+          "meaning": "Menyatakan yang paling unggul di antara banyak pilihan: paling murah, paling segar, paling disukai. いちばん artinya “nomor satu”.",
+          "formation": "[Benda] が いちばん [kata sifat] です. Dengan kelompok: [kelompok] の 中で [benda] が いちばん ～です.",
+          "nuance": "Pasangan alami grammar 4: ～より～のほうが untuk membandingkan DUA benda, いちばん untuk memilih SATU dari BANYAK benda. Di supermarket kamu akan sering memakai keduanya bergantian.",
+          "examples": [
+            {
+              "jp": "この 卵が いちばん 安いです。",
+              "id": "Telur ini paling murah."
+            },
+            {
+              "jp": "果物の 中で りんごが いちばん 好きです。",
+              "id": "Di antara buah-buahan, apel yang paling saya suka."
+            },
+            {
+              "jp": "今日は 魚が いちばん 新鮮です。",
+              "id": "Hari ini ikan paling segar."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N4",
+          "pattern": "あまり～ない",
+          "romaji": "amari ~ nai",
+          "meaning": "Menyatakan “tidak terlalu ...” — sesuatu tidak sampai tingkat yang diharapkan. Selalu berpasangan dengan bentuk negatif, dan nadanya halus, tidak menolak mentah-mentah.",
+          "formation": "あまり + [kata sifat / kata kerja bentuk negatif]. Contoh: あまり 高くないです (tidak terlalu mahal), あまり いません (tidak terlalu banyak orang).",
+          "nuance": "Lebih halus daripada langsung berkata “tidak”. Di toko, あまり安くないです adalah cara sopan berkata “harganya lumayan mahal” tanpa menyinggung penjual.",
+          "examples": [
+            {
+              "jp": "この 肉は あまり 安くないです。",
+              "id": "Daging ini tidak terlalu murah."
+            },
+            {
+              "jp": "あまり 人が いません。",
+              "id": "Tidak terlalu banyak orang."
+            },
+            {
+              "jp": "この 店は あまり 大きくないです。",
+              "id": "Toko ini tidak terlalu besar."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "お金",
+          "reading": "okane（おかね）",
+          "meaning": "uang",
+          "example_jp": "お金を 払います。",
+          "example_id": "Saya membayar uangnya."
+        },
+        {
+          "no": 2,
+          "word": "円",
+          "reading": "en（えん）",
+          "meaning": "yen (mata uang Jepang)",
+          "example_jp": "百円です。",
+          "example_id": "Harganya 100 yen."
+        },
+        {
+          "no": 3,
+          "word": "安い",
+          "reading": "yasui（やすい）",
+          "meaning": "murah",
+          "example_jp": "安いですね。",
+          "example_id": "Murah ya."
+        },
+        {
+          "no": 4,
+          "word": "高い",
+          "reading": "takai（たかい）",
+          "meaning": "mahal (juga: tinggi)",
+          "example_jp": "高いから 買いません。",
+          "example_id": "Karena mahal, saya tidak membelinya."
+        },
+        {
+          "no": 5,
+          "word": "牛乳",
+          "reading": "gyuunyuu（ぎゅうにゅう）",
+          "meaning": "susu",
+          "example_jp": "牛乳を 買います。",
+          "example_id": "Saya membeli susu."
+        },
+        {
+          "no": 6,
+          "word": "卵",
+          "reading": "tamago（たまご）",
+          "meaning": "telur",
+          "example_jp": "卵は 十個です。",
+          "example_id": "Telurnya sepuluh butir."
+        },
+        {
+          "no": 7,
+          "word": "パン",
+          "reading": "pan（パン）",
+          "meaning": "roti",
+          "example_jp": "パンは おいしいです。",
+          "example_id": "Rotinya enak."
+        },
+        {
+          "no": 8,
+          "word": "米",
+          "reading": "kome（こめ）",
+          "meaning": "beras",
+          "example_jp": "米を 買います。",
+          "example_id": "Saya membeli beras."
+        },
+        {
+          "no": 9,
+          "word": "野菜",
+          "reading": "yasai（やさい）",
+          "meaning": "sayur",
+          "example_jp": "野菜は 新鮮です。",
+          "example_id": "Sayurnya segar."
+        },
+        {
+          "no": 10,
+          "word": "果物",
+          "reading": "kudamono（くだもの）",
+          "meaning": "buah-buahan",
+          "example_jp": "果物が 好きです。",
+          "example_id": "Saya suka buah."
+        },
+        {
+          "no": 11,
+          "word": "魚",
+          "reading": "sakana（さかな）",
+          "meaning": "ikan",
+          "example_jp": "魚は 今日 安いです。",
+          "example_id": "Ikan hari ini murah."
+        },
+        {
+          "no": 12,
+          "word": "肉",
+          "reading": "niku（にく）",
+          "meaning": "daging",
+          "example_jp": "肉は 高いです。",
+          "example_id": "Daging itu mahal."
+        },
+        {
+          "no": 13,
+          "word": "スーパー",
+          "reading": "suupaa（スーパー）",
+          "meaning": "supermarket",
+          "example_jp": "スーパーは 近いです。",
+          "example_id": "Supermarketnya dekat."
+        },
+        {
+          "no": 14,
+          "word": "レジ",
+          "reading": "reji（レジ）",
+          "meaning": "kasir",
+          "example_jp": "レジは あそこです。",
+          "example_id": "Kasirnya di sana."
+        },
+        {
+          "no": 15,
+          "word": "袋",
+          "reading": "fukuro（ふくろ）",
+          "meaning": "kantong / tas belanja",
+          "example_jp": "袋を ください。",
+          "example_id": "Tolong kantongnya."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Ibu",
+          "jp": "すみません、卵は どこですか。",
+          "id": "Permisi, telur di mana?"
+        },
+        {
+          "no": 2,
+          "speaker": "Petugas",
+          "jp": "あちらです。今日は 安いですよ。",
+          "id": "Di sebelah sana. Hari ini murah lho."
+        },
+        {
+          "no": 3,
+          "speaker": "Ibu",
+          "jp": "これは いくらですか。",
+          "id": "Ini berapa harganya?"
+        },
+        {
+          "no": 4,
+          "speaker": "Petugas",
+          "jp": "二百九十八円です。",
+          "id": "298 yen."
+        },
+        {
+          "no": 5,
+          "speaker": "Ibu",
+          "jp": "じゃあ、二つ ください。",
+          "id": "Kalau begitu, minta dua ya."
+        },
+        {
+          "no": 6,
+          "speaker": "Kasir",
+          "jp": "全部で 千五百円です。",
+          "id": "Semuanya 1.500 yen."
+        },
+        {
+          "no": 7,
+          "speaker": "Ibu",
+          "jp": "袋も ください。",
+          "id": "Kantongnya juga, tolong."
+        },
+        {
+          "no": 8,
+          "speaker": "Kasir",
+          "jp": "はい、ありがとうございました。",
+          "id": "Baik, terima kasih banyak."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "Bertanya harga: 「これは ＿＿ですか。」",
+          "options": [
+            "どこ",
+            "だれ",
+            "いくつ",
+            "いくら"
+          ],
+          "answer": 3,
+          "explanation": "Bertanya harga selalu いくらですか. いくつ untuk jumlah benda, どこ untuk tempat."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「卵を 三つ ＿＿。」 (Minta telur tiga butir.)",
+          "options": [
+            "より",
+            "ください",
+            "です",
+            "ます"
+          ],
+          "answer": 1,
+          "explanation": "Meminta benda dengan jumlah: [benda] を [jumlah]つ ください."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "「魚より 肉のほうが ＿＿。」 (Daging lebih mahal daripada ikan.)",
+          "options": [
+            "高いです",
+            "いくらです",
+            "ください",
+            "安いです"
+          ],
+          "answer": 0,
+          "explanation": "Pola ～より～のほうが membandingkan: daging yang diunggulkan dan sifatnya mahal = 高いです."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "「この店は あまり 大きく＿＿。」 (Toko ini tidak terlalu besar.)",
+          "options": [
+            "ます",
+            "ください",
+            "ないです",
+            "です"
+          ],
+          "answer": 2,
+          "explanation": "あまり selalu berpasangan dengan bentuk negatif: あまり 大きくないです."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "「牛乳」 artinya ...",
+          "options": [
+            "beras",
+            "telur",
+            "susu",
+            "roti"
+          ],
+          "answer": 2,
+          "explanation": "牛乳 (gyuunyuu) = susu. Telur = 卵, roti = パン, beras = 米."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "“Kasir” dalam bahasa Jepang ...",
+          "options": [
+            "スーパー",
+            "円",
+            "袋",
+            "レジ"
+          ],
+          "answer": 3,
+          "explanation": "レジ (reji) = kasir. スーパー = supermarket, 袋 = kantong."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "「安い」 artinya ...",
+          "options": [
+            "murah",
+            "tinggi",
+            "besar",
+            "mahal"
+          ],
+          "answer": 0,
+          "explanation": "安い (yasui) = murah. Kebalikannya 高い (takai) = mahal."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "「果物」 dibaca ...",
+          "options": [
+            "fukuro",
+            "yasai",
+            "sakana",
+            "kudamono"
+          ],
+          "answer": 3,
+          "explanation": "果物 dibaca kudamono = buah-buahan."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Di kasir, 「全部で いくらですか」 artinya ...",
+          "options": [
+            "Di mana kasirnya?",
+            "Tolong kantongnya",
+            "Ini berapa harganya?",
+            "Semuanya berapa harganya?"
+          ],
+          "answer": 3,
+          "explanation": "全部で = semuanya/total. Frasa ini diucapkan saat menanyakan total belanja di kasir."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Mau meminta kantong belanja, ucapkan ...",
+          "options": [
+            "袋が いちばん です",
+            "袋より です",
+            "袋は どこですか",
+            "袋を ください"
+          ],
+          "answer": 3,
+          "explanation": "Meminta benda memakai ～をください: 袋をください."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Keluarga & Kesehatan - Ke Klinik Anak",
+      "context": "Keluarga-Kesehatan",
+      "target": "Hafalkan 6 grammar dan 15 vocab kesehatan dalam 10–15 menit. Fokus: kamu bisa membawa anak ke klinik — menyebutkan gejalanya (demam, batuk, sakit), menunjukkan kartu asuransi, dan memahami permintaan sopan petugas. Quiz-nya ada di aplikasi, kerjakan malam ini ya.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Hafalkan pasangan あります (benda/hal) vs います (orang/hewan) lewat dua kalimat tentang anakmu: 熱があります dan 子どもがいます. • 3. ～てください dan ～ないでください adalah pasangan perintah sopan — latih dengan kata kerja klinik: 見てください、書いてください、忘れないでください. • 4. Tulis 3 kalimat andalan klinik di catatan HP: 「熱があります」「咳が出ます」「お腹が痛いです」 — tiga kalimat ini yang paling sering kamu butuhkan. • 5. Latih dialog hari ini dengan suara keras, bergantian jadi ibu dan jadi resepsionis. • 6. Kerjakan quiz aplikasi malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1hQGdAw4CpsNNxgP0Z8G6go6HNTqUpkfl/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N5",
+          "pattern": "～があります・～がいます",
+          "romaji": "ga arimasu / ga imasu",
+          "meaning": "Menyatakan keberadaan sesuatu: あります untuk benda dan hal yang tidak bernyawa (obat, demam, reservasi), います untuk orang dan hewan (dokter, anak). Di klinik pola ini dipakai terus: 熱があります = (anak) demam.",
+          "formation": "[Benda/hal] が あります / [Orang/hewan] が います. Negatif: ありません / いません.",
+          "nuance": "Jangan tertukar! Demam, batuk, dan obat = あります; anak, dokter, dan petugas = います. Trik mengingat: yang bisa bergerak sendiri pakai います.",
+          "examples": [
+            {
+              "jp": "子どもは 熱が あります。",
+              "id": "Anak saya demam (ada demam)."
+            },
+            {
+              "jp": "病院に 医者が います。",
+              "id": "Di rumah sakit ada dokter."
+            },
+            {
+              "jp": "薬が ありますか。",
+              "id": "Apakah ada obatnya?"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N5",
+          "pattern": "～をください",
+          "romaji": "wo kudasai",
+          "meaning": "Meminta suatu BENDA dengan sopan — di apotek, resepsionis, maupun toko. Salah satu pola pertama yang harus dikuasai pemula.",
+          "formation": "[Benda] を ください. を menandai benda yang diminta.",
+          "nuance": "Pola ini hanya untuk BENDA. Untuk meminta TINDAKAN (tolong periksa, tolong tulis), pakai pola berikutnya ～てください. Keduanya selalu berpasangan di kepala orang Jepang.",
+          "examples": [
+            {
+              "jp": "薬を ください。",
+              "id": "Tolong berikan obatnya."
+            },
+            {
+              "jp": "水を ください。",
+              "id": "Tolong beri air."
+            },
+            {
+              "jp": "予約の 紙を ください。",
+              "id": "Tolong berikan kertas reservasinya."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N5",
+          "pattern": "～てください",
+          "romaji": "te kudasai",
+          "meaning": "Meminta seseorang MELAKUKAN sesuatu dengan sopan: tolong periksa, tolong tulis, tolong tunggu. Kalimat yang paling sering kamu dengar — dan ucapkan — di klinik.",
+          "formation": "Kata kerja bentuk て + ください. Contoh perubahan: 見ます→見て、書きます→書いて、座ります→座って、来ます→来て.",
+          "nuance": "Nadanya sopan dan aman untuk semua orang. Berbeda dengan ～をください yang meminta benda, pola ini meminta perbuatan — selalu ada kata kerjanya.",
+          "examples": [
+            {
+              "jp": "ここに 名前を 書いて ください。",
+              "id": "Tolong tulis nama di sini."
+            },
+            {
+              "jp": "座って ください。",
+              "id": "Silakan duduk."
+            },
+            {
+              "jp": "子どもを 見て ください。",
+              "id": "Tolong periksa anak saya."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N4",
+          "pattern": "～てもいいですか",
+          "romaji": "te mo ii desu ka",
+          "meaning": "Meminta izin dengan sopan sebelum melakukan sesuatu: boleh masuk? boleh menunggu di sini? boleh mengambil foto?",
+          "formation": "Kata kerja bentuk て + も いいですか. Jawaban baik: はい、いいですよ. Jawaban menolak (halus): すみません、ちょっと… .",
+          "nuance": "Lebih sopan dan lebih aman daripada langsung bertanya ～ますか, karena kamu memberi ruang untuk ditolak. Sangat berguna di klinik, rumah orang, dan kantor.",
+          "examples": [
+            {
+              "jp": "入っても いいですか。",
+              "id": "Bolehkah saya masuk?"
+            },
+            {
+              "jp": "写真を 撮っても いいですか。",
+              "id": "Bolehkah saya mengambil foto?"
+            },
+            {
+              "jp": "ここで 待っても いいですか。",
+              "id": "Bolehkah saya menunggu di sini?"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N4",
+          "pattern": "～ないでください",
+          "romaji": "naide kudasai",
+          "meaning": "Kebalikan ～てください: meminta seseorang untuk TIDAK melakukan sesuatu, dengan tetap sopan. Kalimat dokter yang paling menenangkan: 心配しないでください = jangan khawatir.",
+          "formation": "Kata kerja bentuk ない + で ください. Contoh: 忘れます→忘れないで、入ります→入らないで、心配します→心配しないで.",
+          "nuance": "Pasangkan selalu dengan grammar 3: ～てください (tolong lakukan) ↔ ～ないでください (tolong jangan). Nada sopannya sama, arahnya berlawanan.",
+          "examples": [
+            {
+              "jp": "心配しないで ください。",
+              "id": "Tolong jangan khawatir."
+            },
+            {
+              "jp": "今日は お風呂に 入らないで ください。",
+              "id": "Hari ini tolong jangan mandi dulu (nasihat dokter)."
+            },
+            {
+              "jp": "薬を 忘れないで ください。",
+              "id": "Tolong jangan lupa obatnya."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N4",
+          "pattern": "～から (alasan)",
+          "romaji": "kara",
+          "meaning": "Menyatakan sebab/alasan. Alasan ditaruh di depan, akibatnya mengikuti: [alasan] から、[akibat]. Contoh hidup: karena demam, pergi ke rumah sakit.",
+          "formation": "Kalimat biasa (bentuk です/ます juga boleh untuk pemula) + から、+ kalimat akibat.",
+          "nuance": "から ini BEDA dengan から “dari” yang kemarin (インドネシアから来ました). Di sini artinya “karena”. Urutannya juga terbalik dari bahasa Indonesia: orang Jepang menyebut alasan dulu, baru akibatnya.",
+          "examples": [
+            {
+              "jp": "熱が あるから、病院へ 行きます。",
+              "id": "Karena demam, (kami) pergi ke rumah sakit."
+            },
+            {
+              "jp": "子どもが 小さいから、心配です。",
+              "id": "Karena anak masih kecil, saya khawatir."
+            },
+            {
+              "jp": "薬を 飲んだから、大丈夫です。",
+              "id": "Karena sudah minum obat, tidak apa-apa."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "病院",
+          "reading": "byouin（びょういん）",
+          "meaning": "rumah sakit",
+          "example_jp": "病院は 近いです。",
+          "example_id": "Rumah sakitnya dekat."
+        },
+        {
+          "no": 2,
+          "word": "医者",
+          "reading": "isha（いしゃ）",
+          "meaning": "dokter",
+          "example_jp": "医者は 優しいです。",
+          "example_id": "Dokternya baik hati."
+        },
+        {
+          "no": 3,
+          "word": "熱",
+          "reading": "netsu（ねつ）",
+          "meaning": "demam / panas badan",
+          "example_jp": "熱は 三十八度です。",
+          "example_id": "Demamnya 38 derajat."
+        },
+        {
+          "no": 4,
+          "word": "咳",
+          "reading": "seki（せき）",
+          "meaning": "batuk",
+          "example_jp": "咳が 出ます。",
+          "example_id": "Dia batuk (batuknya keluar)."
+        },
+        {
+          "no": 5,
+          "word": "薬",
+          "reading": "kusuri（くすり）",
+          "meaning": "obat",
+          "example_jp": "薬を 飲みます。",
+          "example_id": "Minum obat."
+        },
+        {
+          "no": 6,
+          "word": "体",
+          "reading": "karada（からだ）",
+          "meaning": "tubuh / badan",
+          "example_jp": "体が 熱いです。",
+          "example_id": "Badannya panas."
+        },
+        {
+          "no": 7,
+          "word": "頭",
+          "reading": "atama（あたま）",
+          "meaning": "kepala",
+          "example_jp": "頭が 痛いです。",
+          "example_id": "Kepalanya sakit."
+        },
+        {
+          "no": 8,
+          "word": "お腹",
+          "reading": "onaka（おなか）",
+          "meaning": "perut",
+          "example_jp": "お腹が 痛いです。",
+          "example_id": "Perutnya sakit."
+        },
+        {
+          "no": 9,
+          "word": "痛い",
+          "reading": "itai（いたい）",
+          "meaning": "sakit (terasa sakit)",
+          "example_jp": "ここが 痛いです。",
+          "example_id": "Di sini sakit."
+        },
+        {
+          "no": 10,
+          "word": "風邪",
+          "reading": "kaze（かぜ）",
+          "meaning": "masuk angin / flu ringan",
+          "example_jp": "風邪を ひきました。",
+          "example_id": "Saya kena flu."
+        },
+        {
+          "no": 11,
+          "word": "水",
+          "reading": "mizu（みず）",
+          "meaning": "air (dingin)",
+          "example_jp": "水を 飲んで ください。",
+          "example_id": "Tolong minum air."
+        },
+        {
+          "no": 12,
+          "word": "予約",
+          "reading": "yoyaku（よやく）",
+          "meaning": "reservasi / janji temu",
+          "example_jp": "予約が あります。",
+          "example_id": "Saya ada reservasi."
+        },
+        {
+          "no": 13,
+          "word": "保険証",
+          "reading": "hokenshou（ほけんしょう）",
+          "meaning": "kartu asuransi kesehatan",
+          "example_jp": "保険証を 見せて ください。",
+          "example_id": "Tolong tunjukkan kartu asuransinya."
+        },
+        {
+          "no": 14,
+          "word": "受付",
+          "reading": "uketsuke（うけつけ）",
+          "meaning": "resepsionis / meja pendaftaran",
+          "example_jp": "受付は どこですか。",
+          "example_id": "Resepsionisnya di mana?"
+        },
+        {
+          "no": 15,
+          "word": "大丈夫",
+          "reading": "daijoubu（だいじょうぶ）",
+          "meaning": "tidak apa-apa / baik-baik saja",
+          "example_jp": "大丈夫ですか。",
+          "example_id": "Apakah tidak apa-apa?"
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Resepsionis",
+          "jp": "こんにちは。予約が ありますか。",
+          "id": "Selamat siang. Ada reservasi?"
+        },
+        {
+          "no": 2,
+          "speaker": "Ibu",
+          "jp": "はい、あります。子どもの 熱が 高いです。",
+          "id": "Ya, ada. Demam anak saya tinggi."
+        },
+        {
+          "no": 3,
+          "speaker": "Resepsionis",
+          "jp": "保険証を 見せて ください。",
+          "id": "Tolong tunjukkan kartu asuransinya."
+        },
+        {
+          "no": 4,
+          "speaker": "Ibu",
+          "jp": "はい、これです。",
+          "id": "Ya, ini."
+        },
+        {
+          "no": 5,
+          "speaker": "Resepsionis",
+          "jp": "ここに 名前を 書いて ください。",
+          "id": "Tolong tulis nama di sini."
+        },
+        {
+          "no": 6,
+          "speaker": "Ibu",
+          "jp": "はい。子どもは 咳も 出ます。",
+          "id": "Ya. Anak saya juga batuk."
+        },
+        {
+          "no": 7,
+          "speaker": "Resepsionis",
+          "jp": "座って 待って ください。",
+          "id": "Silakan duduk dan menunggu."
+        },
+        {
+          "no": 8,
+          "speaker": "Ibu",
+          "jp": "ありがとうございます。",
+          "id": "Terima kasih banyak."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「子どもは 熱が ＿＿。」 (Anak saya demam.)",
+          "options": [
+            "ください",
+            "います",
+            "あります",
+            "です"
+          ],
+          "answer": 2,
+          "explanation": "Demam adalah “hal”, bukan makhluk hidup — pakai あります. Orang/hewan baru pakai います."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "Meminta air dengan sopan: 「水＿＿。」",
+          "options": [
+            "もです",
+            "をください",
+            "てください",
+            "がいます"
+          ],
+          "answer": 1,
+          "explanation": "Meminta BENDA memakai ～をください. ～てください hanya untuk meminta tindakan (ada kata kerjanya)."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "「ここに 名前を 書いて ＿＿。」 (Tolong tulis nama di sini.)",
+          "options": [
+            "から",
+            "ください",
+            "もいい",
+            "ないで"
+          ],
+          "answer": 1,
+          "explanation": "書いてください = tolong tulis. Ini pola ～てください untuk meminta tindakan."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "“Bolehkah saya masuk?” dalam bahasa Jepang ...",
+          "options": [
+            "入っても いいですか",
+            "入らないで ください",
+            "入るから です",
+            "入って ください"
+          ],
+          "answer": 0,
+          "explanation": "Meminta izin memakai ～てもいいですか: 入っても いいですか."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "「薬」 artinya ...",
+          "options": [
+            "batuk",
+            "air",
+            "obat",
+            "demam"
+          ],
+          "answer": 2,
+          "explanation": "薬 dibaca kusuri = obat."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "“Kartu asuransi kesehatan” dalam bahasa Jepang ...",
+          "options": [
+            "予約",
+            "保険証",
+            "病院",
+            "受付"
+          ],
+          "answer": 1,
+          "explanation": "保険証 (hokenshou) = kartu asuransi kesehatan — selalu ditunjukkan di resepsionis."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "「咳」 dibaca ...",
+          "options": [
+            "itai",
+            "netsu",
+            "seki",
+            "kaze"
+          ],
+          "answer": 2,
+          "explanation": "咳 dibaca seki = batuk. Demam = 熱 (netsu)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "「大丈夫ですか」 artinya ...",
+          "options": [
+            "Apakah ada reservasi?",
+            "Apakah tidak apa-apa?",
+            "Di mana resepsionisnya?",
+            "Tolong duduk"
+          ],
+          "answer": 1,
+          "explanation": "大丈夫 = tidak apa-apa / baik-baik saja. 大丈夫ですか = apakah tidak apa-apa?"
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Petugas berkata 「保険証を 見せて ください」。 Artinya ...",
+          "options": [
+            "Jangan khawatir",
+            "Tolong tulis nama",
+            "Tolong tunjukkan kartu asuransi",
+            "Silakan duduk"
+          ],
+          "answer": 2,
+          "explanation": "見せてください = tolong tunjukkan. Yang ditunjukkan adalah 保険証, kartu asuransi."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "「心配しないで ください」 artinya ...",
+          "options": [
+            "Tolong tunggu di sini",
+            "Tolong jangan khawatir",
+            "Tolong jangan masuk",
+            "Tolong minum obat"
+          ],
+          "answer": 1,
+          "explanation": "～ないでください = tolong jangan ...; 心配しないでください = tolong jangan khawatir — kalimat khas dokter."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "Perkenalan Diri & Sapaan Dasar",
+      "context": "Keluarga & Sehari-hari",
+      "target": "Hafalkan 6 grammar dan 15 vocab dasar perkenalan dalam 10–15 menit. Fokus: kamu bisa memperkenalkan diri dengan sopan — nama, asal negara, keluarga, dan tempat tinggal — seperti di dialog hari ini. Quiz-nya ada di aplikasi, kerjakan malam ini ya.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Ganti nama, asal, dan kota di contoh kalimat dengan data dirimu sendiri, lalu ucapkan keras-keras 3 kali. Kalimat tentang diri sendiri paling cepat hafal. • 3. Hafalkan sapaan sebagai pasangan waktu: pagi = おはようございます, siang = こんにちは, malam = こんばんは. • 4. Latih dialog hari ini dengan suara keras, bergantian jadi Anna dan jadi Tanaka — ini simulasi bertemu tetangga yang sebenarnya. • 5. Tulis 5 vocab yang paling sulit di catatan HP — itu yang akan muncul lagi di quiz aplikasi malam ini. • 6. Kerjakan quiz malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1G15P9aSOYmPkvREm3rEYphwgd-8vtKnt/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N5",
+          "pattern": "～は～です",
+          "romaji": "wa ~ desu",
+          "meaning": "Pola paling dasar untuk memperkenalkan diri dan menjelaskan sesuatu: “A adalah B”. Partikel は menandai topik (yang dibicarakan) dan dibaca “wa”, bukan “ha”.",
+          "formation": "[Topik] は [penjelasan] です. Negatifnya: ～ではありません (bukan ...). Contoh kerangka: わたしは ～です = saya adalah ~.",
+          "nuance": "Ini fondasi semua kalimat sopan bahasa Jepang. Akhiran です membuat kalimat sopan dan aman dipakai ke siapa pun. Tanpa です (memakai だ) terdengar kasual — untuk pemula, selalu pakai です.",
+          "examples": [
+            {
+              "jp": "わたしは アンナです。",
+              "id": "Saya Anna."
+            },
+            {
+              "jp": "わたしは インドネシア人です。",
+              "id": "Saya orang Indonesia."
+            },
+            {
+              "jp": "わたしは しゅふです。",
+              "id": "Saya ibu rumah tangga."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N5",
+          "pattern": "～も",
+          "romaji": "mo",
+          "meaning": "Menyatakan “juga” — menambahkan hal yang sama dengan yang baru disebutkan. Sangat sering muncul saat memperkenalkan keluarga: saya orang Indonesia, suami saya juga ...",
+          "formation": "[Kata benda] も [kalimat]. Setelah も TIDAK memakai は lagi — も menggantikan posisi は.",
+          "nuance": "Beda dengan は yang memperkenalkan topik baru, も berarti “sama seperti yang tadi”. Contoh bedanya: 夫は インドネシア人です (suami saya orang Indonesia — info baru) vs 夫も インドネシア人です (suami saya JUGA orang Indonesia — sama seperti saya).",
+          "examples": [
+            {
+              "jp": "わたしも インドネシア人です。",
+              "id": "Saya juga orang Indonesia."
+            },
+            {
+              "jp": "この子も 三歳です。",
+              "id": "Anak ini juga berumur tiga tahun."
+            },
+            {
+              "jp": "娘も 元気です。",
+              "id": "Anak perempuan saya juga sehat."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N5",
+          "pattern": "これ・それ・あれ",
+          "romaji": "kore / sore / are",
+          "meaning": "Kata tunjuk untuk benda yang berdiri sendiri: これ = ini (dekat saya), それ = itu (dekat lawan bicara), あれ = itu (jauh dari kami berdua).",
+          "formation": "これ / それ / あれ + は ～です. Untuk bertanya: それは 何ですか (itu apa?).",
+          "nuance": "Jangan tertukar dengan この・その・あの: ketiganya HARUS diikuti kata benda (この本 = buku ini), sedangkan これ・それ・あれ berdiri sendiri tanpa kata benda setelahnya.",
+          "examples": [
+            {
+              "jp": "これは わたしの かばんです。",
+              "id": "Ini tas saya."
+            },
+            {
+              "jp": "それは 何ですか。",
+              "id": "Itu apa?"
+            },
+            {
+              "jp": "あれは 子どもの おもちゃです。",
+              "id": "Itu (di sana) mainan anak."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N4",
+          "pattern": "～の",
+          "romaji": "no",
+          "meaning": "Partikel の menghubungkan dua kata benda: kepemilikan (わたしの本 = buku saya), asal, dan penjelasan tentang benda (日本語の先生 = guru bahasa Jepang).",
+          "formation": "[Kata benda 1] の [Kata benda 2]. Penjelas selalu di depan, benda utamanya di belakang.",
+          "nuance": "Urutannya terbalik dari bahasa Indonesia: わたしの 本 dibaca “saya-punya buku” → buku saya. Triknya: baca dari belakang — kata terakhir adalah bendanya, sisanya penjelasnya.",
+          "examples": [
+            {
+              "jp": "これは わたしの 携帯です。",
+              "id": "Ini HP saya."
+            },
+            {
+              "jp": "あの人は 子どもの 先生です。",
+              "id": "Orang itu guru anak saya."
+            },
+            {
+              "jp": "わたしの 家族の 写真です。",
+              "id": "Ini foto keluarga saya."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N4",
+          "pattern": "～から来ました",
+          "romaji": "kara kimashita",
+          "meaning": "Menyatakan asal seseorang — kalimat yang selalu muncul dalam perkenalan di Jepang, tepat setelah menyebutkan nama.",
+          "formation": "[Negara / kota] から 来ました (kimashita = datang, bentuk lampau sopan).",
+          "nuance": "から di sini berarti “dari”. Kata yang sama juga dipakai untuk waktu (9時から = dari jam 9) — hafalkan dulu arti “dari” ini, arti lainnya menyusul di materi berikutnya.",
+          "examples": [
+            {
+              "jp": "わたしは インドネシアから 来ました。",
+              "id": "Saya datang dari Indonesia."
+            },
+            {
+              "jp": "ジャカルタから 来ました。",
+              "id": "Saya datang dari Jakarta."
+            },
+            {
+              "jp": "家族も インドネシアから 来ました。",
+              "id": "Keluarga saya juga datang dari Indonesia."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N4",
+          "pattern": "～に住んでいます",
+          "romaji": "ni sunde imasu",
+          "meaning": "Menyatakan tempat tinggal saat ini. 住んでいます adalah bentuk “sedang berlangsung” dari 住みます (tinggal) — artinya keadaan tinggal yang sedang berjalan sampai sekarang.",
+          "formation": "[Tempat] に 住んでいます. Partikel に menandai tempat keberadaan.",
+          "nuance": "Bentuk ini sopan dan aman untuk semua situasi perkenalan. Pasangannya untuk benda mati yang “ada di” suatu tempat akan muncul juga nanti — untuk orang yang tinggal, selalu 住んでいます.",
+          "examples": [
+            {
+              "jp": "わたしは 愛知県に 住んでいます。",
+              "id": "Saya tinggal di Prefektur Aichi."
+            },
+            {
+              "jp": "安城市に 住んでいます。",
+              "id": "Saya tinggal di Kota Anjo."
+            },
+            {
+              "jp": "家族と 一緒に 日本に 住んでいます。",
+              "id": "Saya tinggal di Jepang bersama keluarga."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "私",
+          "reading": "watashi（わたし）",
+          "meaning": "saya",
+          "example_jp": "わたしは アンナです。",
+          "example_id": "Saya Anna."
+        },
+        {
+          "no": 2,
+          "word": "名前",
+          "reading": "namae（なまえ）",
+          "meaning": "nama",
+          "example_jp": "名前は アンナです。",
+          "example_id": "Nama saya Anna."
+        },
+        {
+          "no": 3,
+          "word": "家族",
+          "reading": "kazoku（かぞく）",
+          "meaning": "keluarga",
+          "example_jp": "家族は 四人です。",
+          "example_id": "Keluarga saya empat orang."
+        },
+        {
+          "no": 4,
+          "word": "夫",
+          "reading": "otto（おっと）",
+          "meaning": "suami (saya)",
+          "example_jp": "夫は 会社員です。",
+          "example_id": "Suami saya karyawan perusahaan."
+        },
+        {
+          "no": 5,
+          "word": "妻",
+          "reading": "tsuma（つま）",
+          "meaning": "istri (saya)",
+          "example_jp": "あの人は 妻です。",
+          "example_id": "Orang itu istri saya."
+        },
+        {
+          "no": 6,
+          "word": "子ども",
+          "reading": "kodomo（こども）",
+          "meaning": "anak",
+          "example_jp": "子どもは 二人です。",
+          "example_id": "Anak saya dua orang."
+        },
+        {
+          "no": 7,
+          "word": "日本",
+          "reading": "Nihon（にほん）",
+          "meaning": "Jepang",
+          "example_jp": "日本は きれいです。",
+          "example_id": "Jepang itu indah dan bersih."
+        },
+        {
+          "no": 8,
+          "word": "インドネシア",
+          "reading": "Indoneshia（インドネシア）",
+          "meaning": "Indonesia",
+          "example_jp": "インドネシアから 来ました。",
+          "example_id": "Saya datang dari Indonesia."
+        },
+        {
+          "no": 9,
+          "word": "友達",
+          "reading": "tomodachi（ともだち）",
+          "meaning": "teman",
+          "example_jp": "友達は マリアさんです。",
+          "example_id": "Teman saya adalah Maria."
+        },
+        {
+          "no": 10,
+          "word": "今日",
+          "reading": "kyou（きょう）",
+          "meaning": "hari ini",
+          "example_jp": "今日は いい 天気です。",
+          "example_id": "Hari ini cuaca bagus."
+        },
+        {
+          "no": 11,
+          "word": "おはようございます",
+          "reading": "ohayou gozaimasu（おはようございます）",
+          "meaning": "selamat pagi (sopan)",
+          "example_jp": "おはようございます、田中さん。",
+          "example_id": "Selamat pagi, Bu Tanaka."
+        },
+        {
+          "no": 12,
+          "word": "こんにちは",
+          "reading": "konnichiwa（こんにちは）",
+          "meaning": "selamat siang",
+          "example_jp": "こんにちは、元気ですか。",
+          "example_id": "Selamat siang, apa kabar?"
+        },
+        {
+          "no": 13,
+          "word": "こんばんは",
+          "reading": "konbanwa（こんばんは）",
+          "meaning": "selamat malam",
+          "example_jp": "こんばんは、いい 夜ですね。",
+          "example_id": "Selamat malam, malam yang indah ya."
+        },
+        {
+          "no": 14,
+          "word": "ありがとうございます",
+          "reading": "arigatou gozaimasu（ありがとうございます）",
+          "meaning": "terima kasih banyak (sopan)",
+          "example_jp": "どうも ありがとうございます。",
+          "example_id": "Terima kasih banyak."
+        },
+        {
+          "no": 15,
+          "word": "すみません",
+          "reading": "sumimasen（すみません）",
+          "meaning": "permisi / maaf",
+          "example_jp": "すみません、駅は どこですか。",
+          "example_id": "Permisi, stasiun di mana?"
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Tetangga (Tanaka)",
+          "jp": "こんにちは。",
+          "id": "Selamat siang."
+        },
+        {
+          "no": 2,
+          "speaker": "Anna",
+          "jp": "こんにちは。はじめまして、アンナです。",
+          "id": "Selamat siang. Perkenalkan, saya Anna."
+        },
+        {
+          "no": 3,
+          "speaker": "Tanaka",
+          "jp": "田中です。どちらから 来ましたか。",
+          "id": "Saya Tanaka. Dari mana asalnya?"
+        },
+        {
+          "no": 4,
+          "speaker": "Anna",
+          "jp": "インドネシアから 来ました。家族と 安城市に 住んでいます。",
+          "id": "Saya dari Indonesia. Saya tinggal di Anjo bersama keluarga."
+        },
+        {
+          "no": 5,
+          "speaker": "Tanaka",
+          "jp": "ご家族は 何人ですか。",
+          "id": "Keluarganya berapa orang?"
+        },
+        {
+          "no": 6,
+          "speaker": "Anna",
+          "jp": "四人です。夫と 子どもが 二人です。",
+          "id": "Empat orang. Suami dan dua anak."
+        },
+        {
+          "no": 7,
+          "speaker": "Tanaka",
+          "jp": "そうですか。よろしく お願いします。",
+          "id": "Begitu ya. Salam kenal, mohon bantuannya."
+        },
+        {
+          "no": 8,
+          "speaker": "Anna",
+          "jp": "こちらこそ、よろしく お願いします。",
+          "id": "Saya juga, salam kenal."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「わたし＿＿ アンナです。」 (Saya Anna.)",
+          "options": [
+            "も",
+            "の",
+            "から",
+            "は"
+          ],
+          "answer": 3,
+          "explanation": "～は menandai topik kalimat. わたしは アンナです = Saya (adalah) Anna — pola perkenalan paling dasar."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「それは 何ですか。」 Kata それ artinya ...",
+          "options": [
+            "ini (dekat saya)",
+            "itu (dekat lawan bicara)",
+            "itu (jauh dari berdua)",
+            "siapa"
+          ],
+          "answer": 1,
+          "explanation": "これ = dekat saya, それ = dekat lawan bicara, あれ = jauh dari keduanya."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "「これは わたし＿＿ 本です。」 (Ini buku saya.)",
+          "options": [
+            "は",
+            "の",
+            "も",
+            "から"
+          ],
+          "answer": 1,
+          "explanation": "～の menyatakan kepemilikan: わたしの 本 = buku saya (benda utama selalu di belakang)."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "「インドネシア＿＿ 来ました。」 (Saya datang dari Indonesia.)",
+          "options": [
+            "に",
+            "は",
+            "から",
+            "の"
+          ],
+          "answer": 2,
+          "explanation": "～から来ました = datang dari ...; から di sini berarti “dari”."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "「家族」 artinya ...",
+          "options": [
+            "teman",
+            "keluarga",
+            "nama",
+            "anak"
+          ],
+          "answer": 1,
+          "explanation": "家族 (kazoku) = keluarga. Teman = 友達, nama = 名前, anak = 子ども."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "“Selamat pagi” yang sopan adalah ...",
+          "options": [
+            "こんにちは",
+            "ありがとうございます",
+            "こんばんは",
+            "おはようございます"
+          ],
+          "answer": 3,
+          "explanation": "Pagi = おはようございます, siang = こんにちは, malam = こんばんは."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "「夫」 dibaca ...",
+          "options": [
+            "tomodachi",
+            "tsuma",
+            "otto",
+            "kodomo"
+          ],
+          "answer": 2,
+          "explanation": "夫 dibaca otto = suami (saya). Istri = 妻 (tsuma)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "「今日」 artinya ...",
+          "options": [
+            "hari ini",
+            "malam",
+            "besok",
+            "kemarin"
+          ],
+          "answer": 0,
+          "explanation": "今日 dibaca kyou = hari ini."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Saat pertama kali bertemu tetangga, ucapan pembuka yang tepat adalah ...",
+          "options": [
+            "おやすみなさい",
+            "さようなら",
+            "はじめまして",
+            "いただきます"
+          ],
+          "answer": 2,
+          "explanation": "はじめまして diucapkan saat perkenalan pertama kali, sebelum menyebutkan nama."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Balasan sopan untuk 「よろしく お願いします」 adalah ...",
+          "options": [
+            "ごめんなさい",
+            "はい、そうです",
+            "さようなら",
+            "こちらこそ、よろしく お願いします"
+          ],
+          "answer": 3,
+          "explanation": "こちらこそ berarti “saya juga / sama-sama” — balasan standar salam perkenalan."
+        }
+      ]
+    }
+  ]
+}

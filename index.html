@@ -105,6 +105,22 @@ select,input[type=search]{width:100%;border:0;background:var(--chip);border-radi
 .bnav button.on{color:var(--teal);background:var(--chip)}
 .toast{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 12px);transform:translate(-50%,-90px);background:var(--ink);color:#fff;padding:10px 18px;border-radius:99px;font-size:14px;font-weight:700;transition:transform .25s;z-index:30;max-width:92vw;text-align:center}
 .toast.on{transform:translate(-50%,0)}
+.lvlbadge{border:1.5px solid var(--teal);background:var(--chip);color:var(--teal);border-radius:99px;padding:5px 10px;font-size:12px;font-weight:800;cursor:pointer;flex:none;min-height:32px}
+.lvlbadge:active{transform:scale(.96)}
+.lvgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.lvcard{border:2px solid var(--line);background:var(--card);border-radius:18px;padding:14px 13px;text-align:left;cursor:pointer;min-height:86px}
+.lvcard b{display:block;font-size:17px;color:var(--teal);margin-bottom:3px}
+.lvcard span{font-size:12.5px;color:var(--mute);line-height:1.45;display:block}
+.lvcard.on{border-color:var(--teal);background:#EAF5F1;box-shadow:0 3px 10px rgba(14,95,86,.18)}
+.lvcard.on b::after{content:" ✓";color:var(--ok)}
+.lvcard:active{transform:scale(.98)}
+.abtn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--chip);font-size:15px;cursor:pointer;flex:none;vertical-align:middle;padding:0}
+.abtn:active{transform:scale(.92)}
+.abtn.wide{width:auto;border-radius:99px;padding:0 14px;height:38px;font-weight:700;font-size:13.5px;color:var(--teal)}
+.audiorow{display:flex;gap:8px;margin:-4px 0 12px}
+.ex .abtn{float:right;margin:0 0 4px 8px}
+.bubble .abtn{float:right;margin:0 0 4px 8px}
+.vrow .w .abtn{margin-left:2px}
 button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -112,7 +128,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 <body>
 <main>
   <div class="top">
-    <div class="brand"><img class="avatar" src="hasian.gif" alt="Hasian" width="40" height="40" onerror="this.style.display='none'"><h1>Jepang <span>N3–N2</span></h1></div>
+    <div class="brand"><img class="avatar" src="hasian.gif" alt="Hasian" width="40" height="40" onerror="this.style.display='none'"><h1>Jepang <span id="lvlTitle">N3–N2</span></h1><button class="lvlbadge" id="lvlBadge" aria-label="Ganti level belajar">N3–N2 ▾</button></div>
     <div class="hbtns">
       <button class="hbtn" id="btnKey">Kode akses</button>
       <button class="hbtn" id="btnSync">↻ Sinkronkan</button>
@@ -155,17 +171,46 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 <script>
 "use strict";
 /* ============================================================
-   SINKRONISASI — Sheet "Materi" lewat Apps Script Web App
+   SINKRONISASI — DUA Sheet lewat Apps Script Web App
    ------------------------------------------------------------
-   ISI SYNC_URL DI BAWAH INI dengan URL Web App Apps Script
-   (yang berakhiran /exec) yang terhubung ke Google Sheet
-   "Materi". Selama masih kosong (""), aplikasi memakai
-   seed.json di folder/repo yang sama sebagai cadangan,
-   lalu data contoh bawaan bila seed.json pun tidak ada.
+   Aplikasi ini punya DUA level, masing-masing dengan Sheet
+   dan URL Web App sendiri:
+   - Level N3–N2: Sheet "Materi"      → SYNC_URL (terisi)
+   - Level N5–N4: Sheet "Materi N5-N4" → SYNC_URL_N5N4 (di bawah)
+   Selama URL suatu level masih kosong (""), level itu memakai
+   file seed-nya (seed.json / seed-n5n4.json) di folder/repo
+   yang sama sebagai cadangan; khusus N3–N2 ada data contoh
+   bawaan bila seed pun tidak ada, sedangkan N5–N4 menampilkan
+   pesan "sedang disiapkan".
    Kode akses dimasukkan sekali per perangkat lewat tombol
-   "Kode akses" dan hanya disimpan di perangkat ini.
+   "Kode akses", hanya disimpan di perangkat ini, dan SATU kode
+   yang sama dipakai untuk kedua endpoint (?key=).
    ============================================================ */
 const SYNC_URL = "https://script.google.com/macros/s/AKfycbzM9aTf6KzwZ7FBTE-5Qd2mTCYLbXV5DDA6Kohn6BOhzfJPDHHGlQf4TZJj4-XuWuU2/exec";
+
+/* ------------------------------------------------------------
+   LEVEL KEDUA: N5–N4 (untuk istri, pemula)
+   ------------------------------------------------------------
+   SYNC_URL_N5N4 di bawah ini adalah URL Web App Apps Script
+   yang terhubung ke Google Sheet "Materi N5-N4".
+   >>> URL ini AKAN DIISI OLEH AGEN UTAMA setelah Web App
+       Sheet "Materi N5-N4" di-deploy. Selama masih kosong (""),
+       level N5–N4 memakai seed-n5n4.json sebagai cadangan,
+       dan bila itu pun belum ada, aplikasi menampilkan pesan
+       ramah "Materi N5–N4 sedang disiapkan" (bukan error).
+   Kode akses tetap SATU kode yang sama untuk kedua endpoint.
+   ------------------------------------------------------------ */
+const SYNC_URL_N5N4 = "https://script.google.com/macros/s/AKfycbzm9RBFLmpp0I0gTuW8vsfrO7otfPaZhkWXjYmlu3AwKy1oRFAvde5jgXWUfNrk0vNj/exec";
+
+/* Dua level belajar yang didukung aplikasi. Data, cache,
+   progres, dan skor quiz disimpan TERPISAH per level. */
+const LEVELS = [
+  {id:"n3n2", label:"N3–N2", syncUrl:SYNC_URL, seedFile:"seed.json",
+   desc:"Untuk saya — kerja, bisnis & target JLPT N2"},
+  {id:"n5n4", label:"N5–N4", syncUrl:SYNC_URL_N5N4, seedFile:"seed-n5n4.json",
+   desc:"Untuk istri — pemula, percakapan sehari-hari"}
+];
+const LS_LEVEL = "jpn.level";
 
 const LS_KEY = "jepang-n3n2-key";
 const LS_CACHE = "jepang-n3n2-cache-v1";
@@ -173,6 +218,35 @@ const LS_PROG = "jepang-n3n2-progress-v1";
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function toast(m){const t=$("toast");t.textContent=m;t.className="toast on";clearTimeout(toast.h);toast.h=setTimeout(()=>t.className="toast",2200)}
+
+/* ---------- Audio: text-to-speech Bahasa Jepang (Web Speech API) ---------- */
+function speak(text){
+  const t=String(text??"").trim();
+  if(!t) return;
+  if(!("speechSynthesis" in window)){toast("Audio tidak tersedia di browser ini");return}
+  try{
+    window.speechSynthesis.cancel(); // batalkan ucapan yang sedang berjalan
+    const u=new SpeechSynthesisUtterance(t);
+    u.lang="ja-JP";
+    u.rate=0.92;
+    window.speechSynthesis.speak(u);
+  }catch(e){toast("Audio tidak tersedia di browser ini")}
+}
+function stopSpeak(){if("speechSynthesis" in window){try{window.speechSynthesis.cancel()}catch(e){}}}
+/* Tombol 🔊 memakai atribut data-speak. Listener tangkap (capture) +
+   stopPropagation supaya tombol audio TIDAK ikut membuka/menutup kartu. */
+document.addEventListener("click",e=>{
+  const b=e.target.closest?e.target.closest("[data-speak]"):null;
+  if(!b) return;
+  e.stopPropagation();
+  speak(b.dataset.speak);
+},true);
+/* Kartu pemilih level memakai atribut data-lv (delegasi klik). */
+document.addEventListener("click",e=>{
+  const b=e.target.closest?e.target.closest("[data-lv]"):null;
+  if(!b) return;
+  setLevel(b.dataset.lv);
+});
 function fmtDate(iso){
   if(!iso) return "";
   const p=String(iso).slice(0,10).split("-");
@@ -219,19 +293,67 @@ let quizState = null; // {date, idx, answers:{}, finished}
 let vocabMode = "list"; // list | flash
 const flipped = new Set();
 
+/* ---------- Level aktif (N3–N2 / N5–N4) ---------- */
+function levelOf(id){return LEVELS.find(L=>L.id===id)||LEVELS[0]}
+function storedLevel(){try{const v=localStorage.getItem(LS_LEVEL);return LEVELS.some(L=>L.id===v)?v:"n3n2"}catch(e){return "n3n2"}}
+let levelId = storedLevel();
+let levelFetched = false; // apakah level aktif sudah pernah dimuat dari Sheet/seed
+const LVSTATE = {}; // snapshot state per level, agar berpindah level tidak mengacak data/progres
+function LEVEL(){return levelOf(levelId)}
+function snapshotLevel(){
+  LVSTATE[levelId]={data:DATA,source:sourceKind,selectedDate,quizDate,quizState,vocabMode,fetched:levelFetched};
+}
+function restoreLevel(id){
+  const s=LVSTATE[id]||{data:{materi:[]},source:"contoh",selectedDate:"",quizDate:"",quizState:null,vocabMode:"list",fetched:false};
+  DATA=s.data; sourceKind=s.source; selectedDate=s.selectedDate; quizDate=s.quizDate;
+  quizState=s.quizState; vocabMode=s.vocabMode; levelFetched=s.fetched;
+}
+function updateHeaderLevel(){
+  const L=LEVEL();
+  $("lvlTitle").textContent=L.label;
+  $("lvlBadge").textContent=L.label+" ▾";
+  document.title="Jepang "+L.label;
+}
+function setLevel(id){
+  if(!LEVELS.some(L=>L.id===id)) id="n3n2";
+  stopSpeak();
+  if(id!==levelId){
+    snapshotLevel();
+    levelId=id;
+    try{localStorage.setItem(LS_LEVEL,id)}catch(e){}
+    restoreLevel(id);
+    flipped.clear();
+  }
+  updateHeaderLevel();
+  if(!levelFetched){
+    loadCache();
+    $("srcLabel").textContent=srcText();
+    renderAll();
+    loadData(false);
+  } else {
+    $("srcLabel").textContent=srcText();
+    renderAll();
+  }
+}
+
 function getKey(){try{return localStorage.getItem(LS_KEY)||""}catch(e){return ""}}
 function setKey(k){try{localStorage.setItem(LS_KEY,k)}catch(e){}}
-function loadProg(){try{return JSON.parse(localStorage.getItem(LS_PROG)||"{}")}catch(e){return {}}}
-function saveProg(p){try{localStorage.setItem(LS_PROG,JSON.stringify(p))}catch(e){}}
+/* Kunci penyimpanan per level: progres & cache Tota (n3n2) memakai kunci lama
+   agar data yang sudah tersimpan tidak hilang; level lain memakai suffix id level. */
+function progKey(){return levelId==="n3n2"?LS_PROG:"jepang-"+levelId+"-progress-v1"}
+function cacheKey(){return levelId==="n3n2"?LS_CACHE:"jepang-"+levelId+"-cache-v1"}
+function loadProg(){try{return JSON.parse(localStorage.getItem(progKey())||"{}")}catch(e){return {}}}
+function saveProg(p){try{localStorage.setItem(progKey(),JSON.stringify(p))}catch(e){}}
 function progOf(date){const p=loadProg();return p[date]||{grammar:{},vocab:{},quizBest:null,quizLast:null}}
 function setProg(date,fn){const p=loadProg();const cur=p[date]||{grammar:{},vocab:{},quizBest:null,quizLast:null};fn(cur);p[date]=cur;saveProg(p)}
 function sortedMateri(){return [...(DATA.materi||[])].sort((a,b)=>String(b.date).localeCompare(String(a.date)))}
 function materiOf(date){return sortedMateri().find(m=>m.date===date)||null}
 function counts(m){if(!m)return{g:0,v:0,gd:0,vd:0};const pr=progOf(m.date);return{g:(m.grammar||[]).length,v:(m.vocab||[]).length,gd:Object.keys(pr.grammar||{}).filter(k=>pr.grammar[k]).length,vd:Object.keys(pr.vocab||{}).filter(k=>pr.vocab[k]).length}}
 function srcText(){
+  if(levelId==="n5n4" && !sortedMateri().length) return "Materi N5–N4 sedang disiapkan 🌸";
   const latest = sortedMateri()[0];
   if(sourceKind==="sheet") return "Data: Sheet • " + (latest?fmtShort(latest.date):"");
-  if(sourceKind==="seed") return "Data: cadangan (seed.json)" + (latest?" • "+fmtShort(latest.date):"");
+  if(sourceKind==="seed") return "Data "+LEVEL().label+": cadangan ("+LEVEL().seedFile+")" + (latest?" • "+fmtShort(latest.date):"");
   if(sourceKind==="cache") return "Data: tersimpan di HP" + (latest?" • "+fmtShort(latest.date):"") + " — ketuk Sinkronkan untuk terbaru";
   return "Data contoh — hubungkan Sheet untuk materi asli";
 }
@@ -248,35 +370,46 @@ function applyData(json,kind){
   return true;
 }
 function loadCache(){
-  try{const c=JSON.parse(localStorage.getItem(LS_CACHE)||"null");if(c&&c.data)return applyData(c.data,"cache")}catch(e){}
+  try{const c=JSON.parse(localStorage.getItem(cacheKey())||"null");if(c&&c.data)return applyData(c.data,"cache")}catch(e){}
   return false;
 }
-function saveCache(){try{localStorage.setItem(LS_CACHE,JSON.stringify({data:DATA,at:Date.now()}))}catch(e){}}
+function saveCache(){try{localStorage.setItem(cacheKey(),JSON.stringify({data:DATA,at:Date.now()}))}catch(e){}}
 async function fetchJson(url){const r=await fetch(url,{cache:"no-store"});if(!r.ok)throw new Error("http "+r.status);return r.json()}
 async function loadData(manual){
+  const L = LEVEL(), myLevel = L.id;
   if(manual) $("srcLabel").textContent = "Menyinkronkan…";
-  // (2) Sheet lewat Apps Script, bila URL terisi & kode akses ada
-  if(SYNC_URL && getKey()){
+  // (2) Sheet level ini lewat Apps Script, bila URL terisi & kode akses ada
+  if(L.syncUrl && getKey()){
     try{
-      const j = await fetchJson(SYNC_URL + "?key=" + encodeURIComponent(getKey()));
-      if(j && j.ok!==false && applyData(j,"sheet")){saveCache();if(manual)toast("Sinkron selesai — data dari Sheet");return}
+      const j = await fetchJson(L.syncUrl + "?key=" + encodeURIComponent(getKey()));
+      if(myLevel!==levelId) return; // level sudah berganti selama memuat
+      if(j && j.ok!==false && applyData(j,"sheet")){saveCache();levelFetched=true;if(manual)toast("Sinkron selesai — data "+L.label+" dari Sheet");return}
     }catch(e){/* lanjut ke cadangan */}
-  } else if(manual && SYNC_URL && !getKey()){
+  } else if(manual && L.syncUrl && !getKey()){
     toast("Isi Kode akses dulu, ya");
   }
-  // (3) seed.json relatif
+  // (3) file seed relatif milik level ini
   try{
-    const j = await fetchJson("seed.json");
-    if(applyData(j,"seed")){if(manual)toast("Menampilkan data cadangan (seed.json)");return}
-  }catch(e){/* lanjut ke dummy / cache */}
-  // (4) dummy, kecuali cache sudah tampil
-  if(sourceKind!=="cache" || !DATA.materi.length){applyData(JSON.parse(JSON.stringify(DUMMY)),"contoh")}
-  if(manual) toast("Sheet belum terhubung — menampilkan data cadangan/contoh");
+    const j = await fetchJson(L.seedFile);
+    if(myLevel!==levelId) return;
+    if(applyData(j,"seed")){levelFetched=true;if(manual)toast("Menampilkan data cadangan ("+L.seedFile+")");return}
+  }catch(e){/* lanjut ke dummy / pesan kosong */}
+  levelFetched = true;
+  // (4) dummy contoh hanya untuk N3–N2; level N5–N4 yang belum punya data
+  //     dibiarkan kosong dan menampilkan pesan "sedang disiapkan".
+  if(L.id==="n3n2" && (sourceKind!=="cache" || !DATA.materi.length)){applyData(JSON.parse(JSON.stringify(DUMMY)),"contoh")}
+  if(manual){
+    if(L.id==="n5n4" && !sortedMateri().length) toast("Materi N5–N4 sedang disiapkan 🌸");
+    else toast("Sheet belum terhubung — menampilkan data cadangan/contoh");
+  }
+  $("srcLabel").textContent = srcText();
+  renderAll();
 }
 
 /* ---------- Navigasi ---------- */
 let view = "home";
 function go(v){
+  stopSpeak();
   view=v;
   ["home","materi","quiz","arsip"].forEach(x=>{$("view-"+x).hidden = x!==v});
   document.querySelectorAll(".bnav button").forEach(b=>b.classList.toggle("on",b.dataset.view===v));
@@ -285,14 +418,30 @@ function go(v){
 }
 document.querySelectorAll(".bnav button").forEach(b=>b.onclick=()=>go(b.dataset.view));
 
+/* ---------- Pemilih level & pesan kosong ---------- */
+function levelPickerHtml(){
+  return '<div class="lvgrid" role="group" aria-label="Pilih level belajar">'+
+    LEVELS.map(L=>'<button class="lvcard'+(L.id===levelId?" on":"")+'" data-lv="'+L.id+'"><b>'+esc(L.label)+'</b><span>'+esc(L.desc)+'</span></button>').join("")+
+    '</div>';
+}
+function levelSwitchHtml(){
+  return '<div class="seg" role="group" aria-label="Ganti level">'+
+    LEVELS.map(L=>'<button data-lv="'+L.id+'" class="'+(L.id===levelId?"on":"")+'">Level '+esc(L.label)+'</button>').join("")+
+    '</div>';
+}
+function noDataMsg(){
+  if(levelId==="n5n4") return '<b>🌸</b>Materi N5–N4 sedang disiapkan.<br>Materi untuk level pemula akan segera hadir di sini — silakan cek lagi nanti, ya.';
+  return '<b>🌸</b>Belum ada materi.<br>Ketuk “Sinkronkan” setelah Sheet terhubung.';
+}
+
 /* ---------- Render: Beranda ---------- */
 function renderHome(){
   const m = materiOf(selectedDate) || sortedMateri()[0];
   const el = $("view-home");
-  if(!m){el.innerHTML='<div class="card empty"><b>🌸</b>Belum ada materi.<br>Ketuk “Sinkronkan” setelah Sheet terhubung.</div>';return}
+  if(!m){el.innerHTML=levelPickerHtml()+'<div class="card empty">'+noDataMsg()+'</div>';return}
   const c = counts(m), pr = progOf(m.date);
   const pct = (c.g+c.v)?Math.round((c.gd+c.vd)/(c.g+c.v)*100):0;
-  el.innerHTML =
+  el.innerHTML = levelPickerHtml() +
     '<section class="hero"><small>'+esc(fmtDate(m.date))+(m.context?' • '+esc(m.context):'')+'</small>'+
     '<h2>'+esc(m.theme||"Materi hari ini")+'</h2>'+
     (m.target?'<p>🎯 '+esc(m.target)+'</p>':'')+'</section>'+
@@ -319,13 +468,13 @@ function fillDateSelects(){
   $("dateSel").innerHTML=opts; $("dateSel").value=selectedDate;
   $("quizDateSel").innerHTML=opts; $("quizDateSel").value=quizDate||selectedDate;
 }
-$("dateSel").onchange=e=>{selectedDate=e.target.value;renderMateri();renderHome()};
-$("quizDateSel").onchange=e=>{quizDate=e.target.value;quizState=null;renderQuiz()};
+$("dateSel").onchange=e=>{stopSpeak();selectedDate=e.target.value;renderMateri();renderHome()};
+$("quizDateSel").onchange=e=>{stopSpeak();quizDate=e.target.value;quizState=null;renderQuiz()};
 
 function renderMateri(){
   fillDateSelects();
   const m = materiOf(selectedDate), el = $("materiBody");
-  if(!m){el.innerHTML='<div class="card empty"><b>📖</b>Materi tanggal ini belum ada.</div>';return}
+  if(!m){el.innerHTML='<div class="card empty">'+(sortedMateri().length?'<b>📖</b>Materi tanggal ini belum ada.':noDataMsg())+'</div>';return}
   const pr = progOf(m.date);
   let h = '<div class="card"><small class="mini">'+esc(fmtDate(m.date))+(m.context?' • '+esc(m.context):'')+'</small><h2 style="margin-top:4px">'+esc(m.theme||"")+'</h2>'+
     (m.target?'<p class="mini">🎯 '+esc(m.target)+'</p>':'')+
@@ -334,13 +483,13 @@ function renderMateri(){
   h += '<div class="card"><h3>📝 Grammar</h3>';
   (m.grammar||[]).forEach(g=>{
     const done = !!(pr.grammar&&pr.grammar[g.no]);
-    h += '<div class="gcard" data-g="'+g.no+'"><button class="ghead"><span class="pat">'+esc(g.pattern)+'</span><span class="lvl '+((g.level||"")==="N2"?"n2":"")+'">'+esc(g.level||"")+'</span><span class="arr">▾</span></button>'+
+    h += '<div class="gcard" data-g="'+g.no+'"><button class="ghead"><span class="pat">'+esc(g.pattern)+'</span><span class="lvl '+((g.level||"")==="N2"||(g.level||"")==="N4"?"n2":"")+'">'+esc(g.level||"")+'</span><span class="arr">▾</span></button>'+
       '<div class="gbody">'+
       (g.romaji?'<p><span class="lbl">Romaji</span><br>'+esc(g.romaji)+'</p>':'')+
       '<p><span class="lbl">Arti</span><br>'+esc(g.meaning||"")+'</p>'+
       (g.formation?'<p><span class="lbl">Cara membentuk</span><br>'+esc(g.formation)+'</p>':'')+
       (g.nuance?'<p><span class="lbl">Nuansa</span><br>'+esc(g.nuance)+'</p>':'')+
-      (g.examples||[]).map(ex=>'<div class="ex"><div class="jp">'+esc(ex.jp)+'</div><div class="id">'+esc(ex.id)+'</div></div>').join("")+
+      (g.examples||[]).map(ex=>'<div class="ex"><button class="abtn" data-speak="'+esc(ex.jp)+'" aria-label="Dengarkan contoh">🔊</button><div class="jp">'+esc(ex.jp)+'</div><div class="id">'+esc(ex.id)+'</div></div>').join("")+
       '<button class="check '+(done?"on":"")+'" data-check-g="'+g.no+'">'+(done?"✓ Sudah paham":"Tandai sudah paham")+'</button>'+
       '</div></div>';
   });
@@ -350,7 +499,7 @@ function renderMateri(){
 
   if((m.dialog||[]).length){
     h += '<div class="card"><h3>💬 Dialog</h3>'+ (m.dialog||[]).map((d,i)=>
-      '<div class="bubble '+(i%2?"b":"a")+'"><div class="sp">'+esc(d.speaker||"")+'</div><div>'+esc(d.jp)+'</div><div class="bid">'+esc(d.id)+'</div></div>').join("") + '</div>';
+      '<div class="bubble '+(i%2?"b":"a")+'"><button class="abtn" data-speak="'+esc(d.jp)+'" aria-label="Dengarkan dialog">🔊</button><div class="sp">'+esc(d.speaker||"")+'</div><div>'+esc(d.jp)+'</div><div class="bid">'+esc(d.id)+'</div></div>').join("") + '</div>';
   }
   if(m.tips) h += '<div class="tips"><b>💡 Tips hafalan</b><br>'+esc(m.tips)+'</div>';
   if(m.pdf) h += '<a class="btn ghost" href="'+esc(m.pdf)+'" target="_blank" rel="noopener">📄 Buka PDF asli</a>';
@@ -370,18 +519,20 @@ function renderVocab(m){
   const pr=progOf(m.date);
   if(vocabMode==="flash"){
     el.innerHTML=(m.vocab||[]).map(v=>{
-      const flip=flipped.has(m.date+":"+v.no), done=!!(pr.vocab&&pr.vocab[v.no]);
+      const flip=flipped.has(levelId+":"+m.date+":"+v.no), done=!!(pr.vocab&&pr.vocab[v.no]);
       return '<button class="flash'+(flip?" flip":"")+'" data-flip="'+v.no+'"><span class="fw">'+esc(v.word)+'</span><span class="fr">'+esc(v.reading||"")+'</span>'+
         '<span class="fm">'+esc(v.meaning||"")+'<br><small>'+esc(v.example_jp||"")+'<br>'+esc(v.example_id||"")+'</small></span>'+
         '<span class="hint">'+(flip?(done?"✓ Sudah hafal — ketuk kartu untuk membalik":"Ketuk untuk membalik"):"Ketuk kartu untuk melihat arti")+'</span></button>'+
+        '<div class="audiorow"><button class="abtn wide" data-speak="'+esc(v.word)+'" aria-label="Dengarkan kata">🔊 Kata</button>'+
+        (v.example_jp?'<button class="abtn wide" data-speak="'+esc(v.example_jp)+'" aria-label="Dengarkan contoh kalimat">🔊 Contoh</button>':'')+'</div>'+
         '<button class="check '+(done?"on":"")+'" data-check-v="'+v.no+'" style="margin:-4px 0 12px">'+(done?"✓ Sudah hafal":"Tandai sudah hafal")+'</button>';
     }).join("");
-    el.querySelectorAll("[data-flip]").forEach(b=>b.onclick=()=>{const k=m.date+":"+b.dataset.flip;flipped.has(k)?flipped.delete(k):flipped.add(k);renderVocab(m)});
+    el.querySelectorAll("[data-flip]").forEach(b=>b.onclick=()=>{const k=levelId+":"+m.date+":"+b.dataset.flip;flipped.has(k)?flipped.delete(k):flipped.add(k);renderVocab(m)});
   } else {
     el.innerHTML=(m.vocab||[]).map(v=>{
       const done=!!(pr.vocab&&pr.vocab[v.no]);
-      return '<div class="vrow"><div class="w"><b>'+esc(v.word)+'</b> <span class="rd">'+esc(v.reading||"")+'</span><div class="mn">'+esc(v.meaning||"")+'</div>'+
-        (v.example_jp?'<div class="ex2">'+esc(v.example_jp)+'<br>'+esc(v.example_id||"")+'</div>':'')+'</div>'+
+      return '<div class="vrow"><div class="w"><b>'+esc(v.word)+'</b> <span class="rd">'+esc(v.reading||"")+'</span> <button class="abtn" data-speak="'+esc(v.word)+'" aria-label="Dengarkan kata">🔊</button><div class="mn">'+esc(v.meaning||"")+'</div>'+
+        (v.example_jp?'<div class="ex2">'+esc(v.example_jp)+' <button class="abtn" data-speak="'+esc(v.example_jp)+'" aria-label="Dengarkan contoh kalimat">🔊</button><br>'+esc(v.example_id||"")+'</div>':'')+'</div>'+
         '<button class="check '+(done?"on":"")+'" data-check-v="'+v.no+'">'+(done?"✓ Hafal":"Hafal?")+'</button></div>';
     }).join("");
   }
@@ -396,7 +547,7 @@ function renderVocab(m){
 function renderQuiz(){
   fillDateSelects();
   const m = materiOf(quizDate||selectedDate), el=$("quizBody");
-  if(!m){el.innerHTML='<div class="card empty"><b>📝</b>Quiz belum tersedia.</div>';return}
+  if(!m){el.innerHTML='<div class="card empty">'+(sortedMateri().length?'<b>📝</b>Quiz belum tersedia.':noDataMsg())+'</div>';return}
   const qs = m.quiz||[];
   if(!qs.length){el.innerHTML='<div class="card empty"><b>📝</b>Quiz belum tersedia untuk tanggal ini.<br>Quiz biasanya dibuat malam hari setelah materinya terbit. Coba lagi nanti, ya.</div>';return}
   if(!quizState || quizState.date!==m.date) quizState={date:m.date,idx:0,answers:{},finished:false};
@@ -450,8 +601,8 @@ function renderArsip(){
       ...(m.vocab||[]).map(v=>(v.word||"")+" "+(v.meaning||""))].join(" ").toLowerCase();
     return hay.includes(q);
   });
-  if(!list.length){el.innerHTML='<div class="card empty"><b>🗂️</b>'+(q?"Tidak ada materi yang cocok dengan pencarian itu.":"Arsip masih kosong.")+'</div>';return}
-  el.innerHTML=list.map(m=>{
+  if(!list.length){el.innerHTML=levelSwitchHtml()+'<div class="card empty">'+(q?'<b>🗂️</b>Tidak ada materi yang cocok dengan pencarian itu.':noDataMsg())+'</div>';return}
+  el.innerHTML=levelSwitchHtml()+list.map(m=>{
     const c=counts(m), pr=progOf(m.date);
     const done=(c.g&&c.gd>=c.g)&&(c.v&&c.vd>=c.v);
     return '<button class="arow" data-date="'+esc(m.date)+'"><span class="t"><b>'+esc(fmtShort(m.date))+' — '+esc(m.theme||"")+'</b><span>'+esc(m.context||"")+' • Grammar '+c.gd+'/'+c.g+' • Vocab '+c.vd+'/'+c.v+(pr.quizBest!==null&&pr.quizBest!==undefined?" • Quiz terbaik "+pr.quizBest:"")+'</span></span><span class="st '+(done?"done":"")+'">'+(done?"✓ Tuntas":"Buka ›")+'</span></button>';
@@ -460,7 +611,6 @@ function renderArsip(){
 }
 
 function renderAll(){
-  if(!sortedMateri().length){$("view-home").innerHTML='<div class="card empty"><b>🌸</b>Memuat data…</div>';return}
   renderHome(); renderMateri(); renderQuiz(); renderArsip();
   // kembalikan tampilan aktif setelah render ulang
   ["home","materi","quiz","arsip"].forEach(x=>{$("view-"+x).hidden = x!==view});
@@ -476,8 +626,10 @@ $("btnKey").onclick=()=>{
   if(k.trim()) loadData(true);
 };
 $("btnSync").onclick=()=>loadData(true);
+$("lvlBadge").onclick=()=>{go("home");toast("Pilih level pada kartu di Beranda 👆")};
 
 /* ---------- Mulai ---------- */
+updateHeaderLevel();
 loadCache();
 renderAll();
 loadData(false);

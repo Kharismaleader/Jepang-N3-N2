@@ -8,6 +8,12 @@ App ini adalah versi HTML dari materi harian yang sebelumnya berbentuk PDF + Qui
 
 ## Fitur
 
+- **Dua level belajar** — di Beranda ada dua kartu pemilih level yang menonjol:
+  - **N3–N2** · *Untuk saya* — kerja, bisnis & target JLPT N2 (data dari Sheet **“Materi”**).
+  - **N5–N4** · *Untuk istri* — pemula, percakapan sehari-hari (data dari Sheet **“Materi N5-N4”**).
+  
+  Level aktif ter-highlight, tampil sebagai badge di header (ketuk badge untuk kembali memilih), dan bisa diganti juga dari tab Arsip. Pilihan tersimpan di perangkat (`localStorage` kunci `jpn.level`) dan berlaku untuk semua tab. **Data, cache, progres, dan skor quiz disimpan terpisah per level**, jadi progres kedua level tidak tercampur. Bila materi N5–N4 belum tersedia, aplikasi menampilkan pesan ramah “Materi N5–N4 sedang disiapkan”.
+- **Tombol audio 🔊 (text-to-speech)** — setiap vocab (kata + kalimat contoh), kartu kilat vocab, balon dialog, dan contoh kalimat grammar punya tombol dengar yang membacakan teks Jepangnya memakai Web Speech API (`speechSynthesis`, bahasa `ja-JP`, kecepatan 0,92) — tanpa file audio eksternal. Ucapan berhenti otomatis saat berpindah tab, level, atau tanggal.
 - **Beranda** — materi terbaru: tanggal, tema, target hari ini, ringkasan grammar & vocab sekilas, tombol *Mulai Belajar* dan *Kerjakan Quiz*, plus indikator progres hari itu.
 - **Materi** — pemilih tanggal, lalu:
   - Kartu grammar yang bisa dibuka-tutup (pola, romaji, arti, cara membentuk, nuansa, contoh Jepang + terjemahan Indonesia) dengan tombol centang **“sudah paham”**.
@@ -22,14 +28,15 @@ App ini adalah versi HTML dari materi harian yang sebelumnya berbentuk PDF + Qui
 ## Cara kerja data
 
 ```
-Google Sheet "Materi"  →  Apps Script Web App (/exec)  →  aplikasi ini (fetch JSON)
-                                                              ↘ seed.json (cadangan di repo)
-                                                              ↘ data contoh bawaan (fallback terakhir)
+Google Sheet "Materi"       →  Apps Script Web App (/exec)  →  level N3–N2
+Google Sheet "Materi N5-N4" →  Apps Script Web App (/exec)  →  level N5–N4
+        (masing-masing level)  ↘ seed.json / seed-n5n4.json (cadangan di repo)
+                               ↘ data contoh bawaan (fallback terakhir, khusus N3–N2)
 ```
 
-1. Materi baru setiap hari ditulis ke Google Sheet **“Materi”**.
-2. Apps Script yang terikat ke Sheet itu di-deploy sebagai Web App dan mengembalikan JSON materi. Setiap permintaan diperiksa dengan **kode akses** yang dimasukkan sekali per perangkat lewat tombol **“Kode akses”** di aplikasi (kode hanya disimpan di perangkat, bukan di kode sumber).
-3. Urutan muat data di aplikasi: (1) cache di perangkat bila ada, (2) Sheet lewat Apps Script bila `SYNC_URL` sudah diisi dan kode akses ada — tombol **“Sinkronkan”** memaksa muat ulang, (3) file `seed.json` di repo yang sama sebagai cadangan, (4) data contoh bawaan untuk demo.
+1. Materi baru setiap hari ditulis ke Google Sheet sesuai levelnya: **“Materi”** untuk N3–N2 dan **“Materi N5-N4”** untuk N5–N4.
+2. Apps Script yang terikat ke masing-masing Sheet di-deploy sebagai Web App dan mengembalikan JSON materi. Setiap permintaan diperiksa dengan **kode akses** yang dimasukkan sekali per perangkat lewat tombol **“Kode akses”** di aplikasi (kode hanya disimpan di perangkat, bukan di kode sumber). **Satu kode akses yang sama dipakai untuk kedua endpoint.**
+3. Urutan muat data per level di aplikasi: (1) cache di perangkat bila ada, (2) Sheet level itu lewat Apps Script bila URL sync level itu sudah diisi dan kode akses ada — tombol **“Sinkronkan”** memaksa muat ulang level yang sedang aktif, (3) file seed level itu (`seed.json` / `seed-n5n4.json`) di repo yang sama sebagai cadangan, (4) data contoh bawaan untuk demo (khusus N3–N2; N5–N4 menampilkan pesan “sedang disiapkan”).
 4. Aplikasi menampilkan sumber datanya dengan halus di bawah header, misalnya “Data: Sheet • …” atau “Data contoh”.
 
 Format JSON yang dikembalikan Apps Script / isi `seed.json`:
@@ -42,23 +49,25 @@ Format JSON yang dikembalikan Apps Script / isi `seed.json`:
 "quiz":[{"no":1,"type":"Grammar","question":"...","options":["A","B","C","D"],"answer":0,"explanation":"..."}]}]}
 ```
 
-## Memperbarui SYNC_URL
+## Memperbarui SYNC_URL (dua level)
 
-1. Deploy Apps Script Sheet “Materi” sebagai Web App dan salin URL-nya (berakhiran `/exec`).
-2. Buka `index.html`, cari konstanta di dekat atas `<script>`:
+Ada **dua** konstanta URL sync di dekat atas `<script>` dalam `index.html`, satu per level/Sheet:
 
-   ```js
-   const SYNC_URL = "";
-   ```
+```js
+const SYNC_URL = "...";       // Sheet "Materi"       → level N3–N2 (sudah terisi)
+const SYNC_URL_N5N4 = "";     // Sheet "Materi N5-N4" → level N5–N4 (isi setelah deploy)
+```
 
-3. Isi dengan URL `/exec` tersebut, commit, dan push. Setelah GitHub Pages ter-update, isi **Kode akses** sekali di setiap perangkat, lalu ketuk **Sinkronkan**.
+1. Deploy Apps Script Sheet yang bersangkutan sebagai Web App dan salin URL-nya (berakhiran `/exec`).
+2. Isi konstanta yang sesuai di `index.html`, commit, dan push. Setelah GitHub Pages ter-update, isi **Kode akses** sekali di setiap perangkat (kode yang sama untuk kedua level), lalu ketuk **Sinkronkan**.
 
 ## Daftar file
 
 | File | Isi |
 |---|---|
 | `index.html` | Seluruh aplikasi (HTML + CSS + JavaScript dalam satu file, tanpa build step) |
-| `seed.json` | Data cadangan dalam format yang sama dengan respons Apps Script, dipakai bila Sheet belum terhubung/gagal dimuat |
+| `seed.json` | Data cadangan level N3–N2 dalam format yang sama dengan respons Apps Script, dipakai bila Sheet belum terhubung/gagal dimuat |
+| `seed-n5n4.json` | Data cadangan level N5–N4, format sama seperti `seed.json` |
 | `hasian.gif` | Avatar Hasian (bulat 40px) di kiri atas header |
 | `README.md` | Dokumen ini |
 
