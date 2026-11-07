@@ -200,6 +200,10 @@ const SYNC_URL = "https://script.google.com/macros/s/AKfycbzM9aTf6KzwZ7FBTE-5Qd2
    Kode akses tetap SATU kode yang sama untuk kedua endpoint.
    ------------------------------------------------------------ */
 const SYNC_URL_N5N4 = "https://script.google.com/macros/s/AKfycbzm9RBFLmpp0I0gTuW8vsfrO7otfPaZhkWXjYmlu3AwKy1oRFAvde5jgXWUfNrk0vNj/exec";
+/* Endpoint pencatat hasil belajar (Apps Script "Daily Japan Log" yang
+   terikat ke Sheet "Log Quiz Daily Japan"). Diisi setelah ter-deploy;
+   selama kosong, catatan tersimpan di antrean perangkat saja. */
+const LOG_URL = "https://script.google.com/macros/s/AKfycbyp0Ze0t2WwOlPWkbOsRSlc-I6j6Y0Zuq00Vdp46LTE7T8GVM__sKoa53gX9oS2S8IOoA/exec";
 
 /* Dua level belajar yang didukung aplikasi. Data, cache,
    progres, dan skor quiz disimpan TERPISAH per level. */
@@ -390,6 +394,56 @@ function loadProg(){try{return JSON.parse(localStorage.getItem(progKey())||"{}")
 function saveProg(p){try{localStorage.setItem(progKey(),JSON.stringify(p))}catch(e){}}
 function progOf(date){const p=loadProg();return p[date]||{grammar:{},vocab:{},quizBest:null,quizLast:null}}
 function setProg(date,fn){const p=loadProg();const cur=p[date]||{grammar:{},vocab:{},quizBest:null,quizLast:null};fn(cur);p[date]=cur;saveProg(p)}
+
+/* ---------- Catatan hasil belajar -> Sheet "Log Quiz Daily Japan" ----------
+   Setiap quiz yang selesai dan setiap perubahan tanda paham/hafal dikirim
+   ke endpoint LOG_URL (Apps Script). Bila sedang offline / endpoint belum
+   diisi, catatan mengantre di localStorage dan dikirim pada kesempatan
+   berikutnya (maks. 60 antrean). Pengguna dibedakan dari levelnya:
+   N3-N2 = Tota, N5-N4 = Istri. */
+const USER_LABEL={n3n2:"Tota",n5n4:"Istri"};
+const LS_LOGQ="jpn.logqueue.v1";
+function logUser(){return (USER_LABEL[levelId]||levelId)+" ("+LEVEL().label+")"}
+function loadLogQ(){try{return JSON.parse(localStorage.getItem(LS_LOGQ)||"[]")}catch(e){return[]}}
+function saveLogQ(q){try{localStorage.setItem(LS_LOGQ,JSON.stringify(q.slice(-60)))}catch(e){}}
+function enqueueLog(rec){
+  rec.key=getKey();
+  const q=loadLogQ(); q.push(rec); saveLogQ(q);
+  flushLog();
+}
+async function flushLog(){
+  if(!LOG_URL||flushLog.busy) return;
+  flushLog.busy=true;
+  try{
+    let q=loadLogQ();
+    while(q.length){
+      await fetch(LOG_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(q[0])});
+      q.shift(); saveLogQ(q);
+    }
+  }catch(e){/* koneksi gagal: catatan tetap mengantre di perangkat */}
+  flushLog.busy=false;
+}
+function logQuizResult(m,qs,answers,score){
+  const sid=m.date+"-"+levelId+"-"+Date.now().toString(36);
+  const dur=(quizState&&quizState.startedAt)?Math.max(0,Math.round((Date.now()-quizState.startedAt)/1000)):"";
+  enqueueLog({kind:"quiz",session:sid,user:logUser(),level:LEVEL().label,date:m.date,theme:m.theme||"",
+    score:score,total:qs.length,percent:qs.length?Math.round(score/qs.length*100):0,duration:dur,
+    answers:qs.map((q,i)=>({no:q.no||i+1,type:q.type||"",question:String(q.question||"").slice(0,200),
+      picked:(q.options||[])[answers[i]]!=null?String((q.options||[])[answers[i]]):"",
+      correct:(q.options||[])[q.answer]!=null?String((q.options||[])[q.answer]):"",
+      right:answers[i]===q.answer}))});
+}
+let progLogTimer=null;
+function queueProgressLog(m){
+  if(!m) return;
+  clearTimeout(progLogTimer);
+  progLogTimer=setTimeout(()=>{
+    const c=counts(m);
+    enqueueLog({kind:"progres",user:logUser(),level:LEVEL().label,date:m.date,
+      gDone:c.gd,gTotal:c.g,vDone:c.vd,vTotal:c.v,
+      status:(c.g>0&&c.gd>=c.g&&c.v>0&&c.vd>=c.v)?"Tuntas":"Berlangsung"});
+  },1200);
+}
 function sortedMateri(){return [...(DATA.materi||[])].sort((a,b)=>String(b.date).localeCompare(String(a.date)))}
 function materiOf(date){return sortedMateri().find(m=>m.date===date)||null}
 function counts(m){if(!m)return{g:0,v:0,gd:0,vd:0};const pr=progOf(m.date);return{g:(m.grammar||[]).length,v:(m.vocab||[]).length,gd:Object.keys(pr.grammar||{}).filter(k=>pr.grammar[k]).length,vd:Object.keys(pr.vocab||{}).filter(k=>pr.vocab[k]).length}}
@@ -553,6 +607,7 @@ function renderMateri(){
   el.querySelectorAll("[data-check-g]").forEach(b=>b.onclick=()=>{
     const no=b.dataset.checkG;
     setProg(m.date,p=>{p.grammar=p.grammar||{};p.grammar[no]=!p.grammar[no]});
+    queueProgressLog(m);
     renderMateri(); renderHome();
   });
   el.querySelectorAll("[data-vm]").forEach(b=>b.onclick=()=>{vocabMode=b.dataset.vm;renderMateri()});
@@ -583,6 +638,7 @@ function renderVocab(m){
   el.querySelectorAll("[data-check-v]").forEach(b=>b.onclick=()=>{
     const no=b.dataset.checkV;
     setProg(m.date,p=>{p.vocab=p.vocab||{};p.vocab[no]=!p.vocab[no]});
+    queueProgressLog(m);
     renderMateri(); renderHome();
   });
 }
@@ -594,14 +650,14 @@ function renderQuiz(){
   if(!m){el.innerHTML='<div class="card empty">'+(sortedMateri().length?'<b>📝</b>Quiz belum tersedia.':noDataMsg())+'</div>';return}
   const qs = m.quiz||[];
   if(!qs.length){el.innerHTML='<div class="card empty"><b>📝</b>Quiz belum tersedia untuk tanggal ini.<br>Quiz biasanya dibuat malam hari setelah materinya terbit. Coba lagi nanti, ya.</div>';return}
-  if(!quizState || quizState.date!==m.date) quizState={date:m.date,idx:0,answers:{},finished:false};
+  if(!quizState || quizState.date!==m.date) quizState={date:m.date,idx:0,answers:{},finished:false,startedAt:Date.now()};
   const st=quizState, pr=progOf(m.date);
   if(st.finished){
     const score=qs.reduce((s,q,i)=>s+(st.answers[i]===q.answer?1:0),0);
     el.innerHTML='<div class="card score"><p class="mini">Quiz selesai — '+esc(fmtShort(m.date))+'</p><b>'+score+' / '+qs.length+'</b>'+
       '<p class="mini">Skor terbaik untuk tanggal ini: '+(pr.quizBest===null||pr.quizBest===undefined?score:pr.quizBest)+' / '+qs.length+'</p>'+
       '<button class="btn pri" id="qRetry">↻ Ulangi Quiz</button><button class="btn ghost" id="qReview">Lihat Materi Lagi</button></div>';
-    $("qRetry").onclick=()=>{quizState={date:m.date,idx:0,answers:{},finished:false};renderQuiz()};
+    $("qRetry").onclick=()=>{quizState={date:m.date,idx:0,answers:{},finished:false,startedAt:Date.now()};renderQuiz()};
     $("qReview").onclick=()=>{selectedDate=m.date;go("materi")};
     return;
   }
@@ -629,6 +685,7 @@ function renderQuiz(){
       st.finished=true;
       const score=qs.reduce((s,qq,ii)=>s+(st.answers[ii]===qq.answer?1:0),0);
       setProg(m.date,p=>{p.quizLast=score;if(p.quizBest===null||p.quizBest===undefined||score>p.quizBest)p.quizBest=score});
+      logQuizResult(m,qs,st.answers,score);
     } else st.idx++;
     renderQuiz(); renderHome();
   };
@@ -677,6 +734,7 @@ updateHeaderLevel();
 loadCache();
 renderAll();
 loadData(false);
+flushLog();
 </script>
 </body>
 </html>
