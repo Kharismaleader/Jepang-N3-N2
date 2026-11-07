@@ -220,17 +220,46 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;
 function toast(m){const t=$("toast");t.textContent=m;t.className="toast on";clearTimeout(toast.h);toast.h=setTimeout(()=>t.className="toast",2200)}
 
 /* ---------- Audio: text-to-speech Bahasa Jepang (Web Speech API) ---------- */
+/* Catatan iOS Safari (perbaikan 2026-11-08): memanggil cancel() TEPAT sebelum
+   speak() dalam tugas yang sama membuat ucapan baru dibuang diam-diam oleh
+   WebKit (tidak ada suara sama sekali). Karena itu: cancel HANYA bila memang
+   sedang ada ucapan/antrian, lalu beri jeda singkat sebelum bicara; bila
+   sedang diam, langsung bicara sinkron di dalam gestur ketuk pengguna.
+   Suara ja-JP juga dipilih eksplisit bila tersedia (daftar suara iOS termuat
+   asinkron lewat event voiceschanged), dan resume() dipanggil untuk bug
+   status "paused" di iOS. */
+let jaVoice=null;
+function loadVoices(){
+  try{
+    const vs=window.speechSynthesis.getVoices()||[];
+    jaVoice=vs.find(v=>/^ja([-_]|$)/i.test(v.lang||""))||null;
+  }catch(e){}
+}
+if("speechSynthesis" in window){
+  loadVoices();
+  try{window.speechSynthesis.addEventListener("voiceschanged",loadVoices)}catch(e){}
+}
 function speak(text){
   const t=String(text??"").trim();
   if(!t) return;
   if(!("speechSynthesis" in window)){toast("Audio tidak tersedia di browser ini");return}
+  const synth=window.speechSynthesis;
+  const doSpeak=()=>{
+    try{
+      const u=new SpeechSynthesisUtterance(t);
+      u.lang="ja-JP";
+      u.rate=0.92;
+      u.volume=1;
+      if(jaVoice) u.voice=jaVoice;
+      u.onerror=ev=>{if(ev&&(ev.error==="language-unavailable"||ev.error==="voice-unavailable"))toast("Suara Bahasa Jepang belum terpasang di perangkat ini")};
+      synth.speak(u);
+      if(synth.paused) synth.resume();
+    }catch(e){toast("Audio tidak tersedia di browser ini")}
+  };
   try{
-    window.speechSynthesis.cancel(); // batalkan ucapan yang sedang berjalan
-    const u=new SpeechSynthesisUtterance(t);
-    u.lang="ja-JP";
-    u.rate=0.92;
-    window.speechSynthesis.speak(u);
-  }catch(e){toast("Audio tidak tersedia di browser ini")}
+    if(synth.speaking||synth.pending){synth.cancel();setTimeout(doSpeak,90)}
+    else doSpeak();
+  }catch(e){doSpeak()}
 }
 function stopSpeak(){if("speechSynthesis" in window){try{window.speechSynthesis.cancel()}catch(e){}}}
 /* Tombol 🔊 memakai atribut data-speak. Listener tangkap (capture) +
