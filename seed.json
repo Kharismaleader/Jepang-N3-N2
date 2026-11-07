@@ -1,0 +1,2717 @@
+{
+  "ok": true,
+  "materi": [
+    {
+      "date": "2026-11-07",
+      "theme": "Keluarga & Kehidupan Sehari-hari - Rutinitas Rumah & Anak Toddler",
+      "context": "Keluarga-Kesehatan",
+      "target": "Hafalkan 6 grammar dan 15 vocab di bawah ini dalam 10–15 menit. Fokus pada bahasa rumah tangga: menolong dan diberi tolong (～てあげる・～てくれる・～てもらう), perubahan pada anak (～ようになる, ～つつある), dan keluhan ringan di rumah (～すぎる, ～っぱなし). Quiz-nya dibuat dari halaman ini, malam ini jam 22:00.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Hafalkan ～てあげる・～てくれる・～てもらう sebagai satu set arah bantuan: gambar panah saya → orang lain (あげる), orang lain → saya (くれる), saya ← orang lain (もらう). Ucapkan tiga kalimat tentang keluargamu sendiri dengan pola ini. • 3. Latih dialog di atas dengan suara keras, bergantian jadi Tota dan jadi istri — ini percakapan pulang kerja yang benar-benar kamu pakai setiap hari. • 4. Kelilingi rumah dan ucapkan 5 vocab sambil menunjuk bendanya: 洗濯物, お風呂, おもちゃ (片付け!), ごみ, おむつ. Mengaitkan kata dengan benda nyata jauh lebih kuat daripada menghafal dari daftar. • 5. Tulis 5 vocab yang paling sulit di catatan HP — itu yang akan muncul lagi di quiz jam 22:00. • 6. Kerjakan quiz malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1oKTl0dQoLV047vjwzwYl4FzSVEVE0vKL/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N3",
+          "pattern": "～てあげる・～てくれる・～てもらう",
+          "romaji": "te ageru / te kureru / te morau",
+          "meaning": "Tiga cara menyatakan 'menolong / diberi tolong' — intinya arah bantuan: ～てあげる = saya menolong orang lain; ～てくれる = orang lain menolong saya (atau keluarga saya); ～てもらう = saya meminta / menerima bantuan dari orang lain. Di rumah dengan 2 toddler, pola ini dipakai setiap hari.",
+          "formation": "Kata kerja bentuk て + あげる / くれる / もらう. Bentuk sopan: ～てあげます / ～てくださいます / ～ていただきます (～てもらう sopan = ～ていただく). Perhatikan partikel: ～てあげる memakai に untuk penerima (子どもに本を読んであげる), ～てもらう memakai に untuk pemberi (妻に手伝ってもらう).",
+          "nuance": "Jangan tertukar arahnya! ～てあげる selalu dari sudut pandang si penolong (saya → orang lain), sedangkan ～てくれる dari sudut pandang penerima (orang lain → saya). Karena itu kita tidak memakai ～てあげる untuk diri sendiri. ～てもらう menekankan 'saya menerima kebaikan' — nuansanya lebih sopan dan bersyukur, sangat cocok saat berterima kasih kepada istri atau orang tua.",
+          "examples": [
+            {
+              "jp": "子どもに絵本を読んであげました。",
+              "id": "Saya membacakan buku bergambar untuk anak."
+            },
+            {
+              "jp": "妻が夕食を作ってくれました。",
+              "id": "Istri saya memasakkan makan malam untuk saya."
+            },
+            {
+              "jp": "週末は妻に子どもの寝かしつけを手伝ってもらいました。",
+              "id": "Akhir pekan ini, saya dibantu istri menidurkan anak."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N3",
+          "pattern": "～ようになる",
+          "romaji": "you ni naru",
+          "meaning": "Menjadi bisa / akhirnya ... — menyatakan perubahan: dulu tidak bisa, sekarang bisa; atau dulu tidak begitu, sekarang begitu. Cocok sekali untuk cerita perkembangan anak dan kebiasaan keluarga.",
+          "formation": "Kata kerja bentuk kamus + ようになる (untuk kemampuan/kebiasaan); kata kerja bentuk ない + ようになる (untuk perubahan 'tidak lagi ...'). Bentuk lampau: ～ようになりました. Negatif: ～ないようになる.",
+          "nuance": "Beda dengan ～ことができる yang hanya menyatakan 'bisa' (kemampuan sekarang). ～ようになる menekankan PROSES PERUBAHAN — ada 'dulu vs sekarang'. Beda juga dengan ～ようにする (berusaha melakukan, sudah dipakai 2026-11-02): ～ようにする = niat/usaha, ～ようになる = hasil perubahannya.",
+          "examples": [
+            {
+              "jp": "上の子は一人で服を着られるようになりました。",
+              "id": "Anak sulung sekarang sudah bisa memakai baju sendiri."
+            },
+            {
+              "jp": "最近、子どもが野菜を食べるようになりました。",
+              "id": "Akhir-akhir ini anak sudah mau makan sayur."
+            },
+            {
+              "jp": "毎日早く起きるようになりました。",
+              "id": "Saya akhirnya menjadi terbiasa bangun pagi setiap hari."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N3",
+          "pattern": "～すぎる",
+          "romaji": "sugiru",
+          "meaning": "Terlalu ... — menyatakan sesuatu yang berlebihan, melewati batas yang wajar. Di kehidupan sehari-hari dipakai untuk makanan, harga, anak yang terlalu aktif, dan sebagainya.",
+          "formation": "Kata kerja bentuk masu (tanpa ます) + すぎる; kata sifat-i (tanpa い) + すぎる; kata sifat-na (tanpa な) + すぎる. Contoh: 食べすぎる, 高すぎる, 静かすぎる. Bentuk lampau: ～すぎました.",
+          "nuance": "Beda dengan ～すぎない (tidak terlalu) dan ～ほど...ない. ～すぎる selalu membawa nuansa negatif atau keluhan ringan — 'kebanyakan'. Hati-hati: kata kerja bentuk ます yang berakhiran ます dihilangkan dulu (食べます → 食べすぎる, bukan 食べますすぎる). Untuk kata sifat-i, い dihilangkan (大きい → 大きすぎる).",
+          "examples": [
+            {
+              "jp": "子どもがお菓子を食べすぎました。",
+              "id": "Anak makan permen terlalu banyak."
+            },
+            {
+              "jp": "このおもちゃは高すぎます。",
+              "id": "Mainan ini terlalu mahal."
+            },
+            {
+              "jp": "今日は洗濯物が多すぎて、干すのが大変でした。",
+              "id": "Hari ini cucian terlalu banyak, menjemurnya jadi berat."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N2",
+          "pattern": "～ものの",
+          "romaji": "mono no",
+          "meaning": "Walaupun ... (tetapi kenyataannya ...) — menyatakan hal yang bertentangan dengan harapan. Bentuk formal dan tertulis, sering muncul di N2 dan di laporan resmi.",
+          "formation": "Kata kerja bentuk biasa (ふつう形) + ものの; kata sifat-i + ものの; kata sifat-na + なものの; kata benda + であるものの. Contoh: 買ったものの、行ったものの.",
+          "nuance": "Beda dengan ～のに yang kasual dan dipakai sehari-hari ('買ったのに使わない'). ～ものの lebih formal dan sering dipakai di tulisan. Beda juga dengan ～にもかかわらず (sudah dipakai 2026-11-02): ～にもかかわらず menekankan 'bertentangan dengan logika', sedangkan ～ものの menekankan 'harapan yang tidak terwujud / hasil yang mengecewakan'.",
+          "examples": [
+            {
+              "jp": "新しいおもちゃを買ったものの、子どもはあまり遊びません。",
+              "id": "Walaupun sudah membelikan mainan baru, anak tidak terlalu memainkannya."
+            },
+            {
+              "jp": "早く寝たものの、夜中に子どもが起きてしまいました。",
+              "id": "Walaupun sudah tidur lebih awal, tengah malam anak terbangun."
+            },
+            {
+              "jp": "洗濯物を干したものの、雨が降ってきました。",
+              "id": "Walaupun cucian sudah dijemur, hujan turun juga."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N2",
+          "pattern": "～つつ",
+          "romaji": "tsutsu",
+          "meaning": "Sambil ... — menyatakan dua hal yang berjalan bersamaan, dengan nuansa formal. Sering dipakai dalam bentuk ～つつある untuk perubahan yang sedang berlangsung.",
+          "formation": "Kata kerja bentuk masu (tanpa ます) + つつ. Bentuk ～つつある = sedang dalam proses berubah (～つつある). Contoh: 増えつつある, 減りつつある, 変わりつつある.",
+          "nuance": "Beda dengan ～ながら yang kasual dan dipakai sehari-hari ('テレビを見ながらご飯を食べる'). ～つつ adalah versi formal dan lebih tertulis; di percakapan keluarga sehari-hari, pakailah ～ながら. Tapi ～つつある sangat sering muncul di berita dan laporan N2 — hafalkan pola ini untuk soal bacaan JLPT.",
+          "examples": [
+            {
+              "jp": "子どもは成長しつつあります。",
+              "id": "Anak sedang tumbuh (dalam proses bertumbuh)."
+            },
+            {
+              "jp": "上の子は泣きつつ、ご飯を食べました。",
+              "id": "Anak sulung makan sambil menangis."
+            },
+            {
+              "jp": "最近は寒くなりつつあります。",
+              "id": "Akhir-akhir ini cuaca sedang menjadi dingin."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N2",
+          "pattern": "～っぱなし",
+          "romaji": "ppanashi",
+          "meaning": "Dibiarkan ... terus — menyatakan sesuatu yang dibiarkan dalam keadaan itu tanpa dibereskan, biasanya dengan nuansa keluhan. Sangat khas kehidupan rumah tangga!",
+          "formation": "Kata kerja bentuk masu (tanpa ます) + っぱなし. Contoh: つけっぱなし (dibiarkan menyala), 開けっぱなし (dibiarkan terbuka), 出しっぱなし (dibiarkan tergeletak).",
+          "nuance": "Beda dengan ～まま yang netral ('そのまま' = tetap seperti itu). ～っぱなし selalu membawa nuansa negatif: 'kenapa dibiarkan begitu saja?' — misalnya lampu dibiarkan menyala, pintu dibiarkan terbuka, mainan dibiarkan berserakan. Pola ini sering muncul di percakapan keluarga dan soal N2.",
+          "examples": [
+            {
+              "jp": "電気をつけっぱなしにしないでください。",
+              "id": "Tolong jangan biarkan lampunya menyala terus."
+            },
+            {
+              "jp": "おもちゃを出しっぱなしにしないで、片付けてね。",
+              "id": "Jangan biarkan mainan tergeletak begitu saja, bereskan ya."
+            },
+            {
+              "jp": "ドアを開けっぱなしにすると、寒くなりますよ。",
+              "id": "Kalau pintu dibiarkan terbuka, jadi dingin lho."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "洗濯",
+          "reading": "せんたく",
+          "meaning": "mencuci pakaian",
+          "example_jp": "洗濯物を干してください。",
+          "example_id": "Tolong jemur cuciannya."
+        },
+        {
+          "no": 2,
+          "word": "掃除",
+          "reading": "そうじ",
+          "meaning": "membersihkan rumah",
+          "example_jp": "週末に家を掃除します。",
+          "example_id": "Akhir pekan saya membersihkan rumah."
+        },
+        {
+          "no": 3,
+          "word": "片付け",
+          "reading": "かたづけ",
+          "meaning": "membereskan",
+          "example_jp": "おもちゃを片付けてね。",
+          "example_id": "Bereskan mainannya ya."
+        },
+        {
+          "no": 4,
+          "word": "夕食",
+          "reading": "ゆうしょく",
+          "meaning": "makan malam",
+          "example_jp": "夕食はもう食べましたか。",
+          "example_id": "Apakah kamu sudah makan malam?"
+        },
+        {
+          "no": 5,
+          "word": "寝かしつけ",
+          "reading": "ねかしつけ",
+          "meaning": "menidurkan anak",
+          "example_jp": "寝かしつけが大変でした。",
+          "example_id": "Menidurkan anak itu berat."
+        },
+        {
+          "no": 6,
+          "word": "おむつ",
+          "reading": "おむつ",
+          "meaning": "popok",
+          "example_jp": "おむつを替えてください。",
+          "example_id": "Tolong ganti popoknya."
+        },
+        {
+          "no": 7,
+          "word": "離乳食",
+          "reading": "りにゅうしょく",
+          "meaning": "makanan bayi (MPASI)",
+          "example_jp": "離乳食を作りました。",
+          "example_id": "Saya membuat makanan bayi."
+        },
+        {
+          "no": 8,
+          "word": "家事",
+          "reading": "かじ",
+          "meaning": "pekerjaan rumah",
+          "example_jp": "家事を手伝ってくれてありがとう。",
+          "example_id": "Terima kasih sudah membantu pekerjaan rumah."
+        },
+        {
+          "no": 9,
+          "word": "育児",
+          "reading": "いくじ",
+          "meaning": "mengasuh anak",
+          "example_jp": "育児は大変ですが、楽しいです。",
+          "example_id": "Mengasuh anak memang berat, tapi menyenangkan."
+        },
+        {
+          "no": 10,
+          "word": "昼寝",
+          "reading": "ひるね",
+          "meaning": "tidur siang",
+          "example_jp": "子どもは昼寝をしました。",
+          "example_id": "Anak tidur siang."
+        },
+        {
+          "no": 11,
+          "word": "お風呂",
+          "reading": "おふろ",
+          "meaning": "mandi / bak mandi",
+          "example_jp": "お風呂に入りましょう。",
+          "example_id": "Ayo mandi."
+        },
+        {
+          "no": 12,
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "belanja",
+          "example_jp": "スーパーに買い物に行きました。",
+          "example_id": "Saya pergi belanja ke supermarket."
+        },
+        {
+          "no": 13,
+          "word": "散歩",
+          "reading": "さんぽ",
+          "meaning": "jalan-jalan",
+          "example_jp": "公園に散歩に行きました。",
+          "example_id": "Kami pergi jalan-jalan ke taman."
+        },
+        {
+          "no": 14,
+          "word": "ごみ出し",
+          "reading": "ごみだし",
+          "meaning": "membuang sampah",
+          "example_jp": "明日の朝、ごみ出しをお願いします。",
+          "example_id": "Besok pagi, tolong buang sampahnya ya."
+        },
+        {
+          "no": 15,
+          "word": "早起き",
+          "reading": "はやおき",
+          "meaning": "bangun pagi",
+          "example_jp": "早起きは三文の徳です。",
+          "example_id": "Bangun pagi itu membawa keberuntungan (pepatah)."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Tota (pulang kerja)",
+          "jp": "ただいま。今日は子どもたちはどうだった？",
+          "id": "Aku pulang. Hari ini anak-anak bagaimana?"
+        },
+        {
+          "no": 2,
+          "speaker": "Istri",
+          "jp": "おかえりなさい。上の子は公園でたくさん遊んで、昼寝もしたよ。",
+          "id": "Selamat datang. Si sulung banyak bermain di taman, dan tidur siang juga."
+        },
+        {
+          "no": 3,
+          "speaker": "Tota",
+          "jp": "そうか。夕食の準備、手伝おうか。",
+          "id": "Begitu ya. Persiapan makan malam, kubantu?"
+        },
+        {
+          "no": 4,
+          "speaker": "Istri",
+          "jp": "ありがとう。お風呂の準備をしてくれると助かるな。",
+          "id": "Terima kasih. Kalau kamu siapkan mandinya, sangat membantu."
+        },
+        {
+          "no": 5,
+          "speaker": "Tota",
+          "jp": "わかった。お風呂に入れてあげるよ。",
+          "id": "Oke. Aku yang memandikan mereka."
+        },
+        {
+          "no": 6,
+          "speaker": "Istri",
+          "jp": "下の子は離乳食を食べられるようになったよ。",
+          "id": "Si bungsu sekarang sudah bisa makan MPASI."
+        },
+        {
+          "no": 7,
+          "speaker": "Tota",
+          "jp": "本当に？成長しつつあるね。",
+          "id": "Benarkah? Dia sedang bertumbuh ya."
+        },
+        {
+          "no": 8,
+          "speaker": "Istri",
+          "jp": "あ、洗濯物を取り込んでくれる？",
+          "id": "Oh, tolong ambil jemuran ya?"
+        },
+        {
+          "no": 9,
+          "speaker": "Tota",
+          "jp": "もちろん。電気をつけっぱなしにしないでね。",
+          "id": "Tentu. Jangan biarkan lampunya menyala terus ya."
+        },
+        {
+          "no": 10,
+          "speaker": "Istri",
+          "jp": "はいはい。じゃあ、夕食にしましょう。",
+          "id": "Iya iya. Kalau begitu, ayo makan malam."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「妻が夕食を作ってくれました。」 Pola ～てくれる dalam kalimat ini berarti ...",
+          "options": [
+            "Saya memasak makan malam untuk istri.",
+            "Istri memasak makan malam untuk saya.",
+            "Saya meminta istri memasak makan malam.",
+            "Istri meminta saya memasak makan malam."
+          ],
+          "answer": 1,
+          "explanation": "Istri memasak makan malam untuk saya. ～てくれる = orang lain menolong saya (arah bantuan: orang lain → saya). Bandingkan: ～てあげる = saya menolong orang lain, ～てもらう = saya menerima bantuan dari orang lain."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「上の子は一人で服を着られるようになりました。」 Apa yang ditekankan pola ～ようになる?",
+          "options": [
+            "Kemampuan yang sudah dimiliki sejak lama.",
+            "Niat atau usaha untuk melakukan sesuatu.",
+            "Perubahan: dulu tidak bisa memakai baju sendiri, sekarang bisa.",
+            "Larangan melakukan sesuatu."
+          ],
+          "answer": 2,
+          "explanation": "perubahan — dulu tidak bisa, sekarang bisa. ～ようになる menekankan proses perubahan (dulu vs sekarang), berbeda dengan ～ことができる yang hanya menyatakan kemampuan saat ini."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "Manakah kalimat yang benar menggunakan ～すぎる?",
+          "options": [
+            "このおもちゃは高すぎます。",
+            "このおもちゃは高いすぎます。",
+            "このおもちゃは高すぎるです。",
+            "このおもちゃは高くすぎます。"
+          ],
+          "answer": 0,
+          "explanation": "このおもちゃは高すぎます (Mainan ini terlalu mahal). Kata sifat-i kehilangan い sebelum ～すぎる: 高い → 高すぎる. ～すぎる selalu membawa nuansa 'terlalu / berlebihan'."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "Lengkapi kalimat ini: 「新しいおもちゃを買った＿＿＿、子どもはあまり遊びません。」",
+          "options": [
+            "つつ",
+            "すぎる",
+            "っぱなし",
+            "ものの"
+          ],
+          "answer": 3,
+          "explanation": "ものの. ～ものの = walaupun ... (tetapi kenyataannya harapan tidak terwujud). Bentuk formal dan tertulis, sering muncul di soal N2. Pola: kata kerja bentuk biasa + ものの."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "Kata 「洗濯」(せんたく) artinya ...",
+          "options": [
+            "membersihkan rumah",
+            "mencuci pakaian",
+            "membereskan mainan",
+            "membuang sampah"
+          ],
+          "answer": 1,
+          "explanation": "mencuci pakaian. Contoh dari materi: 洗濯物を干してください (Tolong jemur cuciannya)."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "Kata 「寝かしつけ」 artinya ...",
+          "options": [
+            "tidur siang",
+            "mandi",
+            "bangun pagi",
+            "menidurkan anak"
+          ],
+          "answer": 3,
+          "explanation": "menidurkan anak. Contoh dari materi: 寝かしつけが大変でした (Menidurkan anak itu berat)."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "Kata 「離乳食」(りにゅうしょく) artinya ...",
+          "options": [
+            "makanan bayi / MPASI",
+            "makan malam",
+            "popok",
+            "belanja ke supermarket"
+          ],
+          "answer": 0,
+          "explanation": "makanan bayi / MPASI. Contoh dari materi: 離乳食を作りました (Saya membuat makanan bayi)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "Kata bahasa Jepang untuk 'membuang sampah' adalah ...",
+          "options": [
+            "散歩 (さんぽ)",
+            "買い物 (かいもの)",
+            "ごみ出し (ごみだし)",
+            "早起き (はやおき)"
+          ],
+          "answer": 2,
+          "explanation": "ごみ出し. 散歩 = jalan-jalan, 買い物 = belanja, 早起き = bangun pagi. Contoh: 明日の朝、ごみ出しをお願いします (Besok pagi, tolong buang sampahnya ya)."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Dalam dialog 'Ayah Pulang Kerja', istri meminta Tota untuk ...",
+          "options": [
+            "menyiapkan makan malam (夕食の準備)",
+            "menyiapkan mandi anak (お風呂の準備)",
+            "membuang sampah (ごみ出し)",
+            "pergi belanja (買い物)"
+          ],
+          "answer": 1,
+          "explanation": "menyiapkan mandi anak. Istri berkata: 「お風呂の準備をしてくれると助かるな。」(Kalau kamu siapkan mandinya, sangat membantu.) Tota menjawab: 「お風呂に入れてあげるよ。」"
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Tota berkata: 「電気をつけっぱなしにしないでね。」 Apa maksudnya?",
+          "options": [
+            "Nyalakan lampunya.",
+            "Ganti lampunya yang rusak.",
+            "Matikan lampu sekarang juga.",
+            "Jangan biarkan lampunya menyala terus."
+          ],
+          "answer": 3,
+          "explanation": "Jangan biarkan lampunya menyala terus. ～っぱなし = dibiarkan ... terus tanpa dibereskan, dengan nuansa keluhan. つけっぱなし = dibiarkan menyala terus."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "IT / Bisnis & Keigo - Keigo & Bahasa Formal Bisnis",
+      "context": "Bisnis",
+      "target": "Hafalkan 6 grammar dan 15 vocab di bawah ini dalam 10–15 menit. Fokus pada kalimat keigo yang bisa langsung kamu pakai saat menulis email, menelepon klien, dan berbicara di rapat: meminta izin, meminta sesuatu, dan menyampaikan kabar secara formal. Quiz-nya dibuat dari halaman ini, malam ini jam 22:00.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Hafalkan keigo sebagai pasangan: 弊社 ↔ 貴社, 尊敬語 ↔ 謙譲語, お手数 ↔ ご配慮. Pasangan seperti ini lebih mudah diingat daripada kata tunggal. • 3. Latih dialog di atas dengan suara keras, bergantian jadi Tota dan jadi Tanaka — ini simulasi telepon ke klien yang sebenarnya. • 4. Coba tulis 1 email singkat (3–4 baris) memakai 取り急ぎ, ご確認いただけますか, dan ご検討のほど — itulah email kerja yang paling sering kamu kirim. • 5. Tulis 5 vocab yang paling sulit di catatan HP — itu yang akan muncul lagi di quiz jam 22:00. • 6. Kerjakan quiz malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1P78mDOkVfresYKraezqsOVockLRkijzv/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N3",
+          "pattern": "～させていただく",
+          "romaji": "sasete itadaku",
+          "meaning": "Izinkan saya ... — bentuk merendah (謙譲語) yang dipakai saat kita melakukan sesuatu untuk pihak lain atau atas izin pihak lain. Ini bentuk paling aman untuk memulai aksi di dunia kerja Jepang.",
+          "formation": "Kata kerja bentuk させる (kausatif) + ていただく. Bentuk sopan: ～させていただきます. Bentuk lampau: ～させていただきました.",
+          "nuance": "Beda dengan ～します yang netral dan ～させてください yang lebih langsung. ～させていただく menambahkan nuansa 'atas izin dan kebaikan Anda, saya melakukannya' — jadi jauh lebih sopan dan hampir wajib dipakai saat menulis email bisnis atau berbicara dengan klien. Perhatikan: jangan dipakai untuk hal yang jelas-jelas merugikan pihak lain (misalnya '休ませていただきます' untuk cuti justru benar, karena cuti adalah izin).",
+          "examples": [
+            {
+              "jp": "確認させていただきます。",
+              "id": "Izinkan saya memeriksanya."
+            },
+            {
+              "jp": "資料を送らせていただきます。",
+              "id": "Izinkan saya mengirimkan materinya."
+            },
+            {
+              "jp": "来週の会議では、進捗を報告させていただきます。",
+              "id": "Pada rapat minggu depan, izinkan saya melaporkan progres proyeknya."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N3",
+          "pattern": "～ていただけますか",
+          "romaji": "te itadakemasu ka",
+          "meaning": "Bisakah Anda ...? — meminta sesuatu kepada lawan bicara dengan sangat sopan. Ini permintaan standar di email dan rapat bisnis Jepang.",
+          "formation": "Kata kerja bentuk て + いただけますか. Bentuk lebih sopan: ～ていただけますでしょうか. Bentuk negatif (lebih halus): ～ていただけないでしょうか.",
+          "nuance": "Beda dengan ～てください yang langsung dan ～てもらえますか yang lebih kasual. ～ていただけますか adalah bentuk paling umum di dunia kerja: sopan tanpa berlebihan. Kalau lawan bicara adalah klien atau atasan senior, tambahkan お / ご di depan kata kerja (ご確認いただけますか).",
+          "examples": [
+            {
+              "jp": "資料をご確認いただけますか。",
+              "id": "Bisakah Anda memeriksa materinya?"
+            },
+            {
+              "jp": "明日までにご連絡いただけますか。",
+              "id": "Bisakah Anda menghubungi saya paling lambat besok?"
+            },
+            {
+              "jp": "お手数ですが、仕様書を送っていただけますか。",
+              "id": "Maaf merepotkan, bisakah Anda mengirimkan dokumen spesifikasinya?"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N3",
+          "pattern": "～てもよろしいでしょうか",
+          "romaji": "te mo yoroshii deshou ka",
+          "meaning": "Apakah boleh ...? — meminta izin dengan sangat sopan. Dipakai saat kita ingin melakukan sesuatu yang butuh persetujuan lawan bicara.",
+          "formation": "Kata kerja bentuk て + もよろしいでしょうか. Bentuk lebih pendek (sedikit lebih kasual): ～てもいいですか.",
+          "nuance": "Beda dengan ～てもいいですか yang dipakai ke teman atau rekan selevel. ～てもよろしいでしょうか adalah versi keigo-nya, wajib untuk klien dan atasan. Lawan bicara menjawab dengan どうぞ (silakan) atau 結構です (tidak apa-apa / silakan). Hati-hati: 結構です di sini artinya 'boleh', bukan penolakan!",
+          "examples": [
+            {
+              "jp": "少しお時間をいただいてもよろしいでしょうか。",
+              "id": "Apakah boleh saya meminta sedikit waktu Anda?"
+            },
+            {
+              "jp": "明日の会議を午後からに変更してもよろしいでしょうか。",
+              "id": "Apakah boleh rapat besok diubah menjadi siang hari?"
+            },
+            {
+              "jp": "お電話で確認させていただいてもよろしいでしょうか。",
+              "id": "Apakah boleh saya mengonfirmasi lewat telepon?"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N2",
+          "pattern": "～かたがた",
+          "romaji": "katagata",
+          "meaning": "Sekalian / sekaligus ... — melakukan sesuatu sekaligus dengan tujuan lain. Sering muncul di email bisnis dan kunjungan formal: 'saya datang untuk A, sekalian untuk B'.",
+          "formation": "Kata kerja bentuk kamus + かたがた; kata benda + かたがた. Sering dipakai dengan pola お礼かたがた (sekalian menyampaikan terima kasih) atau ご挨拶かたがた (sekalian bersilaturahmi).",
+          "nuance": "Beda dengan ～ついでに yang kasual ('sekalian mampir'). ～かたがた adalah versi formal dan sopan — dipakai dalam surat dan percakapan bisnis. Nuansanya: tujuan utama tetap ada, tapi ada tujuan tambahan yang sopan untuk disebutkan.",
+          "examples": [
+            {
+              "jp": "お礼かたがた、伺いました。",
+              "id": "Saya datang sekalian untuk menyampaikan terima kasih."
+            },
+            {
+              "jp": "資料をお渡しかたがた、ご説明させていただきます。",
+              "id": "Saya akan menjelaskan sekalian menyerahkan materinya."
+            },
+            {
+              "jp": "進捗のご報告かたがた、来月の日程をご相談させていただきます。",
+              "id": "Sekalian melaporkan progres, saya ingin berdiskusi tentang jadwal bulan depan."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N2",
+          "pattern": "～をもって",
+          "romaji": "wo motte",
+          "meaning": "Dengan / melalui ... — ungkapan formal untuk menyatakan cara atau alat: 'dengan surat ini', 'melalui email ini', atau batas waktu: 'sampai dengan hari ini'.",
+          "formation": "Kata benda + をもって. Pola tetap yang sangat sering dipakai: 書面をもって (dengan surat ini), 本メールをもって (dengan email ini), 本日をもって (per hari ini / sampai hari ini).",
+          "nuance": "Beda dengan ～で yang netral dan kasual. ～をもって adalah versi tertulis dan formal — hampir selalu muncul di pengumuman resmi, surat perusahaan, dan email formal. Kalau di rapat lisan, ～で sudah cukup; tapi di dokumen resmi, pakailah ～をもって.",
+          "examples": [
+            {
+              "jp": "書面をもってお知らせいたします。",
+              "id": "Kami memberitahukannya dengan surat ini."
+            },
+            {
+              "jp": "本日をもって、旧システムの運用を終了いたします。",
+              "id": "Per hari ini, operasional sistem lama kami akhiri."
+            },
+            {
+              "jp": "本メールをもって、納期の変更をお詫び申し上げます。",
+              "id": "Melalui email ini, kami memohon maaf atas perubahan jadwal penyerahan."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N2",
+          "pattern": "～に先立って",
+          "romaji": "ni sakidatte",
+          "meaning": "Sebelum ... / mendahului ... — menyatakan bahwa suatu hal dilakukan lebih dulu sebelum hal utama terjadi. Bahasa formal untuk jadwal dan prosedur.",
+          "formation": "Kata benda + に先立って; kata kerja bentuk kamus + に先立って.",
+          "nuance": "Beda dengan ～前に yang netral dan dipakai sehari-hari. ～に先立って adalah versi formal yang dipakai dalam pengumuman, jadwal proyek, dan dokumen resmi. Nuansanya: ada persiapan yang wajib selesai dulu sebelum acara utama — misalnya 'sebelum rapat, kami kirim dulu materinya'.",
+          "examples": [
+            {
+              "jp": "会議に先立って、資料をお送りいたします。",
+              "id": "Sebelum rapat, kami akan mengirimkan materinya terlebih dahulu."
+            },
+            {
+              "jp": "リリースに先立って、最終テストを実施します。",
+              "id": "Sebelum rilis, kami akan melaksanakan tes akhir."
+            },
+            {
+              "jp": "納品に先立って、貴社のご都合をご確認させていただきます。",
+              "id": "Sebelum penyerahan, izinkan kami memeriksa kesediaan pihak Anda."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "敬語",
+          "reading": "けいご",
+          "meaning": "bahasa sopan",
+          "example_jp": "日本では、仕事で敬語を使います。",
+          "example_id": "Di Jepang, di tempat kerja kita memakai bahasa sopan."
+        },
+        {
+          "no": 2,
+          "word": "丁寧語",
+          "reading": "ていねいご",
+          "meaning": "bahasa sopan (netral)",
+          "example_jp": "です・ますは丁寧語です。",
+          "example_id": "です dan ます adalah bahasa sopan netral."
+        },
+        {
+          "no": 3,
+          "word": "尊敬語",
+          "reading": "そんけいご",
+          "meaning": "bahasa hormat (untuk lawan bicara)",
+          "example_jp": "おっしゃるは「言う」の尊敬語です。",
+          "example_id": "おっしゃる adalah bentuk hormat dari 「言う」."
+        },
+        {
+          "no": 4,
+          "word": "謙譲語",
+          "reading": "けんじょうご",
+          "meaning": "bahasa merendah (untuk diri sendiri)",
+          "example_jp": "申すは「言う」の謙譲語です。",
+          "example_id": "申す adalah bentuk merendah dari 「言う」."
+        },
+        {
+          "no": 5,
+          "word": "ご配慮",
+          "reading": "ごはいりょ",
+          "meaning": "perhatian / kepedulian",
+          "example_jp": "ご配慮ありがとうございます。",
+          "example_id": "Terima kasih atas perhatian Anda."
+        },
+        {
+          "no": 6,
+          "word": "お手数",
+          "reading": "おてすう",
+          "meaning": "merepotkan",
+          "example_jp": "お手数ですが、ご確認いただけますか。",
+          "example_id": "Maaf merepotkan, bisakah Anda memeriksanya?"
+        },
+        {
+          "no": 7,
+          "word": "ご連絡",
+          "reading": "ごれんらく",
+          "meaning": "kabar / komunikasi",
+          "example_jp": "明日までにご連絡いただけますか。",
+          "example_id": "Bisakah Anda menghubungi saya paling lambat besok?"
+        },
+        {
+          "no": 8,
+          "word": "ご検討",
+          "reading": "ごけんとう",
+          "meaning": "pertimbangan",
+          "example_jp": "ご検討のほど、よろしくお願いいたします。",
+          "example_id": "Mohon pertimbangannya, terima kasih."
+        },
+        {
+          "no": 9,
+          "word": "ご都合",
+          "reading": "ごつごう",
+          "meaning": "keadaan / kesediaan (pihak lain)",
+          "example_jp": "ご都合はいかがでしょうか。",
+          "example_id": "Bagaimana keadaan / kesediaan Anda?"
+        },
+        {
+          "no": 10,
+          "word": "取り急ぎ",
+          "reading": "とりいそぎ",
+          "meaning": "buru-buru (pembuka email)",
+          "example_jp": "取り急ぎ、ご連絡まで。",
+          "example_id": "Buru-buru, saya sampaikan kabar ini dulu."
+        },
+        {
+          "no": 11,
+          "word": "恐縮",
+          "reading": "きょうしゅく",
+          "meaning": "merasa sungkan",
+          "example_jp": "恐縮ですが、お願いがあります。",
+          "example_id": "Dengan sungkan, saya ada permintaan."
+        },
+        {
+          "no": 12,
+          "word": "弊社",
+          "reading": "へいしゃ",
+          "meaning": "perusahaan kami (merendah)",
+          "example_jp": "弊社のサービスをご利用いただき、ありがとうございます。",
+          "example_id": "Terima kasih sudah memakai layanan perusahaan kami."
+        },
+        {
+          "no": 13,
+          "word": "貴社",
+          "reading": "きしゃ",
+          "meaning": "perusahaan Anda (hormat)",
+          "example_jp": "貴社のご都合はいかがでしょうか。",
+          "example_id": "Bagaimana kesediaan perusahaan Anda?"
+        },
+        {
+          "no": 14,
+          "word": "お詫び",
+          "reading": "おわび",
+          "meaning": "permintaan maaf",
+          "example_jp": "本メールをもって、納期の変更をお詫び申し上げます。",
+          "example_id": "Melalui email ini, kami memohon maaf atas perubahan jadwal penyerahan."
+        },
+        {
+          "no": 15,
+          "word": "ご承知",
+          "reading": "ごしょうち",
+          "meaning": "mengetahui (bentuk sopan)",
+          "example_jp": "ご承知のとおり、来月から新システムになります。",
+          "example_id": "Seperti yang Anda ketahui, mulai bulan depan sistemnya menjadi sistem baru."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Tota",
+          "jp": "お世話になっております。弊社のトタと申します。",
+          "id": "Terima kasih atas kerja samanya selama ini. Saya Tota dari perusahaan kami."
+        },
+        {
+          "no": 2,
+          "speaker": "田中",
+          "jp": "お世話になっております。田中です。",
+          "id": "Terima kasih juga. Saya Tanaka."
+        },
+        {
+          "no": 3,
+          "speaker": "Tota",
+          "jp": "恐縮ですが、来週の打ち合わせについて、少しお時間をいただいてもよろしいでしょうか。",
+          "id": "Dengan sungkan, tentang rapat minggu depan, apakah boleh saya meminta sedikit waktu Anda?"
+        },
+        {
+          "no": 4,
+          "speaker": "田中",
+          "jp": "はい、どうぞ。",
+          "id": "Baik, silakan."
+        },
+        {
+          "no": 5,
+          "speaker": "Tota",
+          "jp": "打ち合わせに先立って、仕様書をお送りさせていただきます。ご確認いただけますか。",
+          "id": "Sebelum rapat, izinkan saya mengirimkan dokumen spesifikasinya terlebih dahulu. Bisakah Anda memeriksanya?"
+        },
+        {
+          "no": 6,
+          "speaker": "田中",
+          "jp": "はい、わかりました。お手数ですが、よろしくお願いします。",
+          "id": "Baik, saya mengerti. Maaf merepotkan, mohon kerja samanya."
+        },
+        {
+          "no": 7,
+          "speaker": "Tota",
+          "jp": "また、お礼かたがた、先日のご配慮に感謝申し上げます。",
+          "id": "Dan sekalian menyampaikan terima kasih, saya berterima kasih atas perhatian Anda tempo hari."
+        },
+        {
+          "no": 8,
+          "speaker": "田中",
+          "jp": "こちらこそ、よろしくお願いします。",
+          "id": "Saya juga, mohon kerja samanya."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "Lengkapi kalimat berikut dengan bentuk yang paling sopan: 来週の会議では、進捗を報告＿＿＿。",
+          "options": [
+            "させてください",
+            "させていただきます",
+            "します",
+            "させてもらいます"
+          ],
+          "answer": 1,
+          "explanation": "～させていただく adalah bentuk merendah (謙譲語) yang berarti 'izinkan saya ...' — paling sopan saat melaporkan sesuatu kepada klien atau atasan. ～させてください lebih langsung, ～します netral."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "Manakah kalimat yang paling sopan untuk meminta klien memeriksa dokumen?",
+          "options": [
+            "資料を確認してください。",
+            "資料を確認してもらえますか。",
+            "資料を確認してくれますか。",
+            "資料をご確認いただけますか。"
+          ],
+          "answer": 3,
+          "explanation": "～ていただけますか berarti 'bisakah Anda ...?' — permintaan standar yang sopan di email dan rapat bisnis. ～てください terlalu langsung untuk klien, ～てもらえますか lebih kasual."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "Lengkapi kalimat berikut: 少しお時間をいただいて＿＿＿。",
+          "options": [
+            "もよろしいでしょうか",
+            "もいいですか",
+            "もらえますか",
+            "ください"
+          ],
+          "answer": 0,
+          "explanation": "～てもよろしいでしょうか berarti 'apakah boleh ...?' — versi keigo dari ～てもいいですか, wajib dipakai kepada klien dan atasan. Lawan bicara menjawab どうぞ (silakan)."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "Lengkapi kalimat berikut: お礼＿＿＿、伺いました。",
+          "options": [
+            "をもって",
+            "に先立って",
+            "かたがた",
+            "うちに"
+          ],
+          "answer": 2,
+          "explanation": "～かたがた berarti 'sekalian / sekaligus ...' — お礼かたがた = sekalian menyampaikan terima kasih. ～をもって berarti 'dengan / melalui', ～に先立って berarti 'sebelum', dan ～うちに berarti 'selagi'."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "Dalam email bisnis, kata 弊社 (へいしゃ) berarti ...",
+          "options": [
+            "Perusahaan Anda (dengan hormat)",
+            "Kantor pusat perusahaan",
+            "Perusahaan kami (bentuk merendah)",
+            "Perusahaan lain"
+          ],
+          "answer": 2,
+          "explanation": "弊社 = 'perusahaan kami' dalam bentuk merendah (謙譲語). Lawan bicara disebut 貴社 (きしゃ) = 'perusahaan Anda' dengan hormat. Pasangan ini sering tertukar — hafalkan berpasangan!"
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "Manakah pasangan yang BENAR tentang jenis keigo?",
+          "options": [
+            "おっしゃる adalah 尊敬語 dari 「言う」",
+            "申す adalah 尊敬語 dari 「言う」",
+            "おっしゃる adalah 謙譲語 dari 「言う」",
+            "申す adalah 丁寧語 dari 「言う」"
+          ],
+          "answer": 0,
+          "explanation": "おっしゃる adalah bentuk hormat (尊敬語) dari 「言う」 untuk lawan bicara, sedangkan 申す adalah bentuk merendah (謙譲語) dari 「言う」 untuk diri sendiri. です・ます adalah 丁寧語 (bahasa sopan netral)."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "Kalimat 'ご検討のほど、よろしくお願いいたします。' artinya ...",
+          "options": [
+            "Mohon maaf atas kesalahan kami.",
+            "Terima kasih atas perhatian Anda.",
+            "Mohon konfirmasi secepatnya.",
+            "Mohon pertimbangannya, terima kasih."
+          ],
+          "answer": 3,
+          "explanation": "ご検討 (ごけんとう) = pertimbangan. Frasa ini adalah penutup email yang sangat umum saat meminta pihak lain mempertimbangkan suatu usulan."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "Kata 恐縮 (きょうしゅく) dalam kalimat '恐縮ですが、お願いがあります。' berarti ...",
+          "options": [
+            "Dengan senang hati",
+            "Dengan sungkan / merasa sungkan",
+            "Dengan hormat yang setinggi-tingginya",
+            "Dengan terburu-buru"
+          ],
+          "answer": 1,
+          "explanation": "恐縮 = merasa sungkan. Dipakai sebagai pembuka yang sopan sebelum menyampaikan permintaan: 'Dengan sungkan, saya ada permintaan.'"
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Dalam dialog telepon hari ini, Tota berkata: '打ち合わせに先立って、仕様書をお送りさせていただきます。' Apa yang akan Tota lakukan?",
+          "options": [
+            "Mengirim dokumen spesifikasi setelah rapat selesai",
+            "Meminta Tanaka mengirim dokumen spesifikasi",
+            "Mengirim dokumen spesifikasi sebelum rapat",
+            "Membatalkan rapat minggu depan"
+          ],
+          "answer": 2,
+          "explanation": "～に先立って berarti 'sebelum ...' — Tota akan mengirimkan 仕様書 (dokumen spesifikasi) terlebih dahulu, sebelum rapat (打ち合わせ) dimulai."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Dalam email tertulis: '本メールをもって、納期の変更をお詫び申し上げます。' Apa maksud penulis email?",
+          "options": [
+            "Meminta jadwal baru untuk penyerahan barang",
+            "Memohon maaf atas perubahan jadwal penyerahan melalui email ini",
+            "Memberitahu bahwa jadwal sudah tidak bisa diubah",
+            "Menanyakan apakah perubahan jadwal bisa diterima"
+          ],
+          "answer": 1,
+          "explanation": "本メールをもって = 'melalui email ini' (～をもって = dengan / melalui, bentuk formal). お詫び申し上げます = memohon maaf. Jadi penulis memohon maaf atas perubahan 納期 (jadwal penyerahan) lewat email ini."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Shiyakusho & Administrasi - Dokumen Keluarga & Tunjangan Anak",
+      "context": "Shiyakusho",
+      "target": "Hafalkan 6 grammar dan 15 vocab di bawah ini dalam 10–15 menit. Fokus pada kalimat yang bisa langsung kamu pakai saat mengurus dokumen di shiyakusho: bertanya syarat, menyerahkan berkas, dan memahami penjelasan petugas. Quiz-nya dibuat dari halaman ini, malam ini jam 22:00.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Untuk tiap grammar, buat 1 kalimat tentang urusan administrasimu sendiri (misalnya: pengajuan tunjangan anak, perpanjangan kartu asuransi, pindah alamat). Kalimat buatan sendiri 3x lebih melekat daripada contoh buku. • 3. Latih dialog di atas dengan suara keras, bergantian jadi Tota dan jadi petugas — ini simulasi loket shiyakusho yang sebenarnya. • 4. Tulis 5 vocab yang paling sulit di catatan HP — itu yang akan muncul lagi di quiz jam 22:00. • 5. Kerjakan quiz malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1tPegGoh-rFkqy3Vstb0QH_pU3MiXElK4/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N3",
+          "pattern": "～てからでないと",
+          "romaji": "te kara de nai to",
+          "meaning": "Kalau belum ... maka tidak bisa ... — suatu syarat harus selesai dulu, baru hal lain bisa dilakukan.",
+          "formation": "Kata kerja bentuk て + からでないと (+ kalimat negatif seperti ～できません / ～ない). Bentuk lengkapnya sering ～てからでなければ～ない.",
+          "nuance": "Beda dengan ～てから yang sekadar berarti 'setelah ...'. ～てからでないと menambahkan nuansa 'tidak bisa kalau belum' — sangat cocok untuk menjelaskan syarat prosedur di shiyakusho: dokumen belum lengkap, pengajuan tidak bisa diproses.",
+          "examples": [
+            {
+              "jp": "書類を出してからでないと、手続きができません。",
+              "id": "Kalau belum menyerahkan dokumen, prosedurnya tidak bisa dilakukan."
+            },
+            {
+              "jp": "番号を取ってからでないと、受付できません。",
+              "id": "Kalau belum mengambil nomor antrean, tidak bisa dilayani di loket."
+            },
+            {
+              "jp": "住民票を取ってからでないと、児童手当の申請ができません。",
+              "id": "Kalau belum mengambil juminhyo, pengajuan tunjangan anak tidak bisa dilakukan."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N3",
+          "pattern": "～ことになっている",
+          "romaji": "koto ni natte iru",
+          "meaning": "Sudah diputuskan / aturannya begitu — menyatakan aturan, jadwal, atau kesepakatan yang berlaku (bukan keputusan pribadi sesaat).",
+          "formation": "Kata kerja bentuk kamus + ことになっている; kata kerja bentuk ない + ことになっている. Bentuk negatifnya: ～ないことになっている.",
+          "nuance": "Beda dengan ～ことになる yang menyatakan keputusan yang baru diambil ('jadinya ...'). ～ことになっている menyatakan keadaan yang sudah berlaku: 'memang aturannya ...'. Di shiyakusho, pola ini yang paling sering kamu dengar dari petugas.",
+          "examples": [
+            {
+              "jp": "市役所は土日が休みということになっています。",
+              "id": "Aturannya, balai kota libur pada Sabtu dan Minggu."
+            },
+            {
+              "jp": "この書類は本人が出すことになっています。",
+              "id": "Aturannya, dokumen ini harus diserahkan oleh yang bersangkutan sendiri."
+            },
+            {
+              "jp": "児童手当は毎月申請することになっています。",
+              "id": "Aturannya, tunjangan anak diajukan setiap bulan."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N3",
+          "pattern": "～ように",
+          "romaji": "you ni",
+          "meaning": "Agar / supaya ... — menyatakan tujuan, harapan, atau usaha agar sesuatu terjadi (atau tidak terjadi).",
+          "formation": "Kata kerja bentuk kamus / ない + ように; kata kerja bentuk て + ように (untuk 'supaya ...'). Sering dipakai dengan ～してください: ～ようにしてください.",
+          "nuance": "Beda dengan ～ために yang memakai kata kerja berkehendak ('demi ...'). ～ように dipakai untuk hal yang tidak bisa dikontrol langsung — permohonan, harapan, atau usaha. Di administrasi: 'supaya tidak salah', 'agar tidak terlambat'.",
+          "examples": [
+            {
+              "jp": "忘れないように、メモを取ります。",
+              "id": "Supaya tidak lupa, saya mencatat."
+            },
+            {
+              "jp": "間違えないように、もう一度確認してください。",
+              "id": "Supaya tidak salah, mohon periksa sekali lagi."
+            },
+            {
+              "jp": "期限に遅れないように、早めに市役所へ行きます。",
+              "id": "Supaya tidak terlambat dari tenggat, saya pergi ke balai kota lebih awal."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N2",
+          "pattern": "～にあたって",
+          "romaji": "ni atatte",
+          "meaning": "Pada saat ... / dalam rangka ... — ungkapan formal untuk momen penting: saat memulai sesuatu, saat mengajukan, atau saat menghadapi perubahan besar.",
+          "formation": "Kata benda + にあたって; kata kerja bentuk kamus + にあたって.",
+          "nuance": "Beda dengan ～に際して yang dipakai untuk momen seremonial atau pengumuman. ～にあたって lebih menekankan 'saat kita akan melakukan sesuatu yang penting' — misalnya saat pindah rumah, saat mengajukan subsidi, saat memulai prosedur baru. Sering muncul di pengumuman resmi shiyakusho.",
+          "examples": [
+            {
+              "jp": "引っ越しにあたって、転出届を出します。",
+              "id": "Pada saat pindah rumah, saya menyerahkan laporan pindah keluar."
+            },
+            {
+              "jp": "申請にあたって、必要な書類を確認してください。",
+              "id": "Pada saat mengajukan, mohon periksa dokumen yang diperlukan."
+            },
+            {
+              "jp": "転入にあたって、住民票の写しが必要です。",
+              "id": "Pada saat pindah masuk, diperlukan salinan juminhyo."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N2",
+          "pattern": "～をもとに",
+          "romaji": "wo moto ni",
+          "meaning": "Berdasarkan ... — membuat atau memutuskan sesuatu dengan memakai data, dokumen, atau bahan tertentu sebagai dasar.",
+          "formation": "Kata benda + をもとに (+ kata kerja seperti 作る / 決める / 考える).",
+          "nuance": "Beda dengan ～に基づいて (yang sudah dipelajari kemarin) yang menekankan sumber aturan atau data yang resmi dan mengikat. ～をもとに lebih luas dan fleksibel: bisa berdasarkan bahan, ide, atau data apa pun — misalnya 'berdasarkan formulir yang diserahkan'. Keduanya benar; ～をもとに terasa sedikit lebih santai.",
+          "examples": [
+            {
+              "jp": "アンケートをもとに、計画を作ります。",
+              "id": "Berdasarkan survei, kami membuat rencana."
+            },
+            {
+              "jp": "戸籍をもとに、証明書を交付します。",
+              "id": "Berdasarkan catatan keluarga, kami menerbitkan surat keterangan."
+            },
+            {
+              "jp": "提出された書類をもとに、審査します。",
+              "id": "Berdasarkan dokumen yang diserahkan, kami melakukan peninjauan."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N2",
+          "pattern": "～にわたって",
+          "romaji": "ni watatte",
+          "meaning": "Selama / sepanjang ... — mencakup rentang waktu yang panjang, atau wilayah yang luas.",
+          "formation": "Kata benda (waktu / tempat) + にわたって. Bentuk tertulis: ～にわたり.",
+          "nuance": "Beda dengan ～間 (あいだ) yang netral untuk durasi apa pun. ～にわたって menekankan cakupan yang luas dan berkelanjutan — 'selama bertahun-tahun', 'di seluruh kota'. Cocok untuk menjelaskan masa berlaku, periode bantuan, atau wilayah layanan.",
+          "examples": [
+            {
+              "jp": "三年にわたって、日本に住んでいます。",
+              "id": "Selama tiga tahun, saya tinggal di Jepang."
+            },
+            {
+              "jp": "市内にわたって、サービスを提供します。",
+              "id": "Layanan disediakan di seluruh kota."
+            },
+            {
+              "jp": "一か月にわたって、申請を受け付けています。",
+              "id": "Pengajuan diterima selama satu bulan."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "市役所",
+          "reading": "しやくしょ",
+          "meaning": "balai kota",
+          "example_jp": "市役所で手続きをします。",
+          "example_id": "Saya mengurus prosedur di balai kota."
+        },
+        {
+          "no": 2,
+          "word": "区役所",
+          "reading": "くやくしょ",
+          "meaning": "kantor distrik",
+          "example_jp": "区役所の窓口で聞きます。",
+          "example_id": "Saya bertanya di loket kantor distrik."
+        },
+        {
+          "no": 3,
+          "word": "申請",
+          "reading": "しんせい",
+          "meaning": "pengajuan / permohonan",
+          "example_jp": "児童手当を申請します。",
+          "example_id": "Saya mengajukan tunjangan anak."
+        },
+        {
+          "no": 4,
+          "word": "提出",
+          "reading": "ていしゅつ",
+          "meaning": "penyerahan dokumen",
+          "example_jp": "書類を提出してください。",
+          "example_id": "Mohon serahkan dokumennya."
+        },
+        {
+          "no": 5,
+          "word": "手続き",
+          "reading": "てつづき",
+          "meaning": "prosedur",
+          "example_jp": "手続きにあたって、書類が必要です。",
+          "example_id": "Pada saat mengurus prosedur, dokumen diperlukan."
+        },
+        {
+          "no": 6,
+          "word": "証明書",
+          "reading": "しょうめいしょ",
+          "meaning": "surat keterangan",
+          "example_jp": "証明書を交付してもらいます。",
+          "example_id": "Saya meminta diterbitkan surat keterangan."
+        },
+        {
+          "no": 7,
+          "word": "住民票",
+          "reading": "じゅうみんひょう",
+          "meaning": "kartu penduduk (juminhyo)",
+          "example_jp": "住民票を取ってからでないと、申請ができません。",
+          "example_id": "Kalau belum mengambil juminhyo, pengajuan tidak bisa dilakukan."
+        },
+        {
+          "no": 8,
+          "word": "戸籍",
+          "reading": "こせき",
+          "meaning": "catatan keluarga (koseki)",
+          "example_jp": "戸籍をもとに、証明書を交付します。",
+          "example_id": "Berdasarkan catatan keluarga, kami menerbitkan surat keterangan."
+        },
+        {
+          "no": 9,
+          "word": "届出",
+          "reading": "とどけで",
+          "meaning": "pemberitahuan / laporan resmi",
+          "example_jp": "引っ越しにあたって、転出届を出します。",
+          "example_id": "Pada saat pindah rumah, saya menyerahkan laporan pindah keluar."
+        },
+        {
+          "no": 10,
+          "word": "児童手当",
+          "reading": "じどうてあて",
+          "meaning": "tunjangan anak",
+          "example_jp": "児童手当は毎月申請することになっています。",
+          "example_id": "Aturannya, tunjangan anak diajukan setiap bulan."
+        },
+        {
+          "no": 11,
+          "word": "受付",
+          "reading": "うけつけ",
+          "meaning": "loket penerimaan",
+          "example_jp": "受付で番号を取ります。",
+          "example_id": "Saya mengambil nomor antrean di loket penerimaan."
+        },
+        {
+          "no": 12,
+          "word": "窓口",
+          "reading": "まどぐち",
+          "meaning": "loket",
+          "example_jp": "窓口で相談できます。",
+          "example_id": "Bisa berkonsultasi di loket."
+        },
+        {
+          "no": 13,
+          "word": "交付",
+          "reading": "こうふ",
+          "meaning": "penerbitan / penyerahan resmi",
+          "example_jp": "証明書の交付をお願いします。",
+          "example_id": "Mohon penerbitan surat keterangannya."
+        },
+        {
+          "no": 14,
+          "word": "更新",
+          "reading": "こうしん",
+          "meaning": "perpanjangan / pembaruan",
+          "example_jp": "保険証の更新をします。",
+          "example_id": "Saya memperbarui kartu asuransi kesehatan."
+        },
+        {
+          "no": 15,
+          "word": "書類",
+          "reading": "しょるい",
+          "meaning": "dokumen",
+          "example_jp": "提出された書類をもとに、審査します。",
+          "example_id": "Berdasarkan dokumen yang diserahkan, kami melakukan peninjauan."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "Tota",
+          "jp": "すみません、児童手当の申請をしたいのですが。",
+          "id": "Permisi, saya ingin mengajukan tunjangan anak."
+        },
+        {
+          "no": 2,
+          "speaker": "職員",
+          "jp": "はい、こちらの書類にご記入ください。住民票の写しも必要です。",
+          "id": "Baik, silakan isi formulir ini. Salinan juminhyo juga diperlukan."
+        },
+        {
+          "no": 3,
+          "speaker": "Tota",
+          "jp": "住民票は、今日ここで取れますか。",
+          "id": "Apakah juminhyo bisa diambil di sini hari ini?"
+        },
+        {
+          "no": 4,
+          "speaker": "職員",
+          "jp": "はい、取れます。まず受付で番号を取ってからでないと、発行できません。",
+          "id": "Bisa. Tapi kalau belum mengambil nomor di loket penerimaan, tidak bisa diterbitkan."
+        },
+        {
+          "no": 5,
+          "speaker": "Tota",
+          "jp": "わかりました。申請にあたって、他に必要なものはありますか。",
+          "id": "Baik. Pada saat mengajukan, apakah ada lagi yang diperlukan?"
+        },
+        {
+          "no": 6,
+          "speaker": "職員",
+          "jp": "保険証と印鑑をお持ちください。忘れないように、お気をつけください。",
+          "id": "Mohon bawa kartu asuransi kesehatan dan stempel. Supaya tidak lupa, harap berhati-hati."
+        },
+        {
+          "no": 7,
+          "speaker": "Tota",
+          "jp": "ありがとうございます。いつまでに提出すればいいですか。",
+          "id": "Terima kasih. Sampai kapan harus diserahkan?"
+        },
+        {
+          "no": 8,
+          "speaker": "職員",
+          "jp": "今月中に提出することになっています。よろしくお願いします。",
+          "id": "Aturannya diserahkan dalam bulan ini. Mohon kerja samanya."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「住民票を取ってからでないと、児童手当の申請ができません。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Kalau sudah mengambil juminhyo, pengajuan tunjangan anak tetap tidak bisa dilakukan.",
+            "Kalau belum mengambil juminhyo, pengajuan tunjangan anak tidak bisa dilakukan.",
+            "Juminhyo tidak diperlukan untuk mengajukan tunjangan anak.",
+            "Pengajuan tunjangan anak harus dilakukan sebelum mengambil juminhyo."
+          ],
+          "answer": 1,
+          "explanation": "～てからでないと = 'kalau belum ... maka tidak bisa ...' — suatu syarat harus selesai dulu, baru hal lain bisa dilakukan. Beda dengan ～てから yang sekadar berarti 'setelah ...'."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「この書類は本人が出すことになっています。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Aturannya, dokumen ini harus diserahkan oleh yang bersangkutan sendiri.",
+            "Dokumen ini baru saja diputuskan untuk diserahkan oleh orang lain.",
+            "Dokumen ini boleh diserahkan oleh siapa saja.",
+            "Dokumen ini belum diputuskan siapa yang harus menyerahkannya."
+          ],
+          "answer": 0,
+          "explanation": "～ことになっている = sudah diputuskan / aturannya begitu — menyatakan aturan atau keadaan yang sudah berlaku. Beda dengan ～ことになる yang menyatakan keputusan yang baru diambil ('jadinya ...')."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "「期限に遅れないように、早めに市役所へ行きます。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Saya pergi ke balai kota terlambat karena tenggatnya sudah lewat.",
+            "Saya pergi ke balai kota demi tenggat, padahal semuanya bisa saya kontrol.",
+            "Saya pergi ke balai kota lebih awal supaya tidak terlambat dari tenggat.",
+            "Saya tidak jadi pergi ke balai kota karena takut terlambat."
+          ],
+          "answer": 2,
+          "explanation": "～ように = agar / supaya ... — menyatakan tujuan atau harapan untuk hal yang tidak bisa dikontrol langsung. Beda dengan ～ために yang memakai kata kerja berkehendak ('demi ...')."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "「提出された書類をもとに、審査します。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Dokumen yang diserahkan akan dikembalikan tanpa peninjauan.",
+            "Peninjauan dilakukan sebelum dokumen diserahkan.",
+            "Dokumen yang diserahkan tidak dipakai sebagai dasar peninjauan.",
+            "Berdasarkan dokumen yang diserahkan, kami melakukan peninjauan."
+          ],
+          "answer": 3,
+          "explanation": "～をもとに = berdasarkan ... — memakai data, dokumen, atau bahan tertentu sebagai dasar. Beda dengan ～に基づいて (dipelajari kemarin) yang menekankan sumber aturan/data yang resmi dan mengikat; ～をもとに lebih luas dan fleksibel."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "住民票（じゅうみんひょう）の意味は？",
+          "options": [
+            "Catatan keluarga (koseki)",
+            "Kartu penduduk (juminhyo)",
+            "Surat keterangan",
+            "Pemberitahuan resmi"
+          ],
+          "answer": 1,
+          "explanation": "住民票 = kartu penduduk (juminhyo). Contoh dari materi: 住民票を取ってからでないと、申請ができません。 Jangan tertukar dengan 戸籍 = catatan keluarga."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "児童手当（じどうてあて）の意味は？",
+          "options": [
+            "Kartu asuransi kesehatan",
+            "Surat keterangan",
+            "Laporan pindah rumah",
+            "Tunjangan anak"
+          ],
+          "answer": 3,
+          "explanation": "児童手当 = tunjangan anak. Contoh dari materi: 児童手当は毎月申請することになっています (Aturannya, tunjangan anak diajukan setiap bulan)."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "交付（こうふ）の意味は？",
+          "options": [
+            "Perpanjangan / pembaruan",
+            "Pengajuan / permohonan",
+            "Penerbitan / penyerahan resmi",
+            "Prosedur"
+          ],
+          "answer": 2,
+          "explanation": "交付 = penerbitan / penyerahan resmi. Contoh dari materi: 証明書の交付をお願いします (Mohon penerbitan surat keterangannya)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "窓口（まどぐち）の意味は？",
+          "options": [
+            "Loket",
+            "Loket penerimaan",
+            "Nomor antrean",
+            "Formulir"
+          ],
+          "answer": 0,
+          "explanation": "窓口 = loket. Contoh dari materi: 窓口で相談できます (Bisa berkonsultasi di loket). Jangan tertukar dengan 受付 = loket penerimaan, tempat mengambil nomor antrean."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Di loket shiyakusho, petugas berkata: 「まず受付で番号を取ってからでないと、発行できません。」Apa maksud petugas?",
+          "options": [
+            "Juminhyo bisa diterbitkan tanpa mengambil nomor antrean.",
+            "Kalau belum mengambil nomor di loket penerimaan, juminhyo tidak bisa diterbitkan.",
+            "Nomor antrean diambil setelah juminhyo diterbitkan.",
+            "Penerbitan juminhyo tidak memerlukan nomor antrean."
+          ],
+          "answer": 1,
+          "explanation": "Ini dari dialog praktik di materi hari ini: petugas menjelaskan syaratnya — ambil nomor di 受付 dulu, baru juminhyo bisa diterbitkan. ～てからでないと = kalau belum ... maka tidak bisa ..."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Tota bertanya: 「申請にあたって、他に必要なものはありますか。」Petugas menjawab: 「保険証と印鑑をお持ちください。」Apa yang harus dibawa Tota?",
+          "options": [
+            "Hanya formulir yang sudah diisi.",
+            "Salinan juminhyo dan nomor antrean.",
+            "Kartu asuransi kesehatan dan stempel.",
+            "Surat keterangan dan tunjangan anak."
+          ],
+          "answer": 2,
+          "explanation": "保険証 = kartu asuransi kesehatan, 印鑑 = stempel. ～にあたって = pada saat ... (formal, untuk momen penting seperti mengajukan). Dialog ini dari materi hari ini."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "IT Project - Rilis & Operasional Sistem",
+      "context": "IT",
+      "target": "Hafalkan 6 grammar dan 15 vocab di bawah ini dalam 10–15 menit. Fokus pada kalimat yang bisa langsung kamu pakai di rapat rilis, laporan progres, dan email pengumuman ke pengguna. Quiz-nya dibuat dari halaman ini, malam ini jam 22:00.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Untuk tiap grammar, buat 1 kalimat tentang proyekmu sendiri (misalnya rilis minggu ini). Kalimat buatan sendiri 3x lebih melekat daripada contoh buku. • 3. Latih dialog di atas dengan suara keras, bergantian jadi Tota dan jadi leader — ini simulasi rapat rilis yang sebenarnya. • 4. Tulis 5 vocab yang paling sulit di catatan HP — itu yang akan muncul lagi di quiz jam 22:00. • 5. Kerjakan quiz malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1zsIluv_L3HphojIs6ey3C_cKVZYnIBnE/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N3",
+          "pattern": "～ば～ほど",
+          "romaji": "ba ... hodo",
+          "meaning": "Semakin ... semakin ... — dua hal berubah sebanding: kalau yang pertama bertambah, yang kedua pun bertambah.",
+          "formation": "Kata kerja bentuk kamus + ば + kata kerja bentuk kamus yang sama + ほど. Kata sifat-i: ～ければ～いほど. Kata sifat-na / kata benda: ～であれば～なほど.",
+          "nuance": "Beda dengan ～につれて yang juga berarti 'seiring ...' tetapi lebih netral dan formal. ～ば～ほど menekankan proporsi: 'makin A, makin B'. Cocok untuk laporan progres dan evaluasi.",
+          "examples": [
+            {
+              "jp": "練習すればするほど、上手になります。",
+              "id": "Semakin berlatih, semakin mahir."
+            },
+            {
+              "jp": "確認すればするほど、ミスが減ります。",
+              "id": "Semakin sering memeriksa, semakin berkurang kesalahan."
+            },
+            {
+              "jp": "テストを繰り返せば繰り返すほど、バグが減ります。",
+              "id": "Semakin sering mengulang pengujian, semakin berkurang bug-nya."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N3",
+          "pattern": "～ことなく",
+          "romaji": "koto naku",
+          "meaning": "Tanpa ... — melakukan sesuatu tanpa melakukan hal lain, atau suatu hasil tercapai tanpa kejadian yang tidak diinginkan.",
+          "formation": "Kata kerja bentuk kamus + ことなく.",
+          "nuance": "Beda dengan ～ないで yang lebih kasual dan percakapan. ～ことなく lebih formal dan tertulis — sering muncul di laporan, pengumuman, dan email kerja. Nuansanya: 'berhasil tanpa hambatan itu'.",
+          "examples": [
+            {
+              "jp": "連絡することなく、会議は始まりました。",
+              "id": "Tanpa pemberitahuan, rapat pun dimulai."
+            },
+            {
+              "jp": "失敗することなく、作業は終わりました。",
+              "id": "Tanpa kegagalan, pekerjaan selesai."
+            },
+            {
+              "jp": "サービスを止めることなく、リリースします。",
+              "id": "Kami merilis tanpa menghentikan layanan."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N3",
+          "pattern": "～さえ～ば",
+          "romaji": "sae ... ba",
+          "meaning": "Asalkan ... saja / jika saja ... — syarat minimum yang sudah cukup untuk mencapai hasil.",
+          "formation": "Kata benda + さえ + あれば / なければ; kata kerja bentuk て + さえいれば, atau bentuk syarat ～さえすれば. Inti: 'yang penting X terpenuhi'.",
+          "nuance": "Beda dengan ～だけ (hanya) yang sekadar membatasi jumlah. ～さえ～ば menekankan 'ini saja sudah cukup' — nada meyakinkan saat menegosiasikan jadwal atau syarat rilis.",
+          "examples": [
+            {
+              "jp": "時間がさえあれば、できます。",
+              "id": "Asalkan ada waktu saja, saya bisa melakukannya."
+            },
+            {
+              "jp": "資料さえあれば、準備できます。",
+              "id": "Asalkan ada materinya saja, saya bisa menyiapkan."
+            },
+            {
+              "jp": "バックアップさえあれば、移行できます。",
+              "id": "Asalkan ada cadangannya saja, migrasi bisa dilakukan."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N2",
+          "pattern": "～に基づいて",
+          "romaji": "ni motozuite",
+          "meaning": "Berdasarkan ... — tindakan atau keputusan yang berlandaskan dokumen, data, atau aturan tertentu.",
+          "formation": "Kata benda + に基づいて (bentuk sopan / tertulis: に基づき).",
+          "nuance": "Beda dengan ～によって yang berarti 'dengan cara ...' atau 'tergantung ...'. ～に基づいて menegaskan sumbernya: spesifikasi, hasil survei, atau aturan perusahaan. Wajib di email dan laporan resmi.",
+          "examples": [
+            {
+              "jp": "調査結果に基づいて、計画を作ります。",
+              "id": "Berdasarkan hasil survei, kami membuat rencana."
+            },
+            {
+              "jp": "規則に基づいて、対応します。",
+              "id": "Kami menindaklanjuti berdasarkan aturan."
+            },
+            {
+              "jp": "仕様書に基づいて、実装します。",
+              "id": "Kami mengimplementasikan berdasarkan dokumen spesifikasi."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N2",
+          "pattern": "～に伴って",
+          "romaji": "ni tomonatte",
+          "meaning": "Seiring dengan ... / bersamaan dengan ... — suatu perubahan atau kejadian besar yang ikut membawa perubahan lain.",
+          "formation": "Kata benda + に伴って; kata kerja bentuk kamus + に伴って (bentuk tertulis: に伴い).",
+          "nuance": "Beda dengan ～につれて yang menggambarkan perubahan bertahap yang alami. ～に伴って lebih formal dan dipakai untuk peristiwa yang sudah diputuskan: rilis, migrasi, perubahan organisasi — plus dampak ikutannya.",
+          "examples": [
+            {
+              "jp": "引っ越しに伴って、住所が変わります。",
+              "id": "Seiring dengan pindahan, alamat berubah."
+            },
+            {
+              "jp": "制度の変更に伴って、手続きが変わりました。",
+              "id": "Seiring dengan perubahan sistem aturan, prosedur berubah."
+            },
+            {
+              "jp": "リリースに伴って、監視を強化します。",
+              "id": "Seiring dengan rilis, kami memperkuat monitoring."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N2",
+          "pattern": "～に際して",
+          "romaji": "ni saishite",
+          "meaning": "Pada saat ... — ungkapan formal untuk momen penting: pengumuman, permintaan, ucapan terima kasih, atau kejadian yang direncanakan.",
+          "formation": "Kata benda + に際して; kata kerja bentuk kamus + に際して.",
+          "nuance": "Beda dengan ～ときに yang netral dan bisa untuk apa saja. ～に際して khusus untuk situasi resmi dan penting — jangan dipakai untuk hal sepele sehari-hari, karena akan terdengar kaku.",
+          "examples": [
+            {
+              "jp": "ご利用に際して、ご注意ください。",
+              "id": "Pada saat penggunaan, harap berhati-hati."
+            },
+            {
+              "jp": "お申し込みに際して、本人確認が必要です。",
+              "id": "Pada saat pendaftaran, diperlukan verifikasi identitas."
+            },
+            {
+              "jp": "移行に際して、ご協力をお願いします。",
+              "id": "Pada saat migrasi, mohon kerja samanya."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "リリース",
+          "reading": "リリース",
+          "meaning": "rilis / peluncuran sistem",
+          "example_jp": "明日リリースします。",
+          "example_id": "Besok kami merilis."
+        },
+        {
+          "no": 2,
+          "word": "運用",
+          "reading": "うんよう",
+          "meaning": "pengoperasian / operasional",
+          "example_jp": "運用を開始します。",
+          "example_id": "Kami memulai pengoperasian."
+        },
+        {
+          "no": 3,
+          "word": "改修",
+          "reading": "かいしゅう",
+          "meaning": "perbaikan / perubahan sistem",
+          "example_jp": "改修が必要です。",
+          "example_id": "Perbaikan diperlukan."
+        },
+        {
+          "no": 4,
+          "word": "設計",
+          "reading": "せっけい",
+          "meaning": "desain / perancangan",
+          "example_jp": "設計を確認します。",
+          "example_id": "Saya memeriksa desain."
+        },
+        {
+          "no": 5,
+          "word": "実装",
+          "reading": "じっそう",
+          "meaning": "implementasi",
+          "example_jp": "仕様書に基づいて実装します。",
+          "example_id": "Kami mengimplementasikan berdasarkan dokumen spesifikasi."
+        },
+        {
+          "no": 6,
+          "word": "テスト環境",
+          "reading": "テストかんきょう",
+          "meaning": "lingkungan uji",
+          "example_jp": "テスト環境で確認します。",
+          "example_id": "Saya memeriksa di lingkungan uji."
+        },
+        {
+          "no": 7,
+          "word": "移行",
+          "reading": "いこう",
+          "meaning": "migrasi (data / sistem)",
+          "example_jp": "移行に際して、ご協力をお願いします。",
+          "example_id": "Pada saat migrasi, mohon kerja samanya."
+        },
+        {
+          "no": 8,
+          "word": "監視",
+          "reading": "かんし",
+          "meaning": "monitoring / pengawasan",
+          "example_jp": "リリースに伴って、監視を強化します。",
+          "example_id": "Seiring dengan rilis, kami memperkuat monitoring."
+        },
+        {
+          "no": 9,
+          "word": "バックアップ",
+          "reading": "バックアップ",
+          "meaning": "cadangan (data)",
+          "example_jp": "バックアップさえあれば、移行できます。",
+          "example_id": "Asalkan ada cadangannya saja, migrasi bisa dilakukan."
+        },
+        {
+          "no": 10,
+          "word": "復旧",
+          "reading": "ふっきゅう",
+          "meaning": "pemulihan (dari gangguan)",
+          "example_jp": "復旧しました。",
+          "example_id": "Sudah pulih (dari gangguan)."
+        },
+        {
+          "no": 11,
+          "word": "通知",
+          "reading": "つうち",
+          "meaning": "pemberitahuan",
+          "example_jp": "通知を送ります。",
+          "example_id": "Kami mengirim pemberitahuan."
+        },
+        {
+          "no": 12,
+          "word": "手順書",
+          "reading": "てじゅんしょ",
+          "meaning": "manual prosedur",
+          "example_jp": "手順書に沿って作業します。",
+          "example_id": "Saya bekerja mengikuti manual prosedur."
+        },
+        {
+          "no": 13,
+          "word": "引き継ぎ",
+          "reading": "ひきつぎ",
+          "meaning": "serah terima (tugas)",
+          "example_jp": "引き継ぎをお願いします。",
+          "example_id": "Mohon serah terimanya."
+        },
+        {
+          "no": 14,
+          "word": "稼働",
+          "reading": "かどう",
+          "meaning": "beroperasi / berjalan",
+          "example_jp": "システムは正常に稼働しています。",
+          "example_id": "Sistem beroperasi normal."
+        },
+        {
+          "no": 15,
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "perbaikan berkelanjutan",
+          "example_jp": "改善を続けます。",
+          "example_id": "Kami terus melakukan perbaikan."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "リーダー",
+          "jp": "明日のリリース、準備はどうですか。",
+          "id": "Bagaimana persiapan rilis besok?"
+        },
+        {
+          "no": 2,
+          "speaker": "Tota",
+          "jp": "仕様書に基づいて実装しました。テスト環境で確認しています。",
+          "id": "Saya mengimplementasikan berdasarkan dokumen spesifikasi. Sekarang saya memeriksa di lingkungan uji."
+        },
+        {
+          "no": 3,
+          "speaker": "リーダー",
+          "jp": "バックアップは取りましたか。",
+          "id": "Sudah mengambil cadangan?"
+        },
+        {
+          "no": 4,
+          "speaker": "Tota",
+          "jp": "はい、取りました。サービスを止めることなく、リリースできます。",
+          "id": "Ya, sudah. Kami bisa merilis tanpa menghentikan layanan."
+        },
+        {
+          "no": 5,
+          "speaker": "リーダー",
+          "jp": "リリースに伴って、監視はどうしますか。",
+          "id": "Seiring dengan rilis, bagaimana monitoringnya?"
+        },
+        {
+          "no": 6,
+          "speaker": "Tota",
+          "jp": "監視を強化します。通知が来たら、すぐ対応します。",
+          "id": "Kami memperkuat monitoring. Kalau ada pemberitahuan, langsung ditindaklanjuti."
+        },
+        {
+          "no": 7,
+          "speaker": "リーダー",
+          "jp": "引き継ぎもお願いします。",
+          "id": "Tolong juga serah terimanya."
+        },
+        {
+          "no": 8,
+          "speaker": "Tota",
+          "jp": "はい、手順書に沿って引き継ぎます。",
+          "id": "Baik, saya serah terima mengikuti manual prosedur."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「テストを繰り返せば繰り返すほど、バグが減ります。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Kalau pengujian diulang sekali, bug langsung hilang.",
+            "Semakin sering mengulang pengujian, semakin berkurang bug-nya.",
+            "Meskipun pengujian diulang, bug tetap sama.",
+            "Pengujian harus dihentikan agar bug berkurang."
+          ],
+          "answer": 1,
+          "explanation": "～ば～ほど = semakin ... semakin ...; pola: kata kerja bentuk kamus + ば + kata kerja yang sama + ほど. Contoh dari materi: テストを繰り返せば繰り返すほど、バグが減ります."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「サービスを止めることなく、リリースします。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Kami merilis setelah menghentikan layanan.",
+            "Kami menunda rilis sampai layanan berhenti.",
+            "Kami merilis tanpa menghentikan layanan.",
+            "Kami menghentikan layanan tanpa merilis."
+          ],
+          "answer": 2,
+          "explanation": "～ことなく = tanpa ...; kata kerja bentuk kamus + ことなく. Lebih formal dan tertulis daripada ～ないで, sering dipakai di laporan dan pengumuman kerja."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "「バックアップさえあれば、移行できます。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Asalkan ada cadangannya saja, migrasi bisa dilakukan.",
+            "Migrasi hanya bisa dilakukan tanpa cadangan.",
+            "Cadangan saja tidak cukup untuk migrasi.",
+            "Migrasi dibatalkan meskipun ada cadangan."
+          ],
+          "answer": 0,
+          "explanation": "～さえ～ば = asalkan ... saja / jika saja ...; syarat minimum yang sudah cukup. Beda dengan ～だけ (hanya) yang sekadar membatasi jumlah."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "「リリースに伴って、監視を強化します。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Sebelum rilis, monitoring dihentikan.",
+            "Monitoring diperkuat hanya kalau rilis dibatalkan.",
+            "Setelah rilis selesai, monitoring tidak perlu lagi.",
+            "Seiring dengan rilis, kami memperkuat monitoring."
+          ],
+          "answer": 3,
+          "explanation": "～に伴って = seiring dengan ... / bersamaan dengan ...; kata benda + に伴って, untuk peristiwa yang sudah diputuskan seperti rilis atau migrasi, plus dampak ikutannya."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "運用（うんよう）の意味は？",
+          "options": [
+            "Rilis / peluncuran sistem",
+            "Desain / perancangan sistem",
+            "Pengoperasian / operasional",
+            "Migrasi data"
+          ],
+          "answer": 2,
+          "explanation": "運用 = pengoperasian / operasional. Contoh dari materi: 運用を開始します (Kami memulai pengoperasian)."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "テスト環境（テストかんきょう）の意味は？",
+          "options": [
+            "Manual prosedur",
+            "Lingkungan uji",
+            "Cadangan data",
+            "Serah terima tugas"
+          ],
+          "answer": 1,
+          "explanation": "テスト環境 = lingkungan uji. Contoh dari materi: テスト環境で確認します (Saya memeriksa di lingkungan uji)."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "引き継ぎ（ひきつぎ）の意味は？",
+          "options": [
+            "Pemberitahuan",
+            "Pemulihan dari gangguan",
+            "Perbaikan berkelanjutan",
+            "Serah terima (tugas)"
+          ],
+          "answer": 3,
+          "explanation": "引き継ぎ = serah terima (tugas). Contoh dari materi: 手順書に沿って引き継ぎます (Saya serah terima mengikuti manual prosedur)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "復旧（ふっきゅう）の意味は？",
+          "options": [
+            "Pemulihan (dari gangguan)",
+            "Monitoring / pengawasan",
+            "Implementasi",
+            "Lingkungan uji"
+          ],
+          "answer": 0,
+          "explanation": "復旧 = pemulihan (dari gangguan). Contoh dari materi: 復旧しました (Sudah pulih dari gangguan). Jangan tertukar dengan バックアップ = cadangan (data)."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Dalam rapat rilis, Tota berkata: 「監視を強化します。通知が来たら、すぐ対応します。」Apa yang akan dilakukan Tota kalau ada pemberitahuan?",
+          "options": [
+            "Menghentikan monitoring",
+            "Menunggu sampai besok pagi",
+            "Langsung menindaklanjutinya",
+            "Mengabaikan pemberitahuan itu"
+          ],
+          "answer": 2,
+          "explanation": "通知 = pemberitahuan; すぐ対応します = langsung ditindaklanjuti. Ini lanjutan dialog rapat rilis di materi: leader bertanya soal monitoring seiring rilis, Tota menjawab akan memperkuat monitoring."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "「移行に際して、ご協力をお願いします。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Pada saat migrasi, sistem akan dihentikan tanpa pemberitahuan.",
+            "Pada saat migrasi, mohon kerja samanya.",
+            "Setelah migrasi selesai, tidak perlu kerja sama lagi.",
+            "Migrasi dibatalkan karena tidak ada kerja sama."
+          ],
+          "answer": 1,
+          "explanation": "～に際して = pada saat ... (formal, untuk momen penting/pengumuman). Beda dengan ～ときに yang netral; ～に際して jangan dipakai untuk hal sepele karena terdengar kaku."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Keluarga & Kesehatan - Klinik Anak & Hoken Center",
+      "context": "Keluarga-Kesehatan",
+      "target": "Hafalkan 6 grammar dan 15 vocab di bawah ini dalam 10–15 menit. Fokus pada kalimat yang bisa langsung kamu pakai saat menelepon klinik, ke hoken center, atau menjelaskan kondisi anak. Quiz-nya dibuat dari halaman ini, malam ini jam 22:00.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Untuk tiap grammar, buat 1 kalimat tentang anak atau keluargamu. Kalimat buatan sendiri 3x lebih melekat daripada contoh buku. • 3. Latih dialog di atas dengan suara keras, bergantian jadi Tota dan jadi resepsionis — ini simulasi telepon klinik yang sebenarnya. • 4. Tulis 5 vocab yang paling sulit di catatan HP — itu yang akan muncul lagi di quiz jam 22:00. • 5. Kerjakan quiz malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1hU8LWSPNXHZ1Fl6RGq3lz_As3ND_G6Wj/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N3",
+          "pattern": "～たら",
+          "romaji": "tara",
+          "meaning": "Jika / kalau ...; atau 'setelah ...' untuk urutan kejadian. Sangat serbaguna untuk menjelaskan kondisi anak dan langkah berikutnya.",
+          "formation": "Kata kerja bentuk た + ら; kata sifat-i: ～かったら; kata sifat-na / kata benda: ～だったら.",
+          "nuance": "Beda dengan ～ば (lebih formal, syarat umum) dan ～と (hasil yang pasti / kebiasaan). ～たら paling natural untuk percakapan sehari-hari: 'kalau terjadi X, maka lakukan Y'.",
+          "examples": [
+            {
+              "jp": "熱があったら、すぐ病院へ行きましょう。",
+              "id": "Kalau demam, segera pergi ke rumah sakit."
+            },
+            {
+              "jp": "咳が続いたら、もう一度受診してください。",
+              "id": "Kalau batuknya berlanjut, tolong periksa lagi."
+            },
+            {
+              "jp": "予防接種の予約をしたら、母子手帳を忘れずに持って行ってください。",
+              "id": "Setelah membuat reservasi vaksinasi, jangan lupa membawa buku KIA."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N3",
+          "pattern": "～てはいけない",
+          "romaji": "te wa ikenai",
+          "meaning": "Tidak boleh ... — larangan atau hal yang tidak seharusnya dilakukan.",
+          "formation": "Kata kerja bentuk て + はいけない (sopan: てはいけません).",
+          "nuance": "Untuk larangan yang lebih lembut, pakai ～ないほうがいい (sebaiknya jangan). ～てはいけない lebih tegas: aturan, instruksi dokter, atau keselamatan.",
+          "examples": [
+            {
+              "jp": "熱があるときは、無理して出勤してはいけません。",
+              "id": "Saat demam, tidak boleh memaksakan diri berangkat kerja."
+            },
+            {
+              "jp": "薬は子どもの手の届くところに置いてはいけません。",
+              "id": "Obat tidak boleh diletakkan di tempat yang terjangkau anak."
+            },
+            {
+              "jp": "予防接種の当日は、激しい運動をしてはいけません。",
+              "id": "Pada hari vaksinasi, tidak boleh berolahraga berat."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N3",
+          "pattern": "～てしまう",
+          "romaji": "te shimau",
+          "meaning": "Terlanjur ... / selesai tanpa sengaja — sering membawa nuansa menyesal atau 'aduh, sudah terjadi'.",
+          "formation": "Kata kerja bentuk て + しまう (kasual: ～ちゃう / ～じゃう).",
+          "nuance": "Jangan tertukar dengan ～てある (keadaan hasil yang disengaja). ～てしまう menekankan kejadian yang sudah selesai dan tidak bisa diulang — sering dipakai saat minta maaf atau menjelaskan keadaan darurat.",
+          "examples": [
+            {
+              "jp": "薬を飲むのを忘れてしまいました。",
+              "id": "Saya terlanjur lupa minum obat."
+            },
+            {
+              "jp": "子どもが熱を出してしまい、会議を休みました。",
+              "id": "Anak terlanjur demam, jadi saya absen dari rapat."
+            },
+            {
+              "jp": "母子手帳を家に忘れてしまいました。",
+              "id": "Saya terlanjur meninggalkan buku KIA di rumah."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N2",
+          "pattern": "～かねない",
+          "romaji": "kanenai",
+          "meaning": "Bisa saja ... — kemungkinan buruk yang mengkhawatirkan, dan pembicara ingin mencegahnya.",
+          "formation": "Kata kerja bentuk ます (tanpa ます) + かねない.",
+          "nuance": "Beda dengan ～かもしれない yang netral (bisa ya, bisa tidak). ～かねない selalu bernada waspada: 'bisa saja terjadi hal buruk ini'. Hati-hati: ～かねる (kemarin) artinya 'sulit dilakukan' — pola yang berbeda meski mirip.",
+          "examples": [
+            {
+              "jp": "熱が夜に上がりかねません。",
+              "id": "Demamnya bisa saja naik pada malam hari."
+            },
+            {
+              "jp": "咳が長引くと、肺炎になりかねません。",
+              "id": "Kalau batuk berkepanjangan, bisa saja menjadi pneumonia."
+            },
+            {
+              "jp": "予約を忘れると、予防接種が遅れかねません。",
+              "id": "Kalau lupa reservasi, vaksinasi bisa saja tertunda."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N2",
+          "pattern": "～に越したことはない",
+          "romaji": "ni koshita koto wa nai",
+          "meaning": "Sebaiknya ... / tidak ada yang lebih baik daripada ... — saran kuat yang sopan, sering dipakai dokter dan staf kesehatan.",
+          "formation": "Kata kerja bentuk kamus + に越したことはない (bentuk sopan: に越したことはありません).",
+          "nuance": "Lebih kuat dari ～ほうがいい (sebaiknya). Pola ini berkata 'ini pilihan terbaiknya' tanpa terdengar memerintah — cocok untuk memberi saran soal kesehatan anak.",
+          "examples": [
+            {
+              "jp": "症状が軽くても、早めに相談するに越したことはありません。",
+              "id": "Meski gejalanya ringan, sebaiknya berkonsultasi sedini mungkin."
+            },
+            {
+              "jp": "子どもの体調が心配なら、受診するに越したことはありません。",
+              "id": "Kalau khawatir dengan kondisi anak, sebaiknya periksa saja."
+            },
+            {
+              "jp": "予防接種は、予定通りに受けるに越したことはありません。",
+              "id": "Vaksinasi sebaiknya diterima sesuai jadwal."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N2",
+          "pattern": "～を機に",
+          "romaji": "wo ki ni",
+          "meaning": "Dengan kesempatan / momentum ... — suatu peristiwa menjadi titik awal perubahan atau tindakan baru.",
+          "formation": "Kata benda + を機に. Sering: ～を機に、～することにしました.",
+          "nuance": "Beda dengan ～をきっかけに yang lebih kasual dan spontan. を機に lebih formal dan terencana: momen penting (kelahiran anak, hasil cek kesehatan) dipakai sebagai awal keputusan baru.",
+          "examples": [
+            {
+              "jp": "健診を機に、生活習慣を見直しました。",
+              "id": "Dengan kesempatan pemeriksaan kesehatan, saya meninjau ulang gaya hidup."
+            },
+            {
+              "jp": "子どもが生まれたのを機に、保険の見直しをしました。",
+              "id": "Dengan momentum kelahiran anak, saya meninjau ulang asuransi."
+            },
+            {
+              "jp": "1歳半健診を機に、保健センターで相談してみましょう。",
+              "id": "Dengan kesempatan cek kesehatan 1,5 tahun, mari coba berkonsultasi di hoken center."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "発熱",
+          "reading": "はつねつ",
+          "meaning": "demam",
+          "example_jp": "子どもが発熱しました。",
+          "example_id": "Anak demam."
+        },
+        {
+          "no": 2,
+          "word": "咳",
+          "reading": "せき",
+          "meaning": "batuk",
+          "example_jp": "咳が止まりません。",
+          "example_id": "Batuknya tidak berhenti."
+        },
+        {
+          "no": 3,
+          "word": "鼻水",
+          "reading": "はなみず",
+          "meaning": "ingus",
+          "example_jp": "鼻水が出ています。",
+          "example_id": "Ingusnya keluar."
+        },
+        {
+          "no": 4,
+          "word": "診察",
+          "reading": "しんさつ",
+          "meaning": "pemeriksaan dokter",
+          "example_jp": "診察を受けます。",
+          "example_id": "Saya menjalani pemeriksaan dokter."
+        },
+        {
+          "no": 5,
+          "word": "処方箋",
+          "reading": "しょほうせん",
+          "meaning": "resep obat",
+          "example_jp": "処方箋を薬局に持って行きます。",
+          "example_id": "Saya membawa resep ke apotek."
+        },
+        {
+          "no": 6,
+          "word": "薬局",
+          "reading": "やっきょく",
+          "meaning": "apotek",
+          "example_jp": "薬局で薬をもらいます。",
+          "example_id": "Saya mengambil obat di apotek."
+        },
+        {
+          "no": 7,
+          "word": "予防接種",
+          "reading": "よぼうせっしゅ",
+          "meaning": "vaksinasi",
+          "example_jp": "予防接種の予約をしました。",
+          "example_id": "Saya membuat reservasi vaksinasi."
+        },
+        {
+          "no": 8,
+          "word": "健診",
+          "reading": "けんしん",
+          "meaning": "pemeriksaan kesehatan",
+          "example_jp": "1歳半健診があります。",
+          "example_id": "Ada cek kesehatan 1,5 tahun."
+        },
+        {
+          "no": 9,
+          "word": "保健センター",
+          "reading": "ほけんセンター",
+          "meaning": "hoken center",
+          "example_jp": "保健センターに電話しました。",
+          "example_id": "Saya menelepon hoken center."
+        },
+        {
+          "no": 10,
+          "word": "保険証",
+          "reading": "ほけんしょう",
+          "meaning": "kartu asuransi kesehatan",
+          "example_jp": "保険証を忘れずに持って行きます。",
+          "example_id": "Saya membawa kartu asuransi, jangan lupa."
+        },
+        {
+          "no": 11,
+          "word": "症状",
+          "reading": "しょうじょう",
+          "meaning": "gejala",
+          "example_jp": "症状を伝えてください。",
+          "example_id": "Tolong sampaikan gejalanya."
+        },
+        {
+          "no": 12,
+          "word": "体温",
+          "reading": "たいおん",
+          "meaning": "suhu tubuh",
+          "example_jp": "体温を測ります。",
+          "example_id": "Saya mengukur suhu tubuh."
+        },
+        {
+          "no": 13,
+          "word": "下痢",
+          "reading": "げり",
+          "meaning": "diare",
+          "example_jp": "下痢が続いています。",
+          "example_id": "Diarenya berlanjut."
+        },
+        {
+          "no": 14,
+          "word": "嘔吐",
+          "reading": "おうと",
+          "meaning": "muntah",
+          "example_jp": "嘔吐が1回ありました。",
+          "example_id": "Muntahnya ada 1 kali."
+        },
+        {
+          "no": 15,
+          "word": "小児科",
+          "reading": "しょうにか",
+          "meaning": "dokter / klinik anak",
+          "example_jp": "小児科を受診します。",
+          "example_id": "Saya periksa ke dokter anak."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "受付",
+          "jp": "どうされましたか。",
+          "id": "Ada keluhan apa?"
+        },
+        {
+          "no": 2,
+          "speaker": "Tota",
+          "jp": "子どもが昨夜から発熱していて、咳も出ています。",
+          "id": "Anak saya sejak semalam demam, dan batuk juga keluar."
+        },
+        {
+          "no": 3,
+          "speaker": "受付",
+          "jp": "体温は何度ですか。",
+          "id": "Suhunya berapa derajat?"
+        },
+        {
+          "no": 4,
+          "speaker": "Tota",
+          "jp": "38.5度です。",
+          "id": "38,5 derajat."
+        },
+        {
+          "no": 5,
+          "speaker": "受付",
+          "jp": "保険証と母子手帳をお持ちください。",
+          "id": "Tolong bawa kartu asuransi dan buku KIA."
+        },
+        {
+          "no": 6,
+          "speaker": "Tota",
+          "jp": "予約をしたら、今日受診できますか。",
+          "id": "Kalau saya membuat reservasi, apakah bisa diperiksa hari ini?"
+        },
+        {
+          "no": 7,
+          "speaker": "受付",
+          "jp": "はい、午前11時に診察できます。",
+          "id": "Ya, bisa diperiksa jam 11 pagi."
+        },
+        {
+          "no": 8,
+          "speaker": "Tota",
+          "jp": "分かりました。早めに行きます。",
+          "id": "Baik, saya akan datang lebih awal."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "「熱があったら、すぐ病院へ行きましょう。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Setelah demam sembuh, pergilah ke rumah sakit.",
+            "Karena demam, tidak boleh pergi ke rumah sakit.",
+            "Kalau demam, segera pergi ke rumah sakit.",
+            "Meskipun demam, pergilah ke rumah sakit."
+          ],
+          "answer": 2,
+          "explanation": "～たら = jika/kalau, atau 'setelah ...' untuk urutan. Kata kerja bentuk た + ら: あったら = kalau ada (demam)."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "「薬を飲むのを忘れてしまいました。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Saya terlanjur lupa minum obat.",
+            "Saya sengaja tidak minum obat.",
+            "Saya akan minum obat nanti.",
+            "Saya tidak boleh minum obat."
+          ],
+          "answer": 0,
+          "explanation": "～てしまう = terlanjur / selesai tanpa sengaja, sering bernuansa menyesal. Bentuk て + しまう."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "「咳が長引くと、肺炎になりかねません。」Maksud kalimat ini adalah:",
+          "options": [
+            "Batuk pasti menjadi pneumonia.",
+            "Batuk sulit menjadi pneumonia.",
+            "Batuknya sudah sembuh.",
+            "Kalau batuk berkepanjangan, bisa saja menjadi pneumonia — dan itu mengkhawatirkan."
+          ],
+          "answer": 3,
+          "explanation": "～かねない = bisa saja terjadi hal buruk, bernada waspada. Beda dengan ～かもしれない yang netral, dan beda dengan ～かねる (sulit dilakukan)."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "「症状が軽くても、早めに相談するに越したことはありません。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Tidak perlu berkonsultasi kalau gejalanya ringan.",
+            "Meski gejalanya ringan, sebaiknya berkonsultasi sedini mungkin.",
+            "Dilarang berkonsultasi kalau gejalanya ringan.",
+            "Berkonsultasi hanya boleh kalau gejalanya sudah parah."
+          ],
+          "answer": 1,
+          "explanation": "～に越したことはない = sebaiknya ... / tidak ada yang lebih baik daripada ...; saran kuat yang sopan, lebih kuat dari ～ほうがいい."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "発熱（はつねつ）の意味は？",
+          "options": [
+            "Batuk",
+            "Ingus",
+            "Demam",
+            "Muntah"
+          ],
+          "answer": 2,
+          "explanation": "発熱 = demam. Contoh dari materi: 子どもが発熱しました (Anak demam)."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "処方箋（しょほうせん）の意味は？",
+          "options": [
+            "Kartu asuransi kesehatan",
+            "Apotek",
+            "Pemeriksaan dokter",
+            "Resep obat"
+          ],
+          "answer": 3,
+          "explanation": "処方箋 = resep obat. Contoh: 処方箋を薬局に持って行きます (Saya membawa resep ke apotek)."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "「保健センターに電話しました。」— 保健センター（ほけんセンター）の意味は？",
+          "options": [
+            "Hoken center (pusat kesehatan masyarakat)",
+            "Kartu asuransi kesehatan",
+            "Klinik anak",
+            "Apotek"
+          ],
+          "answer": 0,
+          "explanation": "保健センター = hoken center. Jangan tertukar dengan 保険証 (ほけんしょう) = kartu asuransi kesehatan."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "小児科（しょうにか）の意味は？",
+          "options": [
+            "Pemeriksaan kesehatan",
+            "Dokter / klinik anak",
+            "Apotek",
+            "Vaksinasi"
+          ],
+          "answer": 1,
+          "explanation": "小児科 = dokter/klinik anak. Contoh: 小児科を受診します (Saya periksa ke dokter anak)."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Dokter berkata: 「予防接種の当日は、激しい運動をしてはいけません。」Maksud dokter adalah:",
+          "options": [
+            "Pada hari vaksinasi, sebaiknya berolahraga berat.",
+            "Pada hari vaksinasi, olahraga berat boleh dilakukan sebentar.",
+            "Pada hari vaksinasi, tidak boleh berolahraga berat.",
+            "Pada hari vaksinasi, olahraga berat hanya boleh pagi hari."
+          ],
+          "answer": 2,
+          "explanation": "～てはいけない = tidak boleh ...; larangan tegas (aturan/instruksi dokter/keselamatan). Bentuk て + はいけません."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "「1歳半健診を機に、保健センターで相談してみましょう。」Artinya yang paling tepat adalah:",
+          "options": [
+            "Meskipun ada cek kesehatan 1,5 tahun, jangan berkonsultasi di hoken center.",
+            "Karena cek kesehatan 1,5 tahun dibatalkan, berkonsultasilah di hoken center.",
+            "Kalau cek kesehatan 1,5 tahun ditunda, barulah berkonsultasi di hoken center.",
+            "Dengan kesempatan cek kesehatan 1,5 tahun, mari coba berkonsultasi di hoken center."
+          ],
+          "answer": 3,
+          "explanation": "～を機に = dengan kesempatan/momentum ...; kata benda + を機に. Lebih formal dan terencana daripada ～をきっかけに."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "IT Project - Rapat & Koordinasi Tim",
+      "context": "IT",
+      "target": "Hafalkan 6 grammar dan 15 vocab di bawah ini dalam 10–15 menit. Fokus pada kalimat yang bisa langsung kamu pakai di rapat atau chat kerja besok. Quiz-nya dibuat dari halaman ini, malam ini jam 22:00.",
+      "tips": "1. Baca halaman summary 2 menit dulu — tangkap dulu “hari ini belajar apa”, jangan langsung ke detail. • 2. Untuk tiap grammar, buat 1 kalimat tentang pekerjaanmu BESOK. Kalimat buatan sendiri 3x lebih melekat daripada contoh buku. • 3. Ucapkan 15 vocab + contohnya dengan suara keras 1 putaran. Telinga membantu ingatan. • 4. Tulis 5 vocab yang paling sulit di catatan HP — itu yang akan muncul lagi di quiz jam 22:00. • 5. Kerjakan quiz malam ini selagi ingatan masih segar. Salah di quiz justru yang paling diingat besok.",
+      "pdf": "https://drive.google.com/file/d/1r-70lluZmGfcZt5j7SG48SWCnvDHFKnq/view?usp=drivesdk",
+      "grammar": [
+        {
+          "no": 1,
+          "level": "N3",
+          "pattern": "～ておく",
+          "romaji": "te oku",
+          "meaning": "Melakukan sesuatu sebagai persiapan, atau membiarkannya dalam keadaan siap untuk nanti.",
+          "formation": "Kata kerja bentuk て + おく (sopan: ておきます).",
+          "nuance": "Intinya: persiapan sebelum dibutuhkan. Beda dengan ～てある yang menggambarkan keadaan hasil (mis. 資料が準備してある = dokumennya sudah dalam keadaan siap). ～ておく menekankan TINDAKAN persiapannya.",
+          "examples": [
+            {
+              "jp": "会議の前に、資料を準備しておきます。",
+              "id": "Sebelum rapat, saya siapkan dulu dokumennya."
+            },
+            {
+              "jp": "旅行の前に、ホテルを予約しておきました。",
+              "id": "Sebelum bepergian, saya sudah memesan hotelnya."
+            },
+            {
+              "jp": "障害が起きたときのために、連絡先を共有しておきましょう。",
+              "id": "Untuk jaga-jaga kalau terjadi insiden, mari kita bagikan dulu kontaknya."
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "level": "N3",
+          "pattern": "～ばかりでなく",
+          "romaji": "bakari de naku",
+          "meaning": "Bukan hanya ... tetapi juga ... — menambahkan hal kedua yang sama pentingnya.",
+          "formation": "Kata kerja / kata sifat bentuk biasa + ばかりでなく; kata benda + ばかりでなく. Bentuk sopan: ばかりでなく.",
+          "nuance": "Lebih formal dan tertulis daripada ～だけでなく. Sering muncul di laporan dan presentasi. Pasangannya sering ～も (bukan hanya A, B juga).",
+          "examples": [
+            {
+              "jp": "このツールは速いばかりでなく、使いやすいです。",
+              "id": "Tool ini bukan hanya cepat, tetapi juga mudah dipakai."
+            },
+            {
+              "jp": "彼は日本語ばかりでなく、英語も話せます。",
+              "id": "Dia bukan hanya bisa bahasa Jepang, tetapi juga bisa bahasa Inggris."
+            },
+            {
+              "jp": "今回の変更はスケジュールばかりでなく、工数にも影響します。",
+              "id": "Perubahan kali ini bukan hanya berpengaruh pada jadwal, tetapi juga pada beban kerja."
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "level": "N3",
+          "pattern": "～たところ",
+          "romaji": "ta tokoro",
+          "meaning": "Baru saja ... / tepat setelah ... ternyata ... — melaporkan hasil dari tindakan yang baru dilakukan.",
+          "formation": "Kata kerja bentuk た + ところ.",
+          "nuance": "Dipakai saat melaporkan hasil pengecekan atau percobaan: 'saya cek, ternyata...'. Jangan dipakai untuk rencana masa depan.",
+          "examples": [
+            {
+              "jp": "確認したところ、問題が見つかりました。",
+              "id": "Baru saja saya cek, ternyata ditemukan masalah."
+            },
+            {
+              "jp": "電話したところ、担当者は外出中でした。",
+              "id": "Tepat setelah saya telepon, ternyata penanggung jawabnya sedang keluar."
+            },
+            {
+              "jp": "テストしたところ、代替案のほうが速いことが分かりました。",
+              "id": "Setelah diuji, ternyata rencana alternatifnya lebih cepat."
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "level": "N2",
+          "pattern": "～をめぐって",
+          "romaji": "wo megutte",
+          "meaning": "Seputar / mengenai — topik yang sedang diperdebatkan, didiskusikan, atau diperebutkan.",
+          "formation": "Kata benda + をめぐって.",
+          "nuance": "Bukan sekadar 'tentang' (について) yang netral. をめぐって menyiratkan ada perbedaan pendapat atau diskusi yang sedang berjalan. Sangat sering muncul di rapat dan berita bisnis.",
+          "examples": [
+            {
+              "jp": "新システムの導入をめぐって、意見が分かれています。",
+              "id": "Seputar penerapan sistem baru, pendapat masih terpecah."
+            },
+            {
+              "jp": "予算をめぐって、長い議論が続きました。",
+              "id": "Seputar anggaran, diskusi panjang terus berlanjut."
+            },
+            {
+              "jp": "リリース日をめぐって、チーム内で調整が必要です。",
+              "id": "Seputar tanggal rilis, perlu koordinasi di dalam tim."
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "level": "N2",
+          "pattern": "～に沿って",
+          "romaji": "ni sotte",
+          "meaning": "Sesuai dengan / mengikuti — bertindak mengikuti rencana, aturan, atau spesifikasi yang sudah ada.",
+          "formation": "Kata benda + に沿って (sopan: に沿って).",
+          "nuance": "Nada formal dan tertulis. Beda dengan ～にしたがって yang lebih umum; に沿って menekankan 'mengikuti garis yang sudah ditetapkan', misalnya spesifikasi atau kebijakan.",
+          "examples": [
+            {
+              "jp": "計画に沿って、プロジェクトを進めます。",
+              "id": "Kami menjalankan proyek sesuai dengan rencana."
+            },
+            {
+              "jp": "仕様に沿って、システムを修正してください。",
+              "id": "Tolong perbaiki sistemnya sesuai dengan spesifikasi."
+            },
+            {
+              "jp": "承認された方針に沿って、議事録を反映します。",
+              "id": "Sesuai kebijakan yang sudah disetujui, saya akan menerapkan hasilnya ke notulen."
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "level": "N2",
+          "pattern": "～かねる",
+          "romaji": "kaneru",
+          "meaning": "Sulit / tidak bisa ... — penolakan atau ketidakmampuan yang disampaikan secara sopan dan formal.",
+          "formation": "Kata kerja bentuk ます (tanpa ます) + かねる. Contoh tetap: 対応しかねる, 承諾しかねる, 理解しかねる.",
+          "nuance": "Ini cara menolak yang halus di email bisnis: bukan 'tidak mau', tapi 'sulit dilakukan'. Jangan dipakai untuk hal kasual sehari-hari — terdengar terlalu kaku untuk teman.",
+          "examples": [
+            {
+              "jp": "その日程では対応しかねます。",
+              "id": "Untuk jadwal itu, kami sulit memenuhinya."
+            },
+            {
+              "jp": "その条件では承諾しかねます。",
+              "id": "Dengan syarat itu, kami sulit menyetujuinya."
+            },
+            {
+              "jp": "期限までに完了するのは難しいため、お引き受けしかねます。",
+              "id": "Karena sulit selesai sebelum tenggat, kami terpaksa tidak bisa menerimanya."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "no": 1,
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "rapat",
+          "example_jp": "会議は10時からです。",
+          "example_id": "Rapatnya mulai jam 10."
+        },
+        {
+          "no": 2,
+          "word": "議事録",
+          "reading": "ぎじろく",
+          "meaning": "notulen rapat",
+          "example_jp": "議事録を共有します。",
+          "example_id": "Saya membagikan notulen rapatnya."
+        },
+        {
+          "no": 3,
+          "word": "担当",
+          "reading": "たんとう",
+          "meaning": "penanggung jawab",
+          "example_jp": "担当者に相談してください。",
+          "example_id": "Tolong konsultasikan ke penanggung jawabnya."
+        },
+        {
+          "no": 4,
+          "word": "期限",
+          "reading": "きげん",
+          "meaning": "tenggat",
+          "example_jp": "期限は今週金曜日です。",
+          "example_id": "Tenggatnya hari Jumat minggu ini."
+        },
+        {
+          "no": 5,
+          "word": "進める",
+          "reading": "すすめる",
+          "meaning": "memajukan / menjalankan",
+          "example_jp": "計画に沿って進めます。",
+          "example_id": "Kami menjalankannya sesuai rencana."
+        },
+        {
+          "no": 6,
+          "word": "調整",
+          "reading": "ちょうせい",
+          "meaning": "penyesuaian / koordinasi",
+          "example_jp": "日程を調整します。",
+          "example_id": "Saya menyesuaikan jadwalnya."
+        },
+        {
+          "no": 7,
+          "word": "依頼",
+          "reading": "いらい",
+          "meaning": "permintaan",
+          "example_jp": "依頼を受けました。",
+          "example_id": "Saya menerima permintaannya."
+        },
+        {
+          "no": 8,
+          "word": "承認",
+          "reading": "しょうにん",
+          "meaning": "persetujuan",
+          "example_jp": "承認をお願いします。",
+          "example_id": "Mohon persetujuannya."
+        },
+        {
+          "no": 9,
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "laporan",
+          "example_jp": "進捗を報告します。",
+          "example_id": "Saya melaporkan progresnya."
+        },
+        {
+          "no": 10,
+          "word": "相談",
+          "reading": "そうだん",
+          "meaning": "konsultasi",
+          "example_jp": "まず相談してください。",
+          "example_id": "Konsultasikan dulu, ya."
+        },
+        {
+          "no": 11,
+          "word": "決定事項",
+          "reading": "けっていじこう",
+          "meaning": "hal yang diputuskan",
+          "example_jp": "決定事項を確認します。",
+          "example_id": "Saya memeriksa hal-hal yang diputuskan."
+        },
+        {
+          "no": 12,
+          "word": "懸念点",
+          "reading": "けねんてん",
+          "meaning": "hal yang dikhawatirkan",
+          "example_jp": "懸念点を教えてください。",
+          "example_id": "Tolong beritahu hal-hal yang dikhawatirkan."
+        },
+        {
+          "no": 13,
+          "word": "代替案",
+          "reading": "だいたいあん",
+          "meaning": "rencana alternatif",
+          "example_jp": "代替案を検討します。",
+          "example_id": "Kami mempertimbangkan rencana alternatifnya."
+        },
+        {
+          "no": 14,
+          "word": "反映",
+          "reading": "はんえい",
+          "meaning": "penerapan",
+          "example_jp": "意見を資料に反映します。",
+          "example_id": "Saya menerapkan pendapat itu ke dokumen."
+        },
+        {
+          "no": 15,
+          "word": "完了",
+          "reading": "かんりょう",
+          "meaning": "selesai",
+          "example_jp": "作業が完了しました。",
+          "example_id": "Pekerjaannya sudah selesai."
+        }
+      ],
+      "dialog": [
+        {
+          "no": 1,
+          "speaker": "PM",
+          "jp": "今日はリリース日をめぐって、調整したいと思います。",
+          "id": "Hari ini saya ingin mengoordinasikan soal tanggal rilis."
+        },
+        {
+          "no": 2,
+          "speaker": "Tota",
+          "jp": "仕様に沿って進めていますが、懸念点が1つあります。",
+          "id": "Kami menjalankannya sesuai spesifikasi, tetapi ada 1 hal yang dikhawatirkan."
+        },
+        {
+          "no": 3,
+          "speaker": "PM",
+          "jp": "どんな懸念点ですか。",
+          "id": "Hal apa yang dikhawatirkan?"
+        },
+        {
+          "no": 4,
+          "speaker": "Tota",
+          "jp": "テストしたところ、代替案のほうが速いことが分かりました。",
+          "id": "Setelah diuji, ternyata rencana alternatifnya lebih cepat."
+        },
+        {
+          "no": 5,
+          "speaker": "PM",
+          "jp": "分かりました。議事録に反映して、担当者に共有しておきます。",
+          "id": "Baik. Saya terapkan ke notulen dan saya bagikan dulu ke penanggung jawabnya."
+        },
+        {
+          "no": 6,
+          "speaker": "Tota",
+          "jp": "期限までに完了できるよう、進めます。",
+          "id": "Saya akan menjalankannya agar bisa selesai sebelum tenggat."
+        }
+      ],
+      "quiz": [
+        {
+          "no": 1,
+          "type": "Grammar",
+          "question": "資料は事前に配布して＿＿。 (Materi rapat dibagikan terlebih dahulu sebelum rapat.)",
+          "options": [
+            "ておきます",
+            "てしまいます",
+            "てみます",
+            "てきます"
+          ],
+          "answer": 0,
+          "explanation": "～ておく = melakukan sesuatu terlebih dahulu sebagai persiapan. 資料を配布しておく = membagikan materi terlebih dahulu."
+        },
+        {
+          "no": 2,
+          "type": "Grammar",
+          "question": "彼は開発ばかりでなく、テスト＿＿担当している。 (Dia tidak hanya menangani pengembangan, tetapi juga pengujian.)",
+          "options": [
+            "は",
+            "も",
+            "が",
+            "を"
+          ],
+          "answer": 1,
+          "explanation": "～ばかりでなく～も = tidak hanya ... tetapi juga ... . Pola ini menghubungkan dua hal yang sama-sama dilakukan."
+        },
+        {
+          "no": 3,
+          "type": "Grammar",
+          "question": "先方に連絡した＿＿、まだ返事が来ていない。 (Baru saja menghubungi pihak terkait, tetapi belum ada balasan.)",
+          "options": [
+            "うちに",
+            "あとで",
+            "ところ",
+            "ばかり"
+          ],
+          "answer": 2,
+          "explanation": "～たところ = baru saja melakukan ... . Menunjukkan sesuatu yang baru saja terjadi, sering dilanjutkan dengan keadaan sesudahnya."
+        },
+        {
+          "no": 4,
+          "type": "Grammar",
+          "question": "この件については、現時点では判断＿＿。 (Mengenai hal ini, saat ini sulit untuk memutuskan.)",
+          "options": [
+            "できます",
+            "しかねます",
+            "します",
+            "なります"
+          ],
+          "answer": 1,
+          "explanation": "～かねる = sulit/tidak bisa ... (ungkapan sopan dan formal). 判断しかねます = sulit memutuskan, sering dipakai saat belum bisa memberi jawaban pasti."
+        },
+        {
+          "no": 5,
+          "type": "Vocab",
+          "question": "議事録（ぎじろく）の意味は？",
+          "options": [
+            "Ruang rapat",
+            "Notulen rapat",
+            "Jadwal rapat",
+            "Undangan rapat"
+          ],
+          "answer": 1,
+          "explanation": "議事録 = notulen/risalah rapat, yaitu catatan isi dan keputusan rapat. Contoh: 議事録を作成します (membuat notulen rapat)."
+        },
+        {
+          "no": 6,
+          "type": "Vocab",
+          "question": "「この件の担当は田中さんです」— 担当（たんとう）の意味は？",
+          "options": [
+            "Peserta rapat",
+            "Penanggung jawab / orang yang menangani",
+            "Pengamat rapat",
+            "Pimpinan rapat"
+          ],
+          "answer": 1,
+          "explanation": "担当 = orang yang bertanggung jawab menangani suatu tugas. 担当者 = penanggung jawab."
+        },
+        {
+          "no": 7,
+          "type": "Vocab",
+          "question": "期限（きげん）の意味は？",
+          "options": [
+            "Rapat rutin",
+            "Batas waktu / deadline",
+            "Progres pekerjaan",
+            "Hasil rapat"
+          ],
+          "answer": 1,
+          "explanation": "期限 = batas waktu/tenggat. Contoh: 期限までに提出します (menyerahkan sebelum batas waktu)."
+        },
+        {
+          "no": 8,
+          "type": "Vocab",
+          "question": "懸念点（けねんてん）の意味は？",
+          "options": [
+            "Keputusan rapat",
+            "Alternatif solusi",
+            "Poin yang dikhawatirkan / hal yang menjadi kekhawatiran",
+            "Hasil kesepakatan"
+          ],
+          "answer": 2,
+          "explanation": "懸念点 = poin kekhawatiran, yaitu hal yang dikhawatirkan dalam proyek. Contoh: 懸念点を共有します (membagikan poin kekhawatiran)."
+        },
+        {
+          "no": 9,
+          "type": "Dialog",
+          "question": "Dalam rapat, A berkata:「仕様をめぐって意見が分かれています。」Maksud A adalah:",
+          "options": [
+            "Spesifikasi sudah disetujui semua orang",
+            "Opini berbeda mengenai spesifikasi",
+            "Spesifikasi belum dibahas sama sekali",
+            "Spesifikasi sudah selesai dibuat"
+          ],
+          "answer": 1,
+          "explanation": "～をめぐって = mengenai/seputar ... (dipakai saat ada perdebatan atau pembahasan). 仕様をめぐって意見が分かれる = pendapat berbeda mengenai spesifikasi."
+        },
+        {
+          "no": 10,
+          "type": "Dialog",
+          "question": "Manajer berkata:「決定事項は議事録に反映しておきます。」Maksud manajer adalah:",
+          "options": [
+            "Keputusan rapat akan dicatat ke dalam notulen sebagai persiapan",
+            "Keputusan rapat ditunda sampai rapat berikutnya",
+            "Keputusan rapat dibatalkan",
+            "Keputusan rapat hanya disampaikan lisan"
+          ],
+          "answer": 0,
+          "explanation": "反映する = mencerminkan/mencatat ke dalam sesuatu; ditambah ～ておく = dilakukan terlebih dahulu sebagai persiapan. Jadi keputusan rapat akan dicatat ke notulen."
+        }
+      ]
+    }
+  ]
+}
