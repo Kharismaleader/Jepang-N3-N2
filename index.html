@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <!-- Sengaja TANPA meta mode standalone iOS: shortcut Home Screen harus membuka tab Safari biasa, bukan wadah terpisah (mengikuti revisi terakhir Kantong-Yen). -->
 <meta name="theme-color" content="#0E5F56">
-<title>Jepang N3–N2</title>
+<title>Daily Japan</title>
 <style>
 :root{--teal:#0E5F56;--teal2:#0E7C86;--orange:#F28C28;--bg:#F2F7F5;--card:#fff;--ink:#17302C;--mute:#64756F;--line:#DCE8E3;--chip:#EAF3F0;--ok:#2E7D4F;--bad:#C93A4F;--warn:#FFF3E2;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px)}
@@ -105,8 +105,7 @@ select,input[type=search]{width:100%;border:0;background:var(--chip);border-radi
 .bnav button.on{color:var(--teal);background:var(--chip)}
 .toast{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 12px);transform:translate(-50%,-90px);background:var(--ink);color:#fff;padding:10px 18px;border-radius:99px;font-size:14px;font-weight:700;transition:transform .25s;z-index:30;max-width:92vw;text-align:center}
 .toast.on{transform:translate(-50%,0)}
-.lvlbadge{border:1.5px solid var(--teal);background:var(--chip);color:var(--teal);border-radius:99px;padding:5px 10px;font-size:12px;font-weight:800;cursor:pointer;flex:none;min-height:32px}
-.lvlbadge:active{transform:scale(.96)}
+
 .lvgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
 .lvcard{border:2px solid var(--line);background:var(--card);border-radius:18px;padding:14px 13px;text-align:left;cursor:pointer;min-height:86px}
 .lvcard b{display:block;font-size:17px;color:var(--teal);margin-bottom:3px}
@@ -128,7 +127,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 <body>
 <main>
   <div class="top">
-    <div class="brand"><img class="avatar" src="hasian.gif" alt="Hasian" width="40" height="40" onerror="this.style.display='none'"><h1>Jepang <span id="lvlTitle">N3–N2</span></h1><button class="lvlbadge" id="lvlBadge" aria-label="Ganti level belajar">N3–N2 ▾</button></div>
+    <div class="brand"><img class="avatar" src="hasian.gif" alt="Hasian" width="40" height="40" onerror="this.style.display='none'"><h1>Daily Japan</h1></div>
     <div class="hbtns">
       <button class="hbtn" id="btnKey">Kode akses</button>
       <button class="hbtn" id="btnSync">↻ Sinkronkan</button>
@@ -231,8 +230,22 @@ function toast(m){const t=$("toast");t.textContent=m;t.className="toast on";clea
 let jaVoice=null;
 function loadVoices(){
   try{
-    const vs=window.speechSynthesis.getVoices()||[];
-    jaVoice=vs.find(v=>/^ja([-_]|$)/i.test(v.lang||""))||null;
+    const vs=(window.speechSynthesis.getVoices()||[]).filter(v=>/^ja([-_]|$)/i.test(v.lang||""));
+    if(!vs.length){jaVoice=null;return}
+    // Pilih suara Jepang PALING natural yang tersedia di perangkat:
+    // varian Enhanced/Premium iOS > Google Jepang (Chrome) > Kyoko > Otoya.
+    const score=v=>{
+      const n=((v.name||"")+" "+(v.voiceURI||"")).toLowerCase();
+      let s=0;
+      if(/enhanced|premium|neural|natural/.test(n)) s+=40;
+      if(/google/.test(n)) s+=30;
+      if(/kyoko/.test(n)) s+=20;
+      if(/otoya/.test(n)) s+=10;
+      if(v.default) s+=5;
+      if(/compact|eloquence|novelty/.test(n)) s-=30;
+      return s;
+    };
+    jaVoice=vs.slice().sort((a,b)=>score(b)-score(a))[0];
   }catch(e){}
 }
 if("speechSynthesis" in window){
@@ -248,7 +261,10 @@ function speak(text){
     try{
       const u=new SpeechSynthesisUtterance(t);
       u.lang="ja-JP";
-      u.rate=0.92;
+      // Kalimat & dialog memakai tempo natural penutur asli (1.0) agar fasih;
+      // kata tunggal sedikit lebih lambat (0.88) agar pengucapannya jelas.
+      u.rate=(t.length>10||/。|、/.test(t))?1.0:0.88;
+      u.pitch=1;
       u.volume=1;
       if(jaVoice) u.voice=jaVoice;
       u.onerror=ev=>{if(ev&&(ev.error==="language-unavailable"||ev.error==="voice-unavailable"))toast("Suara Bahasa Jepang belum terpasang di perangkat ini")};
@@ -338,10 +354,9 @@ function restoreLevel(id){
   quizState=s.quizState; vocabMode=s.vocabMode; levelFetched=s.fetched;
 }
 function updateHeaderLevel(){
-  const L=LEVEL();
-  $("lvlTitle").textContent=L.label;
-  $("lvlBadge").textContent=L.label+" ▾";
-  document.title="Jepang "+L.label;
+  // Judul app tetap "Daily Japan" untuk kedua level (permintaan Tota
+  // 2026-11-08: tombol badge level di header dihapus agar desain bersih).
+  document.title="Daily Japan";
 }
 function setLevel(id){
   if(!LEVELS.some(L=>L.id===id)) id="n3n2";
@@ -655,7 +670,7 @@ $("btnKey").onclick=()=>{
   if(k.trim()) loadData(true);
 };
 $("btnSync").onclick=()=>loadData(true);
-$("lvlBadge").onclick=()=>{go("home");toast("Pilih level pada kartu di Beranda 👆")};
+
 
 /* ---------- Mulai ---------- */
 updateHeaderLevel();
