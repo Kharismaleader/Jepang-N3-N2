@@ -113,6 +113,29 @@ select,input[type=search]{width:100%;border:0;background:var(--chip);border-radi
 .lvcard.on{border-color:var(--teal);background:#EAF5F1;box-shadow:0 3px 10px rgba(14,95,86,.18)}
 .lvcard.on b::after{content:" ✓";color:var(--ok)}
 .lvcard:active{transform:scale(.98)}
+.brandtxt{display:flex;flex-direction:column;min-width:0}
+.uname{background:none;border:0;padding:0;margin-top:1px;text-align:left;font-size:11.5px;color:var(--mute);cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:46vw;font-weight:600}
+.kanabtn{display:flex;gap:12px;align-items:center;width:100%;border:0;border-radius:20px;padding:16px;color:#fff;background:linear-gradient(135deg,#B04A82,#7E6BB5);cursor:pointer;text-align:left;margin-bottom:12px;box-shadow:0 4px 14px rgba(126,107,181,.35)}
+.kanabtn:active{transform:scale(.98)}
+.kanabtn .kb-k{font-size:29px;font-weight:900;flex:none;line-height:1.15}
+.kanabtn .kb-t{flex:1;min-width:0}
+.kanabtn .kb-t b{display:block;font-size:17px}
+.kanabtn .kb-t span{font-size:12.5px;opacity:.93;line-height:1.4;display:block}
+.kanabtn .kb-a{font-size:26px;opacity:.85;flex:none}
+.kgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.kgrp{grid-column:1/-1;font-size:12px;font-weight:800;color:var(--mute);margin-top:8px;letter-spacing:.3px}
+.ktile{border:1.5px solid var(--line);border-radius:14px;background:#F8FBFA;padding:9px 1px 7px;text-align:center;position:relative}
+.ktile.on{border-color:var(--ok);background:#EAF7EE}
+.ktile .kk{font-size:25px;font-weight:800;display:block;background:none;border:0;width:100%;cursor:pointer;padding:6px 0 1px;color:var(--ink);line-height:1.2}
+.ktile .kk.long{font-size:17px;padding-top:10px}
+.ktile .kr{font-size:12px;color:var(--teal2);font-weight:700}
+.ktile .kmk{position:absolute;top:3px;right:3px;width:21px;height:21px;border-radius:50%;border:1.5px solid var(--teal);background:#fff;color:var(--teal);font-size:10.5px;font-weight:800;cursor:pointer;padding:0;line-height:1}
+.ktile.on .kmk{background:var(--ok);border-color:var(--ok);color:#fff}
+.knote{background:var(--warn);border:1.5px solid var(--orange);border-radius:12px;padding:9px 12px;font-size:13.5px;margin-top:10px;min-height:42px}
+.kinfo{border:1.5px solid var(--line);border-radius:14px;padding:12px 13px;margin-bottom:10px;background:#F8FBFA}
+.kinfo b{display:block;margin-bottom:4px;color:var(--teal)}
+.kinfo .kjp{font-size:16.5px;margin:3px 0}
+.kinfo .kid{font-size:13.5px;color:var(--mute);line-height:1.55}
 .abtn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--chip);font-size:15px;cursor:pointer;flex:none;vertical-align:middle;padding:0}
 .abtn:active{transform:scale(.92)}
 .abtn.wide{width:auto;border-radius:99px;padding:0 14px;height:38px;font-weight:700;font-size:13.5px;color:var(--teal)}
@@ -127,7 +150,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 <body>
 <main>
   <div class="top">
-    <div class="brand"><img class="avatar" src="hasian.gif" alt="Hasian" width="40" height="40" onerror="this.style.display='none'"><h1>Daily Japan</h1></div>
+    <div class="brand"><img class="avatar" src="hasian.gif" alt="Hasian" width="40" height="40" onerror="this.style.display='none'"><div class="brandtxt"><h1>Daily Japan</h1><button class="uname" id="userName" aria-label="Nama pengguna di perangkat ini">Welcome</button></div></div>
     <div class="hbtns">
       <button class="hbtn" id="btnKey">Kode akses</button>
       <button class="hbtn" id="btnSync">↻ Sinkronkan</button>
@@ -156,6 +179,12 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
   <section id="view-arsip" hidden>
     <input type="search" id="searchBox" placeholder="Cari tema, grammar, atau vocab…" aria-label="Cari di arsip">
     <div id="arsipBody"></div>
+  </section>
+
+  <!-- HIRAGANA & KATAKANA (materi tetap pendahuluan) -->
+  <section id="view-kana" hidden>
+    <button class="btn ghost" id="kanaBack" style="margin-bottom:12px">‹ Kembali ke Beranda</button>
+    <div id="kanaBody"></div>
   </section>
 </main>
 
@@ -204,6 +233,10 @@ const SYNC_URL_N5N4 = "https://script.google.com/macros/s/AKfycbzm9RBFLmpp0I0gTu
    terikat ke Sheet "Log Quiz Daily Japan"). Diisi setelah ter-deploy;
    selama kosong, catatan tersimpan di antrean perangkat saja. */
 const LOG_URL = "https://script.google.com/macros/s/AKfycbyp0Ze0t2WwOlPWkbOsRSlc-I6j6Y0Zuq00Vdp46LTE7T8GVM__sKoa53gX9oS2S8IOoA/exec";
+/* Endpoint materi TETAP Hiragana & Katakana (Apps Script terikat ke
+   Sheet "Materi Hira&Kata"). Diisi setelah ter-deploy; selama kosong,
+   app memakai seed-kana.json di repo yang sama sebagai cadangan. */
+const SYNC_URL_KANA = "https://script.google.com/macros/s/AKfycbysNQjrEmjYCA4vhJN3m5xyJXdt3nUeie1mfUTjAjq9-ozzyh1CShKmQVxU3kRsuzlZbA/exec";
 
 /* Dua level belajar yang didukung aplikasi. Data, cache,
    progres, dan skor quiz disimpan TERPISAH per level. */
@@ -386,6 +419,29 @@ function setLevel(id){
 
 function getKey(){try{return localStorage.getItem(LS_KEY)||""}catch(e){return ""}}
 function setKey(k){try{localStorage.setItem(LS_KEY,k)}catch(e){}}
+
+/* ---------- Nama pengguna: "Welcome, nama" di bawah judul ----------
+   Nama dimasukkan SEKALI, bersamaan dengan memasukkan kode sinkron
+   lewat tombol "Kode akses" (alur di bagian Header bawah), lalu
+   disimpan di perangkat ini dan selalu tampil sebagai "Welcome, nama"
+   tepat di bawah judul "Daily Japan" setiap app dibuka. Nama juga
+   menjadi identitas pada catatan hasil belajar. Garis "Welcome" di
+   bawah judul bisa diketuk untuk mengganti nama saja. */
+const LS_USER_NAME = "jpn.userName";
+function getUserName(){try{return (localStorage.getItem(LS_USER_NAME)||"").trim()}catch(e){return ""}}
+function setUserName(v){try{localStorage.setItem(LS_USER_NAME,String(v||"").trim())}catch(e){}}
+function renderUserName(){
+  const el=$("userName"); if(!el) return;
+  const nm=getUserName();
+  el.textContent = nm ? ("Welcome, "+nm) : "Welcome — ketuk untuk isi nama";
+}
+$("userName").onclick=()=>{
+  const v=prompt("Nama pengguna di perangkat ini\n(akan tampil sebagai \"Welcome, nama\" di bawah judul Daily Japan):",getUserName());
+  if(v===null) return;
+  setUserName(v);
+  renderUserName();
+  toast(getUserName()?("Halo, "+getUserName()+"!"):"Nama pengguna dihapus");
+};
 /* Kunci penyimpanan per level: progres & cache Tota (n3n2) memakai kunci lama
    agar data yang sudah tersimpan tidak hilang; level lain memakai suffix id level. */
 function progKey(){return levelId==="n3n2"?LS_PROG:"jepang-"+levelId+"-progress-v1"}
@@ -403,11 +459,12 @@ function setProg(date,fn){const p=loadProg();const cur=p[date]||{grammar:{},voca
    N3-N2 = Tota, N5-N4 = Istri. */
 const USER_LABEL={n3n2:"Tota",n5n4:"Istri"};
 const LS_LOGQ="jpn.logqueue.v1";
-function logUser(){return (USER_LABEL[levelId]||levelId)+" ("+LEVEL().label+")"}
+function logUser(){const nm=getUserName();return (nm||USER_LABEL[levelId]||levelId)+" ("+LEVEL().label+")"}
 function loadLogQ(){try{return JSON.parse(localStorage.getItem(LS_LOGQ)||"[]")}catch(e){return[]}}
 function saveLogQ(q){try{localStorage.setItem(LS_LOGQ,JSON.stringify(q.slice(-60)))}catch(e){}}
 function enqueueLog(rec){
   rec.key=getKey();
+  if(!rec.name) rec.name=getUserName();
   const q=loadLogQ(); q.push(rec); saveLogQ(q);
   flushLog();
 }
@@ -509,9 +566,10 @@ let view = "home";
 function go(v){
   stopSpeak();
   view=v;
-  ["home","materi","quiz","arsip"].forEach(x=>{$("view-"+x).hidden = x!==v});
+  ["home","materi","quiz","arsip","kana"].forEach(x=>{$("view-"+x).hidden = x!==v});
   document.querySelectorAll(".bnav button").forEach(b=>b.classList.toggle("on",b.dataset.view===v));
   window.scrollTo({top:0});
+  if(v==="kana") loadKana();
   renderAll();
 }
 document.querySelectorAll(".bnav button").forEach(b=>b.onclick=()=>go(b.dataset.view));
@@ -533,13 +591,17 @@ function noDataMsg(){
 }
 
 /* ---------- Render: Beranda ---------- */
+function kanaBtnHtml(){
+  return '<button class="kanabtn" id="hKana"><span class="kb-k">あ<br>ア</span><span class="kb-t"><b>Hiragana &amp; Katakana</b><span>Materi pendahuluan dari nol: huruf, angka, sapaan &amp; quiz kana 🌱</span></span><span class="kb-a">›</span></button>';
+}
+function wireKanaBtn(){const b=$("hKana");if(b)b.onclick=()=>go("kana")}
 function renderHome(){
   const m = materiOf(selectedDate) || sortedMateri()[0];
   const el = $("view-home");
-  if(!m){el.innerHTML=levelPickerHtml()+'<div class="card empty">'+noDataMsg()+'</div>';return}
+  if(!m){el.innerHTML=kanaBtnHtml()+levelPickerHtml()+'<div class="card empty">'+noDataMsg()+'</div>';wireKanaBtn();return}
   const c = counts(m), pr = progOf(m.date);
   const pct = (c.g+c.v)?Math.round((c.gd+c.vd)/(c.g+c.v)*100):0;
-  el.innerHTML = levelPickerHtml() +
+  el.innerHTML = kanaBtnHtml() + levelPickerHtml() +
     '<section class="hero"><small>'+esc(fmtDate(m.date))+(m.context?' • '+esc(m.context):'')+'</small>'+
     '<h2>'+esc(m.theme||"Materi hari ini")+'</h2>'+
     (m.target?'<p>🎯 '+esc(m.target)+'</p>':'')+'</section>'+
@@ -555,6 +617,7 @@ function renderHome(){
     '<div class="card"><h3>Vocab sekilas ('+(m.vocab||[]).length+')</h3><div class="chips">'+
     (m.vocab||[]).map(v=>'<span class="chip'+(pr.vocab&&pr.vocab[v.no]?" done":"")+'"><b>'+esc(v.word)+'</b> '+esc(v.reading?"("+v.reading+") ":"")+'— '+esc(v.meaning||"")+'</span>').join("")+
     '</div></div>';
+  wireKanaBtn();
   $("hStart").onclick=()=>{selectedDate=m.date;go("materi")};
   $("hQuiz").onclick=()=>{quizDate=m.date;quizState=null;go("quiz")};
 }
@@ -712,9 +775,177 @@ function renderArsip(){
 }
 
 function renderAll(){
-  renderHome(); renderMateri(); renderQuiz(); renderArsip();
+  renderHome(); renderMateri(); renderQuiz(); renderArsip(); renderKana();
   // kembalikan tampilan aktif setelah render ulang
-  ["home","materi","quiz","arsip"].forEach(x=>{$("view-"+x).hidden = x!==view});
+  ["home","materi","quiz","arsip","kana"].forEach(x=>{$("view-"+x).hidden = x!==view});
+}
+
+/* ============================================================
+   MATERI TETAP: Hiragana & Katakana (Sheet "Materi Hira&Kata")
+   ------------------------------------------------------------
+   Materi pendahuluan yang FIX (tidak berubah harian): 10 bab —
+   pengantar, Hiragana 46, Katakana 46, dakuten, yoon, aturan
+   bunyi, angka, sapaan, kata pertama, dan Quiz Kana 20 soal.
+   Sumber data: SYNC_URL_KANA (Sheet) -> cache HP -> seed-kana.json.
+   Progres hafalan kana tersimpan di perangkat (kunci tersendiri);
+   hasil Quiz Kana ikut tercatat ke Sheet "Log Quiz Daily Japan".
+   ============================================================ */
+let KANA = {bab:[]};
+let kanaSrc = "";
+const LS_KANA_CACHE = "jpn.kana-cache.v1";
+const LS_KANA_PROG = "jpn.kana-progress.v1";
+let kanaFetched = false;
+const kanaMode = {}; // kode bab -> "grid" | "flash"
+let kanaQuizState = null;
+
+function kanaProgAll(){try{const p=JSON.parse(localStorage.getItem(LS_KANA_PROG)||"{}");return{learned:p.learned||{},quizBest:(p.quizBest===undefined?null:p.quizBest)}}catch(e){return{learned:{},quizBest:null}}}
+function kanaSaveProg(p){try{localStorage.setItem(LS_KANA_PROG,JSON.stringify(p))}catch(e){}}
+function kanaToggle(key){const p=kanaProgAll();if(p.learned[key])delete p.learned[key];else p.learned[key]=true;kanaSaveProg(p)}
+function kanaCountsBab(b){const p=kanaProgAll();let t=0,d=0;(b.kana||[]).forEach(k=>{t++;if(p.learned[b.kode+":"+k.no])d++});(b.vocab||[]).forEach(v=>{t++;if(p.learned[b.kode+":v"+v.no])d++});return{t,d}}
+function applyKana(json,kind){if(!json||!Array.isArray(json.bab)||!json.bab.length)return false;KANA=json;kanaSrc=kind;renderKana();return true}
+async function loadKana(){
+  if(kanaFetched) return; kanaFetched=true;
+  try{const c=JSON.parse(localStorage.getItem(LS_KANA_CACHE)||"null");if(c&&c.data)applyKana(c.data,"cache")}catch(e){}
+  if(SYNC_URL_KANA && getKey()){
+    try{
+      const j=await fetchJson(SYNC_URL_KANA+"?key="+encodeURIComponent(getKey()));
+      if(j&&j.ok!==false&&applyKana(j,"sheet")){try{localStorage.setItem(LS_KANA_CACHE,JSON.stringify({data:j,at:Date.now()}))}catch(e){}return}
+    }catch(e){/* lanjut ke cadangan */}
+  }
+  try{const j=await fetchJson("seed-kana.json");if(applyKana(j,"seed"))return}catch(e){}
+  renderKana();
+}
+$("kanaBack").onclick=()=>go("home");
+
+function kanaQuizLog(qs,answers,score,startedAt){
+  const dur=startedAt?Math.max(0,Math.round((Date.now()-startedAt)/1000)):"";
+  enqueueLog({kind:"quiz",session:"KANA-"+Date.now().toString(36),user:logUser(),level:"Kana",date:"KANA",
+    theme:"Quiz Hiragana & Katakana",score:score,total:qs.length,
+    percent:qs.length?Math.round(score/qs.length*100):0,duration:dur,
+    answers:qs.map((q,i)=>({no:q.no||i+1,type:q.type||"",question:String(q.question||"").slice(0,200),
+      picked:(q.options||[])[answers[i]]!=null?String((q.options||[])[answers[i]]):"",
+      correct:(q.options||[])[q.answer]!=null?String((q.options||[])[q.answer]):"",
+      right:answers[i]===q.answer}))});
+}
+
+function renderKana(){
+  const el=$("kanaBody"); if(!el) return;
+  const babs=KANA.bab||[];
+  if(!babs.length){el.innerHTML='<div class="card empty"><b>あ</b>Materi Hiragana &amp; Katakana sedang dimuat…<br>Bila tidak muncul, periksa koneksi lalu ketuk Sinkronkan.</div>';return}
+  const prog=kanaProgAll();
+  let totT=0,totD=0; babs.forEach(b=>{const c=kanaCountsBab(b);totT+=c.t;totD+=c.d});
+  let h='<div class="card"><h2 style="margin:0 0 6px">あ Hiragana &amp; Katakana ア</h2>'+
+    '<p class="mini" style="margin:0 0 10px">Materi pendahuluan tetap untuk pemula — belajar huruf dari nol dengan suara, kartu kilat, dan tanda hafal. Urutannya sudah disusun dari yang termudah.</p>'+
+    '<div class="prog"><div class="prow"><span>Sudah dihafal</span><b>'+totD+' / '+totT+'</b></div><div class="pbar"><i style="width:'+(totT?totD/totT*100:0)+'%"></i></div></div>'+
+    '<p class="mini">Skor Quiz Kana terbaik: '+(prog.quizBest===null?"belum ada":prog.quizBest+" / 20")+' • Sumber: '+(kanaSrc==="sheet"?"Sheet Materi Hira&Kata":kanaSrc==="cache"?"tersimpan di HP":"cadangan app")+'</p></div>';
+
+  babs.forEach(b=>{
+    const c=kanaCountsBab(b);
+    h+='<div class="card"><h3>'+esc(b.ikon||"")+' '+esc(b.judul||"")+'</h3>'+
+      (b.subjudul?'<p class="mini" style="margin:-6px 0 8px">'+esc(b.subjudul)+'</p>':'')+
+      (b.ringkasan?'<p style="margin:0 0 10px;font-size:14.5px">'+esc(b.ringkasan)+'</p>':'')+
+      (c.t?'<div class="prog"><div class="prow"><span>Progres bab ini</span><b>'+c.d+' / '+c.t+'</b></div><div class="pbar"><i style="width:'+(c.t?c.d/c.t*100:0)+'%"></i></div></div>':'');
+
+    (b.kartu||[]).forEach(k=>{
+      h+='<div class="kinfo"><b>'+esc(k.judul)+'</b>'+
+        (k.jp?'<div class="kjp">'+esc(k.jp)+' <button class="abtn" data-speak="'+esc(k.jp)+'" aria-label="Dengarkan contoh">🔊</button></div>':'')+
+        '<div class="kid">'+esc(k.id)+'</div></div>';
+    });
+
+    if((b.kana||[]).length){
+      const mode=kanaMode[b.kode]||"grid";
+      h+='<div class="seg"><button data-km="'+esc(b.kode)+'" data-mode="grid" class="'+(mode==="grid"?"on":"")+'">Tabel huruf</button><button data-km="'+esc(b.kode)+'" data-mode="flash" class="'+(mode==="flash"?"on":"")+'">Kartu kilat</button></div>';
+      if(mode==="grid"){
+        let lastGrp="";
+        h+='<div class="kgrid">';
+        (b.kana||[]).forEach(k=>{
+          if(k.kelompok&&k.kelompok!==lastGrp){lastGrp=k.kelompok;h+='<div class="kgrp">'+esc(k.kelompok)+'</div>'}
+          const on=!!prog.learned[b.kode+":"+k.no];
+          h+='<div class="ktile'+(on?" on":"")+'"><button class="kmk" data-kmark="'+esc(b.kode)+':'+k.no+'" aria-label="Tandai hafal">'+(on?"✓":"✓")+'</button>'+
+            '<button class="kk'+(String(k.kana).length>1?" long":"")+'" data-kshow="'+esc(b.kode)+'" data-kana="'+esc(k.kana)+'" data-romaji="'+esc(k.romaji)+'" data-note="'+esc(k.catatan||"")+'">'+esc(k.kana)+'</button>'+
+            '<div class="kr">'+esc(k.romaji)+'</div></div>';
+        });
+        h+='</div><div class="knote" id="knote-'+esc(b.kode)+'">👆 Ketuk hurufnya untuk mendengar bunyinya — trik hafalannya muncul di sini.</div>';
+      } else {
+        (b.kana||[]).forEach(k=>{
+          const fk="kanaflash:"+b.kode+":"+k.no, flip=flipped.has(fk), on=!!prog.learned[b.kode+":"+k.no];
+          h+='<button class="flash'+(flip?" flip":"")+'" data-kflip="'+esc(fk)+'"><span class="fw">'+esc(k.kana)+'</span>'+
+            '<span class="fm"><b style="font-size:19px">'+esc(k.romaji)+'</b>'+(k.catatan?'<br><small>'+esc(k.catatan)+'</small>':'')+'</span>'+
+            '<span class="hint">'+(flip?"Ketuk untuk membalik":"Ketuk kartu untuk melihat romaji")+'</span></button>'+
+            '<div class="audiorow"><button class="abtn wide" data-speak="'+esc(k.kana)+'" aria-label="Dengarkan huruf">🔊 Dengar</button></div>'+
+            '<button class="check '+(on?"on":"")+'" data-kmark="'+esc(b.kode)+':'+k.no+'" style="margin:-4px 0 12px">'+(on?"✓ Sudah hafal":"Tandai sudah hafal")+'</button>';
+        });
+      }
+    }
+
+    if((b.vocab||[]).length){
+      b.vocab.forEach(v=>{
+        const on=!!prog.learned[b.kode+":v"+v.no];
+        h+='<div class="vrow"><div class="w"><b>'+esc(v.word)+'</b> <span class="rd">'+esc(v.reading||"")+'</span> <button class="abtn" data-speak="'+esc(v.word)+'" aria-label="Dengarkan kata">🔊</button><div class="mn">'+esc(v.meaning||"")+'</div>'+
+          (v.example_jp?'<div class="ex2">'+esc(v.example_jp)+' <button class="abtn" data-speak="'+esc(v.example_jp)+'" aria-label="Dengarkan contoh kalimat">🔊</button><br>'+esc(v.example_id||"")+'</div>':'')+'</div>'+
+          '<button class="check '+(on?"on":"")+'" data-kmark="'+esc(b.kode)+':v'+v.no+'">'+(on?"✓ Hafal":"Hafal?")+'</button></div>';
+      });
+    }
+
+    if((b.quiz||[]).length){
+      const qs=b.quiz, st=kanaQuizState;
+      if(!st){
+        h+='<button class="btn pri" id="kqStart">▶ Mulai Quiz Kana ('+qs.length+' soal)</button>'+
+           '<p class="mini" style="margin-top:8px">Skor terbaikmu: '+(prog.quizBest===null?"belum ada":prog.quizBest+" / "+qs.length)+'. Hasil quiz ini ikut tercatat di Sheet Log Quiz Daily Japan.</p>';
+      } else if(st.finished){
+        const score=qs.reduce((s,q,i)=>s+(st.answers[i]===q.answer?1:0),0);
+        h+='<div class="score"><p class="mini">Quiz Kana selesai!</p><b>'+score+' / '+qs.length+'</b>'+
+          '<p class="mini">Skor terbaik: '+(prog.quizBest===null?score:prog.quizBest)+' / '+qs.length+'</p>'+
+          '<button class="btn pri" id="kqRetry">↻ Ulangi Quiz</button><button class="btn ghost" id="kqDone">Kembali ke Bab</button></div>';
+      } else {
+        const i=st.idx, q=qs[i], picked=st.answers[i], answered=picked!==undefined;
+        h+='<div class="prow" style="display:flex;justify-content:space-between"><span class="mini">Soal '+(i+1)+' dari '+qs.length+(q.type?' • '+esc(q.type):'')+'</span><span class="mini">Terbaik: '+(prog.quizBest===null?"—":prog.quizBest)+'</span></div>'+
+          '<div class="pbar" style="margin-bottom:14px"><i style="width:'+(i/qs.length*100)+'%"></i></div>'+
+          '<h3 style="font-size:17px;line-height:1.5">'+esc(q.question)+'</h3>'+
+          (q.options||[]).map((op,oi)=>{
+            let cls="";
+            if(answered){ if(oi===q.answer)cls="sel-ok"; else if(oi===picked)cls="sel-bad"; else cls="dim"; }
+            return '<button class="qopt '+cls+'" data-kqopt="'+oi+'">'+esc(String.fromCharCode(65+oi))+". "+esc(op)+'</button>';
+          }).join("")+
+          (answered?'<div class="qexp">'+(picked===q.answer?"✅ <b>Benar!</b> ":"❌ <b>Belum tepat.</b> Jawaban benar: <b>"+esc((q.options||[])[q.answer]||"")+"</b>. ")+esc(q.explanation||"")+'</div>'+
+            '<button class="btn pri" id="kqNext">'+(i+1>=qs.length?"Lihat Hasil":"Soal Berikutnya ›")+'</button>':'');
+      }
+    }
+
+    if(b.tips) h+='<div class="tips" style="margin-top:12px"><b>💡 Tips</b><br>'+esc(b.tips)+'</div>';
+    h+='</div>';
+  });
+  el.innerHTML=h;
+
+  el.querySelectorAll("[data-km]").forEach(x=>x.onclick=()=>{kanaMode[x.dataset.km]=x.dataset.mode;renderKana()});
+  el.querySelectorAll("[data-kshow]").forEach(x=>x.onclick=()=>{
+    speak(x.dataset.kana);
+    const note=$("knote-"+x.dataset.kshow);
+    if(note) note.innerHTML="<b>"+esc(x.dataset.kana)+" = "+esc(x.dataset.romaji)+"</b>"+(x.dataset.note?" — "+esc(x.dataset.note):"");
+  });
+  el.querySelectorAll("[data-kmark]").forEach(x=>x.onclick=()=>{kanaToggle(x.dataset.kmark);renderKana()});
+  el.querySelectorAll("[data-kflip]").forEach(x=>x.onclick=()=>{const k=x.dataset.kflip;flipped.has(k)?flipped.delete(k):flipped.add(k);renderKana()});
+  const kqs=$("kqStart"); if(kqs) kqs.onclick=()=>{kanaQuizState={idx:0,answers:{},finished:false,startedAt:Date.now()};renderKana()};
+  const kqr=$("kqRetry"); if(kqr) kqr.onclick=()=>{kanaQuizState={idx:0,answers:{},finished:false,startedAt:Date.now()};renderKana()};
+  const kqd=$("kqDone"); if(kqd) kqd.onclick=()=>{kanaQuizState=null;renderKana()};
+  el.querySelectorAll("[data-kqopt]").forEach(x=>x.onclick=()=>{
+    const st=kanaQuizState; if(!st||st.finished) return;
+    if(st.answers[st.idx]!==undefined) return;
+    st.answers[st.idx]=+x.dataset.kqopt; renderKana();
+  });
+  const kqn=$("kqNext");
+  if(kqn) kqn.onclick=()=>{
+    const st=kanaQuizState; if(!st) return;
+    const quizBab=(KANA.bab||[]).find(x=>(x.quiz||[]).length); if(!quizBab) return;
+    const qs=quizBab.quiz;
+    if(st.idx+1>=qs.length){
+      st.finished=true;
+      const score=qs.reduce((s,q,i)=>s+(st.answers[i]===q.answer?1:0),0);
+      const p=kanaProgAll(); if(p.quizBest===null||score>p.quizBest)p.quizBest=score; kanaSaveProg(p);
+      kanaQuizLog(qs,st.answers,score,st.startedAt);
+    } else st.idx++;
+    renderKana();
+  };
 }
 
 /* ---------- Header: kode akses & sinkron ---------- */
@@ -724,16 +955,25 @@ $("btnKey").onclick=()=>{
   if(k===null) return;
   setKey(k.trim());
   toast(k.trim()?"Kode akses disimpan":"Kode akses dihapus");
-  if(k.trim()) loadData(true);
+  if(k.trim()){
+    // Nama pengguna diminta SEKALI di momen yang sama dengan kode
+    // sinkron (sesuai permintaan Tota 2026-11-08), lalu tampil sebagai
+    // "Welcome, nama" di bawah judul dan jadi identitas catatan belajar.
+    const nm=prompt("Satu lagi: nama pengguna di perangkat ini\n(akan tampil sebagai \"Welcome, nama\" di bawah judul Daily Japan):",getUserName());
+    if(nm!==null){setUserName(nm);renderUserName()}
+    loadData(true);
+  }
 };
 $("btnSync").onclick=()=>loadData(true);
 
 
 /* ---------- Mulai ---------- */
 updateHeaderLevel();
+renderUserName();
 loadCache();
 renderAll();
 loadData(false);
+loadKana();
 flushLog();
 </script>
 </body>

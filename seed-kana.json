@@ -1,0 +1,1994 @@
+{
+ "ok": true,
+ "bab": [
+  {
+   "kode": "mulai",
+   "judul": "Mulai dari Sini",
+   "subjudul": "Kenalan dengan huruf Jepang",
+   "ikon": "🌱",
+   "ringkasan": "Bahasa Jepang memakai 3 huruf: Hiragana, Katakana, dan Kanji. Kabar baiknya: Hiragana & Katakana itu seperti alfabet — jumlahnya terbatas, bunyinya selalu sama, dan bisa dikuasai dalam 1–2 minggu bila dicicil sedikit setiap hari.",
+   "tips": "Jangan hafalkan semuanya sekaligus. Cukup 1 baris (5 huruf) per hari — dalam 10 hari Hiragana selesai!",
+   "kana": [],
+   "kartu": [
+    {
+     "no": 1,
+     "judul": "Bahasa Jepang punya 3 huruf",
+     "jp": "ひらがな ・ カタカナ ・ かんじ",
+     "id": "Hiragana (ひらがな) untuk kata asli Jepang, Katakana (カタカナ) untuk kata asing, dan Kanji (漢字) huruf dari Tiongkok yang mewakili arti. Ketiganya dipakai BERSAMAAN dalam satu kalimat — tidak perlu takut, semuanya dipelajari bertahap."
+    },
+    {
+     "no": 2,
+     "judul": "Hiragana: huruf utama",
+     "jp": "たべもの、のみもの",
+     "id": "たべもの (tabemono = makanan) dan のみもの (nomemono = minuman) ditulis Hiragana. Selama bisa Hiragana, kamu sudah bisa membaca buku anak, menu sederhana, dan menulis kalimat dasar."
+    },
+    {
+     "no": 3,
+     "judul": "Katakana: untuk kata asing",
+     "jp": "コーヒー、スマホ、インドネシア",
+     "id": "コーヒー (koohii = kopi), スマホ (sumaho = smartphone), bahkan インドネシア (Indonesia) ditulis Katakana. Serunya: banyak kata Katakana berasal dari Bahasa Inggris, jadi sering bisa ditebak!"
+    },
+    {
+     "no": 4,
+     "judul": "Kanji: dikenalkan pelan-pelan",
+     "jp": "山、川、人、子ども",
+     "id": "Kanji mewakili arti: 山 = gunung, 川 = sungai, 人 = orang, 子ども = anak. Di level pemula cukup kenali bentuknya bila bertemu — fokus kita tetap Hiragana & Katakana dulu."
+    },
+    {
+     "no": 5,
+     "judul": "Urutan belajar yang benar",
+     "jp": "あ → か → さ → た …",
+     "id": "Belajar per BARIS: baris A (あいうえお), lalu K, S, T, N, H, M, Y, R, W. Setiap baris punya pola bunyi yang sama — hanya huruf awalnya yang berganti. 1 baris per hari = 10 hari selesai!"
+    },
+    {
+     "no": 6,
+     "judul": "Cara memakai materi ini",
+     "jp": "きいて、よんで、かいて",
+     "id": "Untuk tiap bab: ① ketuk hurufnya dan dengarkan, ② ucapkan keras-keras 3x, ③ tulis di kertas 3x, ④ tandai ✓ sudah hafal. Terakhir, buktikan dengan Quiz Kana di bab paling bawah."
+    }
+   ],
+   "vocab": [],
+   "quiz": []
+  },
+  {
+   "kode": "hiragana",
+   "judul": "Hiragana Dasar",
+   "subjudul": "46 huruf utama — huruf terpenting untuk pemula",
+   "ikon": "あ",
+   "ringkasan": "Hiragana adalah huruf dasar Bahasa Jepang: dipakai menulis kata asli Jepang, akhiran kata kerja, dan partikel. Semua buku anak Jepang ditulis dengan huruf ini. Kuasai yang ini dulu sebelum yang lain.",
+   "tips": "Ketuk hurufnya untuk mendengar bunyinya, lalu tandai ✓ bila sudah hafal. Coba tulis di kertas sambil bersuara — menulis sambil mengucap membuat hafalan 3x lebih cepat menempel.",
+   "kana": [
+    {
+     "no": 1,
+     "kana": "あ",
+     "romaji": "a",
+     "kelompok": "Baris A",
+     "catatan": "Mirip wajah terkejut bilang 'a!'"
+    },
+    {
+     "no": 2,
+     "kana": "い",
+     "romaji": "i",
+     "kelompok": "Baris A",
+     "catatan": "Dua tiang tegak berdampingan — 'ii'"
+    },
+    {
+     "no": 3,
+     "kana": "う",
+     "romaji": "u",
+     "kelompok": "Baris A",
+     "catatan": "Seperti atap rumah — 'u'"
+    },
+    {
+     "no": 4,
+     "kana": "え",
+     "romaji": "e",
+     "kelompok": "Baris A",
+     "catatan": "Ninja berlari energik — 'e'"
+    },
+    {
+     "no": 5,
+     "kana": "お",
+     "romaji": "o",
+     "kelompok": "Baris A",
+     "catatan": "Tongkat golf memukul bola — 'o'"
+    },
+    {
+     "no": 6,
+     "kana": "か",
+     "romaji": "ka",
+     "kelompok": "Baris K",
+     "catatan": "Layangan yang talinya terpotong — 'ka'"
+    },
+    {
+     "no": 7,
+     "kana": "き",
+     "romaji": "ki",
+     "kelompok": "Baris K",
+     "catatan": "Gambar kunci — dari kata 'ki' (key)"
+    },
+    {
+     "no": 8,
+     "kana": "く",
+     "romaji": "ku",
+     "kelompok": "Baris K",
+     "catatan": "Paruh burung yang bicara 'ku'"
+    },
+    {
+     "no": 9,
+     "kana": "け",
+     "romaji": "ke",
+     "kelompok": "Baris K",
+     "catatan": "Tong kayu (keg) — 'ke'"
+    },
+    {
+     "no": 10,
+     "kana": "こ",
+     "romaji": "ko",
+     "kelompok": "Baris K",
+     "catatan": "Dua garis sudut — sudut 'ko'"
+    },
+    {
+     "no": 11,
+     "kana": "さ",
+     "romaji": "sa",
+     "kelompok": "Baris S",
+     "catatan": "Penari salsa berputar — 'sa'"
+    },
+    {
+     "no": 12,
+     "kana": "し",
+     "romaji": "shi",
+     "kelompok": "Baris S",
+     "catatan": "Kail pancing melengkung — 'shi'"
+    },
+    {
+     "no": 13,
+     "kana": "す",
+     "romaji": "su",
+     "kelompok": "Baris S",
+     "catatan": "Simpul tali berputar — 'su'"
+    },
+    {
+     "no": 14,
+     "kana": "せ",
+     "romaji": "se",
+     "kelompok": "Baris S",
+     "catatan": "Satu wajah bermata satu — 'se'"
+    },
+    {
+     "no": 15,
+     "kana": "そ",
+     "romaji": "so",
+     "kelompok": "Baris S",
+     "catatan": "Jahitan zigzag — 'so'"
+    },
+    {
+     "no": 16,
+     "kana": "た",
+     "romaji": "ta",
+     "kelompok": "Baris T",
+     "catatan": "Wajah bilang 'ta-da!'"
+    },
+    {
+     "no": 17,
+     "kana": "ち",
+     "romaji": "chi",
+     "kelompok": "Baris T",
+     "catatan": "Pipi tersenyum — 'chi'"
+    },
+    {
+     "no": 18,
+     "kana": "つ",
+     "romaji": "tsu",
+     "kelompok": "Baris T",
+     "catatan": "Gelombang tsunami — 'tsu'"
+    },
+    {
+     "no": 19,
+     "kana": "て",
+     "romaji": "te",
+     "kelompok": "Baris T",
+     "catatan": "Tangan (te) terulur — 'te'"
+    },
+    {
+     "no": 20,
+     "kana": "と",
+     "romaji": "to",
+     "kelompok": "Baris T",
+     "catatan": "Jari kaki (toe) — 'to'"
+    },
+    {
+     "no": 21,
+     "kana": "な",
+     "romaji": "na",
+     "kelompok": "Baris N",
+     "catatan": "Simpul rumit — 'na'"
+    },
+    {
+     "no": 22,
+     "kana": "に",
+     "romaji": "ni",
+     "kelompok": "Baris N",
+     "catatan": "Jarum (needle) — 'ni'"
+    },
+    {
+     "no": 23,
+     "kana": "ぬ",
+     "romaji": "nu",
+     "kelompok": "Baris N",
+     "catatan": "Mie (noodle) kusut — 'nu'"
+    },
+    {
+     "no": 24,
+     "kana": "ね",
+     "romaji": "ne",
+     "kelompok": "Baris N",
+     "catatan": "Kucing (neko) duduk — 'ne'"
+    },
+    {
+     "no": 25,
+     "kana": "の",
+     "romaji": "no",
+     "kelompok": "Baris N",
+     "catatan": "Tanda 'no' satu putaran — 'no'"
+    },
+    {
+     "no": 26,
+     "kana": "は",
+     "romaji": "ha",
+     "kelompok": "Baris H",
+     "catatan": "Orang tertawa 'ha-ha'"
+    },
+    {
+     "no": 27,
+     "kana": "ひ",
+     "romaji": "hi",
+     "kelompok": "Baris H",
+     "catatan": "Tumit (heel) miring — 'hi'"
+    },
+    {
+     "no": 28,
+     "kana": "ふ",
+     "romaji": "fu",
+     "kelompok": "Baris H",
+     "catatan": "Gunung Fuji bertopi — 'fu'"
+    },
+    {
+     "no": 29,
+     "kana": "へ",
+     "romaji": "he",
+     "kelompok": "Baris H",
+     "catatan": "Garis naik ke bukit — 'he' (dibaca 'e' bila jadi partikel)"
+    },
+    {
+     "no": 30,
+     "kana": "ほ",
+     "romaji": "ho",
+     "kelompok": "Baris H",
+     "catatan": "Tiang bendera berkibar — 'ho'"
+    },
+    {
+     "no": 31,
+     "kana": "ま",
+     "romaji": "ma",
+     "kelompok": "Baris M",
+     "catatan": "Simpul kotak — 'ma'"
+    },
+    {
+     "no": 32,
+     "kana": "み",
+     "romaji": "mi",
+     "kelompok": "Baris M",
+     "catatan": "Angka 3 melengkung — 'mi'"
+    },
+    {
+     "no": 33,
+     "kana": "む",
+     "romaji": "mu",
+     "kelompok": "Baris M",
+     "catatan": "Sapi bilang 'muu' — 'mu'"
+    },
+    {
+     "no": 34,
+     "kana": "め",
+     "romaji": "me",
+     "kelompok": "Baris M",
+     "catatan": "Mata (me) — 'me'"
+    },
+    {
+     "no": 35,
+     "kana": "も",
+     "romaji": "mo",
+     "kelompok": "Baris M",
+     "catatan": "Kail menangkap ikan lagi (more) — 'mo'"
+    },
+    {
+     "no": 36,
+     "kana": "や",
+     "romaji": "ya",
+     "kelompok": "Baris Y",
+     "catatan": "Panah (ya) melesat — 'ya'"
+    },
+    {
+     "no": 37,
+     "kana": "ゆ",
+     "romaji": "yu",
+     "kelompok": "Baris Y",
+     "catatan": "Ikan unik berenang — 'yu'"
+    },
+    {
+     "no": 38,
+     "kana": "よ",
+     "romaji": "yo",
+     "kelompok": "Baris Y",
+     "catatan": "Pose yoga — 'yo'"
+    },
+    {
+     "no": 39,
+     "kana": "ら",
+     "romaji": "ra",
+     "kelompok": "Baris R",
+     "catatan": "Rapper berkacamata — 'ra'"
+    },
+    {
+     "no": 40,
+     "kana": "り",
+     "romaji": "ri",
+     "kelompok": "Baris R",
+     "catatan": "Dua bambu tegak — 'ri'"
+    },
+    {
+     "no": 41,
+     "kana": "る",
+     "romaji": "ru",
+     "kelompok": "Baris R",
+     "catatan": "Akar (root) melingkar — 'ru'"
+    },
+    {
+     "no": 42,
+     "kana": "れ",
+     "romaji": "re",
+     "kelompok": "Baris R",
+     "catatan": "Orang berlutut (reverent) — 're'"
+    },
+    {
+     "no": 43,
+     "kana": "ろ",
+     "romaji": "ro",
+     "kelompok": "Baris R",
+     "catatan": "Akar tanpa simpul — 'ro' (beda dengan る: tanpa lingkaran)"
+    },
+    {
+     "no": 44,
+     "kana": "わ",
+     "romaji": "wa",
+     "kelompok": "Baris W",
+     "catatan": "Angsa (swan) — 'wa'"
+    },
+    {
+     "no": 45,
+     "kana": "を",
+     "romaji": "wo",
+     "kelompok": "Baris W",
+     "catatan": "Dibaca 'wo/o' — khusus partikel penanda objek"
+    },
+    {
+     "no": 46,
+     "kana": "ん",
+     "romaji": "n",
+     "kelompok": "Baris W",
+     "catatan": "Satu goresan — bunyi 'n' penutup suku kata"
+    }
+   ],
+   "kartu": [],
+   "vocab": [],
+   "quiz": []
+  },
+  {
+   "kode": "katakana",
+   "judul": "Katakana Dasar",
+   "subjudul": "46 huruf untuk kata serapan & nama asing",
+   "ikon": "ア",
+   "ringkasan": "Katakana dipakai untuk kata dari bahasa asing (コーヒー = kopi), nama orang/tempat asing, dan nama ilmiah. Bunyinya SAMA PERSIS dengan Hiragana — yang berbeda hanya bentuknya yang lebih tegas dan bersudut.",
+   "tips": "Nama Indonesia pun ditulis pakai Katakana, misalnya インドネシア (Indonesia). Coba cari nama kamu di tabel ini!",
+   "kana": [
+    {
+     "no": 1,
+     "kana": "ア",
+     "romaji": "a",
+     "kelompok": "Baris A",
+     "catatan": "Seperti huruf A kapital — 'a'"
+    },
+    {
+     "no": 2,
+     "kana": "イ",
+     "romaji": "i",
+     "kelompok": "Baris A",
+     "catatan": "Dua tiang miring — 'i'"
+    },
+    {
+     "no": 3,
+     "kana": "ウ",
+     "romaji": "u",
+     "kelompok": "Baris A",
+     "catatan": "Atap bersudut tegas — 'u'"
+    },
+    {
+     "no": 4,
+     "kana": "エ",
+     "romaji": "e",
+     "kelompok": "Baris A",
+     "catatan": "Garis-garis elevator — 'e'"
+    },
+    {
+     "no": 5,
+     "kana": "オ",
+     "romaji": "o",
+     "kelompok": "Baris A",
+     "catatan": "Salib opera — 'o'"
+    },
+    {
+     "no": 6,
+     "kana": "カ",
+     "romaji": "ka",
+     "kelompok": "Baris K",
+     "catatan": "Bentuk か tanpa garis kecil — 'ka'"
+    },
+    {
+     "no": 7,
+     "kana": "キ",
+     "romaji": "ki",
+     "kelompok": "Baris K",
+     "catatan": "Kunci versi tegas — 'ki'"
+    },
+    {
+     "no": 8,
+     "kana": "ク",
+     "romaji": "ku",
+     "kelompok": "Baris K",
+     "catatan": "Kapak — 'ku'"
+    },
+    {
+     "no": 9,
+     "kana": "ケ",
+     "romaji": "ke",
+     "kelompok": "Baris K",
+     "catatan": "Huruf K kapital — 'ke'"
+    },
+    {
+     "no": 10,
+     "kana": "コ",
+     "romaji": "ko",
+     "kelompok": "Baris K",
+     "catatan": "Sudut kotak — 'ko'"
+    },
+    {
+     "no": 11,
+     "kana": "サ",
+     "romaji": "sa",
+     "kelompok": "Baris S",
+     "catatan": "Tiga garis penari — 'sa'"
+    },
+    {
+     "no": 12,
+     "kana": "シ",
+     "romaji": "shi",
+     "kelompok": "Baris S",
+     "catatan": "Kail miring — 'shi'. AWAS tertukar ツ: シ garisnya naik dari bawah"
+    },
+    {
+     "no": 13,
+     "kana": "ス",
+     "romaji": "su",
+     "kelompok": "Baris S",
+     "catatan": "Ayunan — 'su'"
+    },
+    {
+     "no": 14,
+     "kana": "セ",
+     "romaji": "se",
+     "kelompok": "Baris S",
+     "catatan": "Satu mata bersudut — 'se'"
+    },
+    {
+     "no": 15,
+     "kana": "ソ",
+     "romaji": "so",
+     "kelompok": "Baris S",
+     "catatan": "Satu garis miring — 'so'. AWAS tertukar ン: ソ turun ke kiri bawah"
+    },
+    {
+     "no": 16,
+     "kana": "タ",
+     "romaji": "ta",
+     "kelompok": "Baris T",
+     "catatan": "Wajah sore (ta) — 'ta'"
+    },
+    {
+     "no": 17,
+     "kana": "チ",
+     "romaji": "chi",
+     "kelompok": "Baris T",
+     "catatan": "Angka seribu versi tegas — 'chi'"
+    },
+    {
+     "no": 18,
+     "kana": "ツ",
+     "romaji": "tsu",
+     "kelompok": "Baris T",
+     "catatan": "Tiga garis turun — 'tsu'. AWAS tertukar シ: ツ garisnya turun dari atas"
+    },
+    {
+     "no": 19,
+     "kana": "テ",
+     "romaji": "te",
+     "kelompok": "Baris T",
+     "catatan": "Meja (table) — 'te'"
+    },
+    {
+     "no": 20,
+     "kana": "ト",
+     "romaji": "to",
+     "kelompok": "Baris T",
+     "catatan": "Totem — 'to'"
+    },
+    {
+     "no": 21,
+     "kana": "ナ",
+     "romaji": "na",
+     "kelompok": "Baris N",
+     "catatan": "Tanda tambah naruto — 'na'"
+    },
+    {
+     "no": 22,
+     "kana": "ニ",
+     "romaji": "ni",
+     "kelompok": "Baris N",
+     "catatan": "Dua garis — 'ni'"
+    },
+    {
+     "no": 23,
+     "kana": "ヌ",
+     "romaji": "nu",
+     "kelompok": "Baris N",
+     "catatan": "Sumpit mie — 'nu'"
+    },
+    {
+     "no": 24,
+     "kana": "ネ",
+     "romaji": "ne",
+     "kelompok": "Baris N",
+     "catatan": "Tanda ne — 'ne'"
+    },
+    {
+     "no": 25,
+     "kana": "ノ",
+     "romaji": "no",
+     "kelompok": "Baris N",
+     "catatan": "Satu garis miring — 'no'"
+    },
+    {
+     "no": 26,
+     "kana": "ハ",
+     "romaji": "ha",
+     "kelompok": "Baris H",
+     "catatan": "Angka 8 tanpa tutup — 'ha'"
+    },
+    {
+     "no": 27,
+     "kana": "ヒ",
+     "romaji": "hi",
+     "kelompok": "Baris H",
+     "catatan": "Tumit miring — 'hi'"
+    },
+    {
+     "no": 28,
+     "kana": "フ",
+     "romaji": "fu",
+     "kelompok": "Baris H",
+     "catatan": "Topi Fujiyama — 'fu'"
+    },
+    {
+     "no": 29,
+     "kana": "ヘ",
+     "romaji": "he",
+     "kelompok": "Baris H",
+     "catatan": "Sama persis dengan へ Hiragana — 'he'"
+    },
+    {
+     "no": 30,
+     "kana": "ホ",
+     "romaji": "ho",
+     "kelompok": "Baris H",
+     "catatan": "Pohon bertiang — 'ho'"
+    },
+    {
+     "no": 31,
+     "kana": "マ",
+     "romaji": "ma",
+     "kelompok": "Baris M",
+     "catatan": "Segitiga kotak — 'ma'"
+    },
+    {
+     "no": 32,
+     "kana": "ミ",
+     "romaji": "mi",
+     "kelompok": "Baris M",
+     "catatan": "Tiga garis misil — 'mi'"
+    },
+    {
+     "no": 33,
+     "kana": "ム",
+     "romaji": "mu",
+     "kelompok": "Baris M",
+     "catatan": "Hidung sapi — 'mu'"
+    },
+    {
+     "no": 34,
+     "kana": "メ",
+     "romaji": "me",
+     "kelompok": "Baris M",
+     "catatan": "Tanda X mata — 'me'"
+    },
+    {
+     "no": 35,
+     "kana": "モ",
+     "romaji": "mo",
+     "kelompok": "Baris M",
+     "catatan": "Bentuk も tanpa lengkung ekstra — 'mo'"
+    },
+    {
+     "no": 36,
+     "kana": "ヤ",
+     "romaji": "ya",
+     "kelompok": "Baris Y",
+     "catatan": "Panah tegas — 'ya'"
+    },
+    {
+     "no": 37,
+     "kana": "ユ",
+     "romaji": "yu",
+     "kelompok": "Baris Y",
+     "catatan": "Bendera unik — 'yu'"
+    },
+    {
+     "no": 38,
+     "kana": "ヨ",
+     "romaji": "yo",
+     "kelompok": "Baris Y",
+     "catatan": "Bak mandi kotak — 'yo'"
+    },
+    {
+     "no": 39,
+     "kana": "ラ",
+     "romaji": "ra",
+     "kelompok": "Baris R",
+     "catatan": "Topi rapper — 'ra'"
+    },
+    {
+     "no": 40,
+     "kana": "リ",
+     "romaji": "ri",
+     "kelompok": "Baris R",
+     "catatan": "Dua bambu tegas — sama bunyi dengan り"
+    },
+    {
+     "no": 41,
+     "kana": "ル",
+     "romaji": "ru",
+     "kelompok": "Baris R",
+     "catatan": "Dua kaki akar — 'ru'"
+    },
+    {
+     "no": 42,
+     "kana": "レ",
+     "romaji": "re",
+     "kelompok": "Baris R",
+     "catatan": "Pedang miring — 're'"
+    },
+    {
+     "no": 43,
+     "kana": "ロ",
+     "romaji": "ro",
+     "kelompok": "Baris R",
+     "catatan": "Kotak mulut — 'ro'"
+    },
+    {
+     "no": 44,
+     "kana": "ワ",
+     "romaji": "wa",
+     "kelompok": "Baris W",
+     "catatan": "Botol wine — 'wa'"
+    },
+    {
+     "no": 45,
+     "kana": "ヲ",
+     "romaji": "wo",
+     "kelompok": "Baris W",
+     "catatan": "Jarang dipakai — dibaca 'wo'"
+    },
+    {
+     "no": 46,
+     "kana": "ン",
+     "romaji": "n",
+     "kelompok": "Baris W",
+     "catatan": "Satu garis melengkung — 'n'. AWAS tertukar ソ"
+    }
+   ],
+   "kartu": [],
+   "vocab": [],
+   "quiz": []
+  },
+  {
+   "kode": "dakuten",
+   "judul": "Dakuten & Handakuten",
+   "subjudul": "Tanda titik dua (゛) dan lingkaran (゜)",
+   "ikon": "が",
+   "ringkasan": "Tambahkan tanda kecil di kanan atas huruf, bunyinya berubah: K→G, S→Z, T→D, H→B, dan khusus H dengan lingkaran menjadi P. Total hanya 25 huruf tambahan, dan polanya sangat teratur.",
+   "tips": "Ingat rumusnya saja: dakuten ゛ membuat bunyi jadi 'bergetar' (k→g, s→z, t→d, h→b), handakuten ゜ hanya untuk baris H menjadi P.",
+   "kana": [
+    {
+     "no": 1,
+     "kana": "が",
+     "romaji": "ga",
+     "kelompok": "Baris G",
+     "catatan": "か + ゛ = ga"
+    },
+    {
+     "no": 2,
+     "kana": "ぎ",
+     "romaji": "gi",
+     "kelompok": "Baris G",
+     "catatan": "き + ゛ = gi"
+    },
+    {
+     "no": 3,
+     "kana": "ぐ",
+     "romaji": "gu",
+     "kelompok": "Baris G",
+     "catatan": "く + ゛ = gu"
+    },
+    {
+     "no": 4,
+     "kana": "げ",
+     "romaji": "ge",
+     "kelompok": "Baris G",
+     "catatan": "け + ゛ = ge"
+    },
+    {
+     "no": 5,
+     "kana": "ご",
+     "romaji": "go",
+     "kelompok": "Baris G",
+     "catatan": "こ + ゛ = go"
+    },
+    {
+     "no": 6,
+     "kana": "ざ",
+     "romaji": "za",
+     "kelompok": "Baris Z",
+     "catatan": "さ + ゛ = za"
+    },
+    {
+     "no": 7,
+     "kana": "じ",
+     "romaji": "ji",
+     "kelompok": "Baris Z",
+     "catatan": "し + ゛ = ji — sangat sering dipakai"
+    },
+    {
+     "no": 8,
+     "kana": "ず",
+     "romaji": "zu",
+     "kelompok": "Baris Z",
+     "catatan": "す + ゛ = zu"
+    },
+    {
+     "no": 9,
+     "kana": "ぜ",
+     "romaji": "ze",
+     "kelompok": "Baris Z",
+     "catatan": "せ + ゛ = ze"
+    },
+    {
+     "no": 10,
+     "kana": "ぞ",
+     "romaji": "zo",
+     "kelompok": "Baris Z",
+     "catatan": "そ + ゛ = zo"
+    },
+    {
+     "no": 11,
+     "kana": "だ",
+     "romaji": "da",
+     "kelompok": "Baris D",
+     "catatan": "た + ゛ = da"
+    },
+    {
+     "no": 12,
+     "kana": "ぢ",
+     "romaji": "ji",
+     "kelompok": "Baris D",
+     "catatan": "ち + ゛ = ji — jarang, biasanya じ yang dipakai"
+    },
+    {
+     "no": 13,
+     "kana": "づ",
+     "romaji": "zu",
+     "kelompok": "Baris D",
+     "catatan": "つ + ゛ = zu — jarang, biasanya ず yang dipakai"
+    },
+    {
+     "no": 14,
+     "kana": "で",
+     "romaji": "de",
+     "kelompok": "Baris D",
+     "catatan": "て + ゛ = de — sangat sering dipakai"
+    },
+    {
+     "no": 15,
+     "kana": "ど",
+     "romaji": "do",
+     "kelompok": "Baris D",
+     "catatan": "と + ゛ = do"
+    },
+    {
+     "no": 16,
+     "kana": "ば",
+     "romaji": "ba",
+     "kelompok": "Baris B",
+     "catatan": "は + ゛ = ba"
+    },
+    {
+     "no": 17,
+     "kana": "び",
+     "romaji": "bi",
+     "kelompok": "Baris B",
+     "catatan": "ひ + ゛ = bi"
+    },
+    {
+     "no": 18,
+     "kana": "ぶ",
+     "romaji": "bu",
+     "kelompok": "Baris B",
+     "catatan": "ふ + ゛ = bu"
+    },
+    {
+     "no": 19,
+     "kana": "べ",
+     "romaji": "be",
+     "kelompok": "Baris B",
+     "catatan": "へ + ゛ = be"
+    },
+    {
+     "no": 20,
+     "kana": "ぼ",
+     "romaji": "bo",
+     "kelompok": "Baris B",
+     "catatan": "ほ + ゛ = bo"
+    },
+    {
+     "no": 21,
+     "kana": "ぱ",
+     "romaji": "pa",
+     "kelompok": "Baris P",
+     "catatan": "は + ゜ = pa — handakuten hanya untuk baris H"
+    },
+    {
+     "no": 22,
+     "kana": "ぴ",
+     "romaji": "pi",
+     "kelompok": "Baris P",
+     "catatan": "ひ + ゜ = pi"
+    },
+    {
+     "no": 23,
+     "kana": "ぷ",
+     "romaji": "pu",
+     "kelompok": "Baris P",
+     "catatan": "ふ + ゜ = pu"
+    },
+    {
+     "no": 24,
+     "kana": "ぺ",
+     "romaji": "pe",
+     "kelompok": "Baris P",
+     "catatan": "へ + ゜ = pe"
+    },
+    {
+     "no": 25,
+     "kana": "ぽ",
+     "romaji": "po",
+     "kelompok": "Baris P",
+     "catatan": "ほ + ゜ = po"
+    }
+   ],
+   "kartu": [],
+   "vocab": [],
+   "quiz": []
+  },
+  {
+   "kode": "yoon",
+   "judul": "Yoon — Huruf Gabungan",
+   "subjudul": "Huruf kecil ゃ ゅ ょ untuk bunyi seperti 'kya', 'sha', 'cha'",
+   "ikon": "きゃ",
+   "ringkasan": "Bila huruf baris-i (き, し, ち, …) bertemu ゃ/ゅ/ょ KECIL, keduanya melebur jadi SATU bunyi: き + ゃ = きゃ (kya). Total 33 gabungan. Huruf kecilnya jangan dibaca sendiri, ya.",
+   "tips": "Triknya: baca huruf pertama tanpa bunyi 'i', lalu tempel 'ya/yu/yo'. き(ki) → k + ゃ(ya) = kya!",
+   "kana": [
+    {
+     "no": 1,
+     "kana": "きゃ",
+     "romaji": "kya",
+     "kelompok": "Baris Kya",
+     "catatan": "き + ゃ kecil (Katakana: キャ)"
+    },
+    {
+     "no": 2,
+     "kana": "きゅ",
+     "romaji": "kyu",
+     "kelompok": "Baris Kya",
+     "catatan": "き + ゅ kecil (キャ)"
+    },
+    {
+     "no": 3,
+     "kana": "きょ",
+     "romaji": "kyo",
+     "kelompok": "Baris Kya",
+     "catatan": "き + ょ kecil — contoh: とうきょう (Tokyo)"
+    },
+    {
+     "no": 4,
+     "kana": "しゃ",
+     "romaji": "sha",
+     "kelompok": "Baris Sha",
+     "catatan": "し + ゃ kecil (シャ)"
+    },
+    {
+     "no": 5,
+     "kana": "しゅ",
+     "romaji": "shu",
+     "kelompok": "Baris Sha",
+     "catatan": "し + ゅ kecil"
+    },
+    {
+     "no": 6,
+     "kana": "しょ",
+     "romaji": "sho",
+     "kelompok": "Baris Sha",
+     "catatan": "し + ょ kecil — contoh: しょくじ (makan)"
+    },
+    {
+     "no": 7,
+     "kana": "ちゃ",
+     "romaji": "cha",
+     "kelompok": "Baris Cha",
+     "catatan": "ち + ゃ kecil (チャ) — contoh: おちゃ (teh)"
+    },
+    {
+     "no": 8,
+     "kana": "ちゅ",
+     "romaji": "chu",
+     "kelompok": "Baris Cha",
+     "catatan": "ち + ゅ kecil"
+    },
+    {
+     "no": 9,
+     "kana": "ちょ",
+     "romaji": "cho",
+     "kelompok": "Baris Cha",
+     "catatan": "ち + ょ kecil"
+    },
+    {
+     "no": 10,
+     "kana": "にゃ",
+     "romaji": "nya",
+     "kelompok": "Baris Nya",
+     "catatan": "に + ゃ kecil (ニャ) — bunyi kucing!"
+    },
+    {
+     "no": 11,
+     "kana": "にゅ",
+     "romaji": "nyu",
+     "kelompok": "Baris Nya",
+     "catatan": "に + ゅ kecil"
+    },
+    {
+     "no": 12,
+     "kana": "にょ",
+     "romaji": "nyo",
+     "kelompok": "Baris Nya",
+     "catatan": "に + ょ kecil"
+    },
+    {
+     "no": 13,
+     "kana": "ひゃ",
+     "romaji": "hya",
+     "kelompok": "Baris Hya",
+     "catatan": "ひ + ゃ kecil (ヒャ)"
+    },
+    {
+     "no": 14,
+     "kana": "ひゅ",
+     "romaji": "hyu",
+     "kelompok": "Baris Hya",
+     "catatan": "ひ + ゅ kecil"
+    },
+    {
+     "no": 15,
+     "kana": "ひょ",
+     "romaji": "hyo",
+     "kelompok": "Baris Hya",
+     "catatan": "ひ + ょ kecil"
+    },
+    {
+     "no": 16,
+     "kana": "みゃ",
+     "romaji": "mya",
+     "kelompok": "Baris Mya",
+     "catatan": "み + ゃ kecil (ミャ)"
+    },
+    {
+     "no": 17,
+     "kana": "みゅ",
+     "romaji": "myu",
+     "kelompok": "Baris Mya",
+     "catatan": "み + ゅ kecil"
+    },
+    {
+     "no": 18,
+     "kana": "みょ",
+     "romaji": "myo",
+     "kelompok": "Baris Mya",
+     "catatan": "み + ょ kecil"
+    },
+    {
+     "no": 19,
+     "kana": "りゃ",
+     "romaji": "rya",
+     "kelompok": "Baris Rya",
+     "catatan": "り + ゃ kecil (リャ)"
+    },
+    {
+     "no": 20,
+     "kana": "りゅ",
+     "romaji": "ryu",
+     "kelompok": "Baris Rya",
+     "catatan": "り + ゅ kecil"
+    },
+    {
+     "no": 21,
+     "kana": "りょ",
+     "romaji": "ryo",
+     "kelompok": "Baris Rya",
+     "catatan": "り + ょ kecil — contoh: りょうり (masakan)"
+    },
+    {
+     "no": 22,
+     "kana": "ぎゃ",
+     "romaji": "gya",
+     "kelompok": "Baris Gya",
+     "catatan": "ぎ + ゃ kecil (ギャ)"
+    },
+    {
+     "no": 23,
+     "kana": "ぎゅ",
+     "romaji": "gyu",
+     "kelompok": "Baris Gya",
+     "catatan": "ぎ + ゅ kecil — contoh: ぎゅうにゅう (susu)"
+    },
+    {
+     "no": 24,
+     "kana": "ぎょ",
+     "romaji": "gyo",
+     "kelompok": "Baris Gya",
+     "catatan": "ぎ + ょ kecil"
+    },
+    {
+     "no": 25,
+     "kana": "じゃ",
+     "romaji": "ja",
+     "kelompok": "Baris Ja",
+     "catatan": "じ + ゃ kecil (ジャ) — sangat sering"
+    },
+    {
+     "no": 26,
+     "kana": "じゅ",
+     "romaji": "ju",
+     "kelompok": "Baris Ja",
+     "catatan": "じ + ゅ kecil"
+    },
+    {
+     "no": 27,
+     "kana": "じょ",
+     "romaji": "jo",
+     "kelompok": "Baris Ja",
+     "catatan": "じ + ょ kecil"
+    },
+    {
+     "no": 28,
+     "kana": "びゃ",
+     "romaji": "bya",
+     "kelompok": "Baris Bya",
+     "catatan": "び + ゃ kecil (ビャ)"
+    },
+    {
+     "no": 29,
+     "kana": "びゅ",
+     "romaji": "byu",
+     "kelompok": "Baris Bya",
+     "catatan": "び + ゅ kecil"
+    },
+    {
+     "no": 30,
+     "kana": "びょ",
+     "romaji": "byo",
+     "kelompok": "Baris Bya",
+     "catatan": "び + ょ kecil — contoh: びょういん (rumah sakit)"
+    },
+    {
+     "no": 31,
+     "kana": "ぴゃ",
+     "romaji": "pya",
+     "kelompok": "Baris Pya",
+     "catatan": "ぴ + ゃ kecil (ピャ)"
+    },
+    {
+     "no": 32,
+     "kana": "ぴゅ",
+     "romaji": "pyu",
+     "kelompok": "Baris Pya",
+     "catatan": "ぴ + ゅ kecil"
+    },
+    {
+     "no": 33,
+     "kana": "ぴょ",
+     "romaji": "pyo",
+     "kelompok": "Baris Pya",
+     "catatan": "ぴ + ょ kecil"
+    }
+   ],
+   "kartu": [],
+   "vocab": [],
+   "quiz": []
+  },
+  {
+   "kode": "bunyi",
+   "judul": "Aturan Bunyi Khusus",
+   "subjudul": "Tsu kecil, vokal panjang, ん, dan partikel istimewa",
+   "ikon": "っ",
+   "ringkasan": "Empat aturan kecil ini membuat bacaanmu terdengar alami: っ kecil (jeda/tekanan), vokal panjang (おお vs お), ん (bunyi 'n' yang fleksibel), dan 3 partikel yang dibaca berbeda dari tulisannya.",
+   "tips": "Aturan ini paling sering muncul di kata sehari-hari. Dengarkan contohnya, lalu tirukan keras-keras.",
+   "kana": [],
+   "kartu": [
+    {
+     "no": 1,
+     "judul": "っ kecil: jeda yang menekan",
+     "jp": "ずっと、がっこう、きって",
+     "id": "っ (tsu kecil) TIDAK dibaca 'tsu' — ia membuat jeda pendek dan huruf sesudahnya dibaca menekan/berlipat: ずっと (zutto = terus-menerus), がっこう (gakkou = sekolah), きって (kitte = perangko). Bandingkan: きて (kite = datanglah) vs きって (kitte) — beda arti!"
+    },
+    {
+     "no": 2,
+     "judul": "Vokal panjang Hiragana: jangan dipotong",
+     "jp": "おおきい、えいご、とうきょう",
+     "id": "Bunyi panjang dibaca 2 ketuk: おおきい (ookii = besar), えいご (eigo = Bahasa Inggris), とうきょう (Toukyou = Tokyo). Aturannya: a→あ, i→い, u→う, e→い/え, o→う/お sesudahnya. Salah panjang bisa beda arti: おばさん (tante) vs おばあさん (nenek)!"
+    },
+    {
+     "no": 3,
+     "judul": "Tanda ー di Katakana: tarik bunyinya",
+     "jp": "コーヒー、ケーキ、スーパー",
+     "id": "Di Katakana, vokal panjang ditulis dengan garis ー: コーヒー (koohii = kopi), ケーキ (keeki = kue), スーパー (suupaa = supermarket). Baca dengan menarik bunyi vokal sebelumnya."
+    },
+    {
+     "no": 4,
+     "judul": "ん: bunyi 'n' yang lentur",
+     "jp": "しんぶん、でんしゃ、ほん",
+     "id": "ん dibaca 'n/m/ng' mengikuti huruf sesudahnya: しんぶん (shimbun = koran, jadi 'm' sebelum b), でんしゃ (densha = kereta), ほん (hon = buku). Ia selalu jadi penutup suku kata dan tidak pernah di awal kata."
+    },
+    {
+     "no": 5,
+     "judul": "Partikel は dibaca 'wa'",
+     "jp": "わたしは … です",
+     "id": "Partikel penanda topik ditulis は tetapi dibaca WA: わたしは (watashi wa = saya …). Di luar fungsi partikel, は tetap dibaca 'ha', misalnya はな (hana = bunga/hidung)."
+    },
+    {
+     "no": 6,
+     "judul": "Partikel へ dibaca 'e' & を dibaca 'o'",
+     "jp": "がっこうへ いきます ／ みずを のみます",
+     "id": "Partikel arah へ dibaca E: がっこうへ いきます (pergi ke sekolah). Partikel objek を dibaca O: みずを のみます (minum air). Dua ini termasuk yang paling sering muncul dalam kalimat!"
+    }
+   ],
+   "vocab": [],
+   "quiz": []
+  },
+  {
+   "kode": "angka",
+   "judul": "Angka & Menghitung",
+   "subjudul": "Dari 0 sampai jutaan + cara membaca harga",
+   "ikon": "かず",
+   "ringkasan": "Angka adalah materi pemula paling berguna: untuk harga di toko, jam, umur, dan nomor telepon. Polanya rapi — cukup hafal 1–10, sisanya tinggal digabung.",
+   "tips": "Latihan tercepat: baca harga barang di supermarket dengan suara keras memakai pola di bab ini.",
+   "kana": [],
+   "kartu": [
+    {
+     "no": 1,
+     "judul": "Ratusan & ribuan: ada bunyi yang berubah",
+     "jp": "300 = さんびゃく、600 = ろっぴゃく、3000 = さんぜん",
+     "id": "Beberapa angka berubah bunyi agar mudah diucapkan: 300 さんびゃく (sambyaku), 600 ろっぴゃく (roppyaku), 800 はっぴゃく (happyaku), 3000 さんぜん (sanzen), 8000 はっせん (hassen). Sisanya teratur: 200 = にひゃく, 2000 = にせん."
+    },
+    {
+     "no": 2,
+     "judul": "Membaca harga dalam Yen",
+     "jp": "これは 500えんです",
+     "id": "Harga tinggal tambah えん (en = yen): 500円 = ごひゃくえん. Contoh kalimat: これは 500えんです (kore wa gohyaku en desu = ini harganya 500 yen). Latih dengan membaca label harga saat belanja!"
+    }
+   ],
+   "vocab": [
+    {
+     "no": 1,
+     "word": "れい",
+     "reading": "rei",
+     "meaning": "0 (nol)",
+     "example_jp": "でんわばんごうは れいきゅう … です。",
+     "example_id": "Nomor teleponnya 09… (nol dibaca rei/zero)."
+    },
+    {
+     "no": 2,
+     "word": "一",
+     "reading": "いち (ichi)",
+     "meaning": "1",
+     "example_jp": "りんごを 一つ ください。",
+     "example_id": "Tolong satu buah apel."
+    },
+    {
+     "no": 3,
+     "word": "二",
+     "reading": "に (ni)",
+     "meaning": "2",
+     "example_jp": "子どもは 二人 います。",
+     "example_id": "Anaknya ada dua orang."
+    },
+    {
+     "no": 4,
+     "word": "三",
+     "reading": "さん (san)",
+     "meaning": "3",
+     "example_jp": "三時 に かえります。",
+     "example_id": "Pulang jam 3."
+    },
+    {
+     "no": 5,
+     "word": "四",
+     "reading": "よん (yon)",
+     "meaning": "4",
+     "example_jp": "四月 は あたたかいです。",
+     "example_id": "Bulan April itu hangat. (4 dibaca yon, bukan shi)"
+    },
+    {
+     "no": 6,
+     "word": "五",
+     "reading": "ご (go)",
+     "meaning": "5",
+     "example_jp": "五分 まってください。",
+     "example_id": "Tolong tunggu 5 menit."
+    },
+    {
+     "no": 7,
+     "word": "六",
+     "reading": "ろく (roku)",
+     "meaning": "6",
+     "example_jp": "六時 に おきます。",
+     "example_id": "Bangun jam 6."
+    },
+    {
+     "no": 8,
+     "word": "七",
+     "reading": "なな (nana)",
+     "meaning": "7",
+     "example_jp": "七月 は あついです。",
+     "example_id": "Bulan Juli itu panas. (7 dibaca nana)"
+    },
+    {
+     "no": 9,
+     "word": "八",
+     "reading": "はち (hachi)",
+     "meaning": "8",
+     "example_jp": "八人 で いきます。",
+     "example_id": "Pergi berdelapan."
+    },
+    {
+     "no": 10,
+     "word": "九",
+     "reading": "きゅう (kyuu)",
+     "meaning": "9",
+     "example_jp": "九時 に ねます。",
+     "example_id": "Tidur jam 9."
+    },
+    {
+     "no": 11,
+     "word": "十",
+     "reading": "じゅう (juu)",
+     "meaning": "10",
+     "example_jp": "十分 かかります。",
+     "example_id": "Butuh 10 menit."
+    },
+    {
+     "no": 12,
+     "word": "二十",
+     "reading": "にじゅう (nijuu)",
+     "meaning": "20",
+     "example_jp": "二十歳 です。",
+     "example_id": "Umurnya 20 tahun."
+    },
+    {
+     "no": 13,
+     "word": "三十",
+     "reading": "さんじゅう (sanjuu)",
+     "meaning": "30",
+     "example_jp": "三十分 かかります。",
+     "example_id": "Butuh 30 menit."
+    },
+    {
+     "no": 14,
+     "word": "百",
+     "reading": "ひゃく (hyaku)",
+     "meaning": "100",
+     "example_jp": "百円 です。",
+     "example_id": "Harganya 100 yen."
+    },
+    {
+     "no": 15,
+     "word": "千",
+     "reading": "せん (sen)",
+     "meaning": "1.000",
+     "example_jp": "千円 ください。",
+     "example_id": "Tolong uang 1.000 yen."
+    },
+    {
+     "no": 16,
+     "word": "一万",
+     "reading": "いちまん (ichiman)",
+     "meaning": "10.000",
+     "example_jp": "一万円 かかります。",
+     "example_id": "Biayanya 10.000 yen."
+    }
+   ],
+   "quiz": []
+  },
+  {
+   "kode": "sapaan",
+   "judul": "Sapaan & Ungkapan Wajib",
+   "subjudul": "18 ungkapan yang dipakai setiap hari di Jepang",
+   "ikon": "ことば",
+   "ringkasan": "Sapaan adalah 'kunci pembuka' semua percakapan di Jepang. Hafalkan 18 ungkapan ini, dan kamu sudah bisa menyapa, berterima kasih, meminta maaf, dan pamit dengan sopan.",
+   "tips": "Ucapkan dengan suara dan sedikit membungkuk untuk terima kasih & maaf — orang Jepang sangat menghargainya.",
+   "kana": [],
+   "kartu": [],
+   "vocab": [
+    {
+     "no": 1,
+     "word": "おはようございます",
+     "reading": "ohayou gozaimasu",
+     "meaning": "Selamat pagi (sopan)",
+     "example_jp": "おはようございます。きょうも よろしく。",
+     "example_id": "Selamat pagi. Hari ini mohon bantuannya juga."
+    },
+    {
+     "no": 2,
+     "word": "こんにちは",
+     "reading": "konnichiwa",
+     "meaning": "Selamat siang / Halo",
+     "example_jp": "こんにちは。げんきですか。",
+     "example_id": "Halo. Apa kabar?"
+    },
+    {
+     "no": 3,
+     "word": "こんばんは",
+     "reading": "kombanwa",
+     "meaning": "Selamat malam",
+     "example_jp": "こんばんは。おつかれさまです。",
+     "example_id": "Selamat malam. Terima kasih atas kerja kerasnya."
+    },
+    {
+     "no": 4,
+     "word": "おやすみなさい",
+     "reading": "oyasuminasai",
+     "meaning": "Selamat tidur",
+     "example_jp": "おやすみなさい。また あした。",
+     "example_id": "Selamat tidur. Sampai besok."
+    },
+    {
+     "no": 5,
+     "word": "ありがとうございます",
+     "reading": "arigatou gozaimasu",
+     "meaning": "Terima kasih banyak (sopan)",
+     "example_jp": "てつだってくれて、ありがとうございます。",
+     "example_id": "Terima kasih banyak sudah membantu."
+    },
+    {
+     "no": 6,
+     "word": "すみません",
+     "reading": "sumimasen",
+     "meaning": "Maaf / Permisi",
+     "example_jp": "すみません。えきは どこですか。",
+     "example_id": "Permisi. Stasiun di mana?"
+    },
+    {
+     "no": 7,
+     "word": "ごめんなさい",
+     "reading": "gomennasai",
+     "meaning": "Maaf (lebih pribadi)",
+     "example_jp": "おくれて ごめんなさい。",
+     "example_id": "Maaf saya terlambat."
+    },
+    {
+     "no": 8,
+     "word": "いってきます",
+     "reading": "ittekimasu",
+     "meaning": "Saya berangkat dulu (dari rumah)",
+     "example_jp": "いってきます！",
+     "example_id": "Saya berangkat dulu!"
+    },
+    {
+     "no": 9,
+     "word": "いってらっしゃい",
+     "reading": "itterasshai",
+     "meaning": "Hati-hati di jalan (balasan dari rumah)",
+     "example_jp": "いってらっしゃい。きをつけてね。",
+     "example_id": "Hati-hati ya di jalan."
+    },
+    {
+     "no": 10,
+     "word": "ただいま",
+     "reading": "tadaima",
+     "meaning": "Saya pulang!",
+     "example_jp": "ただいま！",
+     "example_id": "Saya pulang!"
+    },
+    {
+     "no": 11,
+     "word": "おかえりなさい",
+     "reading": "okaerinasai",
+     "meaning": "Selamat datang kembali",
+     "example_jp": "おかえりなさい。おつかれさま。",
+     "example_id": "Selamat datang. Pasti capek ya."
+    },
+    {
+     "no": 12,
+     "word": "いただきます",
+     "reading": "itadakimasu",
+     "meaning": "Ucapan sebelum makan",
+     "example_jp": "いただきます！",
+     "example_id": "Selamat makan! (diucapkan sebelum makan)"
+    },
+    {
+     "no": 13,
+     "word": "ごちそうさまでした",
+     "reading": "gochisousama deshita",
+     "meaning": "Ucapan sesudah makan",
+     "example_jp": "ごちそうさまでした。おいしかったです。",
+     "example_id": "Terima kasih untuk makanannya. Enak sekali."
+    },
+    {
+     "no": 14,
+     "word": "はじめまして",
+     "reading": "hajimemashite",
+     "meaning": "Salam kenal (pertemuan pertama)",
+     "example_jp": "はじめまして。トタです。",
+     "example_id": "Salam kenal. Saya Tota."
+    },
+    {
+     "no": 15,
+     "word": "よろしくおねがいします",
+     "reading": "yoroshiku onegaishimasu",
+     "meaning": "Mohon bantuannya / Salam kenal",
+     "example_jp": "これから よろしくおねがいします。",
+     "example_id": "Mulai sekarang mohon bantuannya."
+    },
+    {
+     "no": 16,
+     "word": "おげんきですか",
+     "reading": "ogenki desu ka",
+     "meaning": "Apa kabar? (sopan)",
+     "example_jp": "おげんきですか。",
+     "example_id": "Apa kabar?"
+    },
+    {
+     "no": 17,
+     "word": "さようなら",
+     "reading": "sayounara",
+     "meaning": "Selamat tinggal",
+     "example_jp": "さようなら。また あいましょう。",
+     "example_id": "Selamat tinggal. Sampai jumpa lagi."
+    },
+    {
+     "no": 18,
+     "word": "おつかれさまです",
+     "reading": "otsukaresama desu",
+     "meaning": "Terima kasih atas kerja kerasnya",
+     "example_jp": "きょうも おつかれさまです。",
+     "example_id": "Terima kasih untuk kerja keras hari ini."
+    }
+   ],
+   "quiz": []
+  },
+  {
+   "kode": "kata",
+   "judul": "Kata Pertamaku",
+   "subjudul": "24 kata sehari-hari untuk di rumah & di luar",
+   "ikon": "たんご",
+   "ringkasan": "Kata-kata yang paling sering kamu dengar dan pakai di rumah: keluarga, waktu, makanan, dan kebutuhan harian bersama anak. Semua dengan contoh kalimat pendek.",
+   "tips": "Tempel kata pada bendanya di rumah (mis. tempel catatan 'ドア' di pintu) — cara klasik yang sangat ampuh.",
+   "kana": [],
+   "kartu": [],
+   "vocab": [
+    {
+     "no": 1,
+     "word": "わたし",
+     "reading": "watashi",
+     "meaning": "saya",
+     "example_jp": "わたしは インドネシアじんです。",
+     "example_id": "Saya orang Indonesia."
+    },
+    {
+     "no": 2,
+     "word": "かぞく",
+     "reading": "kazoku",
+     "meaning": "keluarga",
+     "example_jp": "かぞくは 四人 です。",
+     "example_id": "Keluarga saya empat orang."
+    },
+    {
+     "no": 3,
+     "word": "子ども",
+     "reading": "kodomo",
+     "meaning": "anak",
+     "example_jp": "子どもが 二人 います。",
+     "example_id": "Saya punya dua anak."
+    },
+    {
+     "no": 4,
+     "word": "あかちゃん",
+     "reading": "akachan",
+     "meaning": "bayi",
+     "example_jp": "あかちゃんが ないています。",
+     "example_id": "Bayinya sedang menangis."
+    },
+    {
+     "no": 5,
+     "word": "いえ",
+     "reading": "ie",
+     "meaning": "rumah",
+     "example_jp": "いえに かえります。",
+     "example_id": "Saya pulang ke rumah."
+    },
+    {
+     "no": 6,
+     "word": "いま",
+     "reading": "ima",
+     "meaning": "sekarang",
+     "example_jp": "いま なんじですか。",
+     "example_id": "Sekarang jam berapa?"
+    },
+    {
+     "no": 7,
+     "word": "きょう",
+     "reading": "kyou",
+     "meaning": "hari ini",
+     "example_jp": "きょうは あついです。",
+     "example_id": "Hari ini panas."
+    },
+    {
+     "no": 8,
+     "word": "あした",
+     "reading": "ashita",
+     "meaning": "besok",
+     "example_jp": "あした あいましょう。",
+     "example_id": "Besok kita bertemu ya."
+    },
+    {
+     "no": 9,
+     "word": "きのう",
+     "reading": "kinou",
+     "meaning": "kemarin",
+     "example_jp": "きのうは あめでした。",
+     "example_id": "Kemarin hujan."
+    },
+    {
+     "no": 10,
+     "word": "みず",
+     "reading": "mizu",
+     "meaning": "air",
+     "example_jp": "みずを ください。",
+     "example_id": "Tolong airnya."
+    },
+    {
+     "no": 11,
+     "word": "ごはん",
+     "reading": "gohan",
+     "meaning": "nasi / makanan",
+     "example_jp": "ごはんを たべます。",
+     "example_id": "Saya makan nasi."
+    },
+    {
+     "no": 12,
+     "word": "パン",
+     "reading": "pan",
+     "meaning": "roti (Katakana!)",
+     "example_jp": "パンを かいます。",
+     "example_id": "Saya membeli roti."
+    },
+    {
+     "no": 13,
+     "word": "くるま",
+     "reading": "kuruma",
+     "meaning": "mobil",
+     "example_jp": "くるまで いきます。",
+     "example_id": "Pergi dengan mobil."
+    },
+    {
+     "no": 14,
+     "word": "でんしゃ",
+     "reading": "densha",
+     "meaning": "kereta",
+     "example_jp": "でんしゃに のります。",
+     "example_id": "Saya naik kereta."
+    },
+    {
+     "no": 15,
+     "word": "がっこう",
+     "reading": "gakkou",
+     "meaning": "sekolah",
+     "example_jp": "子どもは がっこうへ いきます。",
+     "example_id": "Anak pergi ke sekolah."
+    },
+    {
+     "no": 16,
+     "word": "びょういん",
+     "reading": "byouin",
+     "meaning": "rumah sakit",
+     "example_jp": "びょういんへ いきます。",
+     "example_id": "Saya pergi ke rumah sakit."
+    },
+    {
+     "no": 17,
+     "word": "おかね",
+     "reading": "okane",
+     "meaning": "uang",
+     "example_jp": "おかねが ありますか。",
+     "example_id": "Apakah ada uang?"
+    },
+    {
+     "no": 18,
+     "word": "ドア",
+     "reading": "doa",
+     "meaning": "pintu (Katakana!)",
+     "example_jp": "ドアを あけてください。",
+     "example_id": "Tolong buka pintunya."
+    },
+    {
+     "no": 19,
+     "word": "まど",
+     "reading": "mado",
+     "meaning": "jendela",
+     "example_jp": "まどを しめてください。",
+     "example_id": "Tolong tutup jendelanya."
+    },
+    {
+     "no": 20,
+     "word": "トイレ",
+     "reading": "toire",
+     "meaning": "toilet (Katakana!)",
+     "example_jp": "トイレは どこですか。",
+     "example_id": "Toiletnya di mana?"
+    },
+    {
+     "no": 21,
+     "word": "あさ",
+     "reading": "asa",
+     "meaning": "pagi",
+     "example_jp": "あさ おきます。",
+     "example_id": "Saya bangun di pagi hari."
+    },
+    {
+     "no": 22,
+     "word": "よる",
+     "reading": "yoru",
+     "meaning": "malam",
+     "example_jp": "よる ねます。",
+     "example_id": "Saya tidur di malam hari."
+    },
+    {
+     "no": 23,
+     "word": "てんき",
+     "reading": "tenki",
+     "meaning": "cuaca",
+     "example_jp": "てんきが いいです。",
+     "example_id": "Cuacanya bagus."
+    },
+    {
+     "no": 24,
+     "word": "あめ",
+     "reading": "ame",
+     "meaning": "hujan",
+     "example_jp": "あめが ふっています。",
+     "example_id": "Sedang turun hujan."
+    }
+   ],
+   "quiz": []
+  },
+  {
+   "kode": "quiz",
+   "judul": "Quiz Kana",
+   "subjudul": "Uji hafalan hurufmu — 20 soal seru",
+   "ikon": "📝",
+   "ringkasan": "Sudah belajar semua bab? Buktikan di sini! 20 soal campuran: membaca Hiragana, Katakana, dakuten, yoon, bunyi khusus, angka, dan sapaan. Nilaimu tercatat seperti quiz materi harian.",
+   "tips": "Salah itu wajar — setiap soal ada penjelasannya. Ulangi sampai dapat 20/20!",
+   "kana": [],
+   "kartu": [],
+   "vocab": [],
+   "quiz": [
+    {
+     "no": 1,
+     "type": "Hiragana",
+     "question": "「ぬ」は dibaca apa?",
+     "options": [
+      "ne",
+      "nu",
+      "me",
+      "mu"
+     ],
+     "answer": 1,
+     "explanation": "ぬ (nu) — ingat gambar mie kusut. Pasangannya ね (ne) punya lingkaran di tengah."
+    },
+    {
+     "no": 2,
+     "type": "Hiragana",
+     "question": "「し」は dibaca apa?",
+     "options": [
+      "chi",
+      "su",
+      "sa",
+      "shi"
+     ],
+     "answer": 3,
+     "explanation": "し (shi) bentuknya seperti kail pancing."
+    },
+    {
+     "no": 3,
+     "type": "Hiragana",
+     "question": "Romaji dari 「つ」は?",
+     "options": [
+      "tsu",
+      "tu",
+      "su",
+      "chi"
+     ],
+     "answer": 0,
+     "explanation": "つ (tsu) — seperti gelombang tsunami."
+    },
+    {
+     "no": 4,
+     "type": "Hiragana",
+     "question": "「を」は dibaca … dan dipakai sebagai?",
+     "options": [
+      "wa — partikel topik",
+      "o — kata benda",
+      "wo — partikel objek",
+      "ra — akhiran"
+     ],
+     "answer": 2,
+     "explanation": "を dibaca 'wo/o' dan dipakai sebagai partikel penanda objek, misalnya みずを のみます."
+    },
+    {
+     "no": 5,
+     "type": "Hiragana",
+     "question": "Pasangan Katakana dari 「か」は?",
+     "options": [
+      "ケ",
+      "サ",
+      "ガ",
+      "カ"
+     ],
+     "answer": 3,
+     "explanation": "か (Hiragana) pasangannya カ (Katakana), sama-sama dibaca 'ka'."
+    },
+    {
+     "no": 6,
+     "type": "Hiragana",
+     "question": "「ん」は bunyi apa?",
+     "options": [
+      "na",
+      "n",
+      "mu",
+      "ng saja"
+     ],
+     "answer": 1,
+     "explanation": "ん dibaca 'n' (fleksibel mengikuti huruf sesudahnya) dan menutup suku kata."
+    },
+    {
+     "no": 7,
+     "type": "Katakana",
+     "question": "「シ」は dibaca apa?",
+     "options": [
+      "tsu",
+      "sa",
+      "shi",
+      "chi"
+     ],
+     "answer": 2,
+     "explanation": "シ (shi) — garisnya naik dari bawah. Kembarannya ツ (tsu) garisnya turun dari atas."
+    },
+    {
+     "no": 8,
+     "type": "Katakana",
+     "question": "「ツ」は dibaca apa?",
+     "options": [
+      "tsu",
+      "shi",
+      "so",
+      "su"
+     ],
+     "answer": 0,
+     "explanation": "ツ (tsu) — tiga garis turun dari atas, pasangan dari つ."
+    },
+    {
+     "no": 9,
+     "type": "Katakana",
+     "question": "Kata 「コーヒー」は apa?",
+     "options": [
+      "teh",
+      "susu",
+      "kopi",
+      "jus"
+     ],
+     "answer": 2,
+     "explanation": "コーヒー (koohii) = kopi. Tanda ー menarik bunyi vokal: ko-o-hi-i."
+    },
+    {
+     "no": 10,
+     "type": "Katakana",
+     "question": "「スマホ」は singkatan dari?",
+     "options": [
+      "smartphone",
+      "smart TV",
+      "smart watch",
+      "kamera"
+     ],
+     "answer": 0,
+     "explanation": "スマホ (sumaho) adalah singkatan 'sumaatofon' = smartphone."
+    },
+    {
+     "no": 11,
+     "type": "Katakana",
+     "question": "Romaji dari 「ン」は?",
+     "options": [
+      "so",
+      "wa",
+      "ra",
+      "n"
+     ],
+     "answer": 3,
+     "explanation": "ン (n). Hati-hati tertukar dengan ソ (so): ン melengkung naik di akhir."
+    },
+    {
+     "no": 12,
+     "type": "Katakana",
+     "question": "Nama negara kita ditulis Katakana menjadi?",
+     "options": [
+      "インド",
+      "インドネシア",
+      "インドネシア人国",
+      "インドネシア語のみ"
+     ],
+     "answer": 1,
+     "explanation": "インドネシア (Indonesia). Akhiran 人 (jin) untuk orangnya, 語 (go) untuk bahasanya."
+    },
+    {
+     "no": 13,
+     "type": "Dakuten",
+     "question": "か + ゛ (dakuten) menjadi?",
+     "options": [
+      "ga",
+      "pa",
+      "ba",
+      "za"
+     ],
+     "answer": 0,
+     "explanation": "Baris K + dakuten berubah ke G: か→が (ga)."
+    },
+    {
+     "no": 14,
+     "type": "Dakuten",
+     "question": "「ぱ」は は dengan tanda apa?",
+     "options": [
+      "dakuten ゛",
+      "tsu kecil",
+      "handakuten ゜",
+      "tanda panjang"
+     ],
+     "answer": 2,
+     "explanation": "Handakuten ゜ (lingkaran) hanya untuk baris H dan mengubahnya menjadi P: は→ぱ (pa)."
+    },
+    {
+     "no": 15,
+     "type": "Yoon",
+     "question": "「きゃ」は dibaca apa?",
+     "options": [
+      "kiya",
+      "kya",
+      "ka",
+      "ki"
+     ],
+     "answer": 1,
+     "explanation": "き + ゃ kecil = kya, SATU bunyi. Huruf kecil ゃ tidak dibaca sendiri."
+    },
+    {
+     "no": 16,
+     "type": "Yoon",
+     "question": "「しょ」が ada di kata しょくじ artinya?",
+     "options": [
+      "minuman",
+      "sekolah",
+      "belanja",
+      "makan/makanan"
+     ],
+     "answer": 3,
+     "explanation": "しょくじ (shokuji) = makan/makanan. しょ = sho."
+    },
+    {
+     "no": 17,
+     "type": "Bunyi Khusus",
+     "question": "Di kata 「がっこう」, っ kecil berfungsi sebagai?",
+     "options": [
+      "dibaca tsu",
+      "vokal panjang",
+      "jeda/penekanan sebelum ko",
+      "bunyi n"
+     ],
+     "answer": 2,
+     "explanation": "っ kecil membuat jeda dan huruf berikutnya menekan: ga-K-ko-u = gakkou (sekolah)."
+    },
+    {
+     "no": 18,
+     "type": "Bunyi Khusus",
+     "question": "Partikel 「は」dalam わたしは dibaca?",
+     "options": [
+      "ha",
+      "ba",
+      "pa",
+      "wa"
+     ],
+     "answer": 3,
+     "explanation": "Partikel topik は dibaca WA: watashi wa."
+    },
+    {
+     "no": 19,
+     "type": "Angka",
+     "question": "「ごひゃくえん」itu berapa yen?",
+     "options": [
+      "500 yen",
+      "50 yen",
+      "5.000 yen",
+      "15 yen"
+     ],
+     "answer": 0,
+     "explanation": "ご (5) + ひゃく (100) + えん = 500 yen."
+    },
+    {
+     "no": 20,
+     "type": "Sapaan",
+     "question": "Ucapan SEBELUM makan adalah?",
+     "options": [
+      "ごちそうさまでした",
+      "いただきます",
+      "おやすみなさい",
+      "いってきます"
+     ],
+     "answer": 1,
+     "explanation": "いただきます diucapkan sebelum makan; ごちそうさまでした sesudah makan."
+    }
+   ]
+  }
+ ]
+}
