@@ -951,17 +951,21 @@ function renderKana(){
 /* ---------- Header: kode akses & sinkron ---------- */
 $("btnKey").onclick=()=>{
   const cur=getKey();
-  const k=prompt("Kode akses saat ini: "+(cur?"(sudah terisi)":"(belum diisi)")+"\nIsi kode akses baru untuk mengganti, atau kosongkan lalu OK untuk menghapus:",cur);
+  const k=prompt("Kode akses saat ini: "+(cur?"(sudah terisi)":"(belum diisi)")+"\nBiarkan tetap bila tidak ingin mengubah kode, lalu ketuk OK — setelah ini kamu bisa mengisi / mengubah NAMA pengguna:",cur);
   if(k===null) return;
   setKey(k.trim());
-  toast(k.trim()?"Kode akses disimpan":"Kode akses dihapus");
+  // Nama pengguna SELALU ditanyakan setelah langkah kode (permintaan Tota
+  // 2026-11-08): pengguna yang sudah terlanjur sinkron tetap bisa
+  // mengedit namanya sewaktu-waktu lewat tombol ini, tanpa harus
+  // mengganti kode. Nama tampil sebagai "Welcome, nama" di bawah judul
+  // dan menjadi identitas catatan belajar (log quiz & progres).
+  const nm=prompt("Nama pengguna di perangkat ini\n(akan tampil sebagai \"Welcome, nama\" di bawah judul Daily Japan):",getUserName());
+  if(nm!==null){setUserName(nm);renderUserName()}
   if(k.trim()){
-    // Nama pengguna diminta SEKALI di momen yang sama dengan kode
-    // sinkron (sesuai permintaan Tota 2026-11-08), lalu tampil sebagai
-    // "Welcome, nama" di bawah judul dan jadi identitas catatan belajar.
-    const nm=prompt("Satu lagi: nama pengguna di perangkat ini\n(akan tampil sebagai \"Welcome, nama\" di bawah judul Daily Japan):",getUserName());
-    if(nm!==null){setUserName(nm);renderUserName()}
+    toast("Kode akses & nama disimpan");
     loadData(true);
+  } else {
+    toast(getUserName()?("Nama disimpan: "+getUserName()):"Kode akses dihapus");
   }
 };
 $("btnSync").onclick=()=>loadData(true);
